@@ -1,6 +1,6 @@
 projectDirectory = "$CWD"
 include = "*.md"
-include = "{$include,*.html}"
-include = "{$include,.gitignore}"
+# include = "{$include,*.html}"
+# include = "{$include,.gitignore}"
 include = "{$include,.tm_properties}"
 includeDirectories = "{one,two,three}"
