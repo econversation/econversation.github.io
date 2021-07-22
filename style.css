@@ -1,0 +1,42 @@
+/*<style>*/
+	a { 
+		color: #B31B1B;
+		text-decoration: none;
+	}
+	
+	em { 
+		color: #C2B280;
+		text-decoration: none;
+	} 
+	
+    pre, .thebox  {
+        color:#704214;
+        background-color: #F5DEB320;
+        margin:0em;
+        padding: 0.25em 1.25em 0.25em 1.25em;
+        border-radius: 10px;
+        border-color: #704214;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .terminal  {
+        color: #C2B280;
+        background-color: #36454F;
+        margin:0em;
+        padding: 0.25em 1.25em 0.25em 1.25em;
+        border-radius: 10px;
+        border-color: #C2B280;
+        border-style: solid;
+        border-width: 4px;
+    }
+    .output  {
+        color: #36454F;
+        background-color: #C2B280;
+        margin:0em;
+        padding: 0.25em 1.25em 0.25em 1.25em;
+        border-radius: 10px;
+        border-color: #36454F;
+        border-style: solid;
+        border-width: 4px;
+    }
+/*</style>*/

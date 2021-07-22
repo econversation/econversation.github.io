@@ -1,0 +1,5 @@
+projectDirectory = "$CWD"
+include = "*.md"
+include = "{$include,.gitignore}"
+include = "{$include,.tm_properties}"
+includeDirectories = "{one,two,three}"
