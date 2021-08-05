@@ -9,7 +9,7 @@ date: 04 August 2021, 11:10
 
 ### Description
 
-This module provides you with an introduction to microeconomics and behavioural economics and demonstrates their relevance to the management of projects, project teams and supply chains. The knowledge provided will be applied to the systematic management of complex issues and the module will demonstrate the importance of economics in our discussions of projects and supply chains. You will develop an ability to be self-directed, autonomous and imaginative in applying their knowledge in their future work - whether as a professional or in future studies/research.
+This module provides you with an *introduction to microeconomics* and behavioural economics and demonstrates their relevance to the management of projects, project teams and supply chains. The knowledge provided will be applied to the systematic management of complex issues and the module will *demonstrate the importance of economics* in our discussions of projects and supply chains. You will develop an ability to be self-directed, autonomous and imaginative in applying their knowledge in their future work - whether as a professional or in future studies/research.
 
 ### Aims
 
