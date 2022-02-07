@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal</title>
+    <link>http://aniket.co.uk/journal/</link>
+    <description>Recent content on Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://aniket.co.uk/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up Eureka</title>
+      <link>http://aniket.co.uk/journal/docs/log-doc/1_log/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/log-doc/1_log/</guid>
+      <description>Hugo Themes | Eureka
+Getting Started
+Preview Use the following command to preview the project in the browser:
+hugo server  http://localhost:1313/docs/log/log/
+Drafts will not be deployed by Hugo, so you need to set the draft property of the content header to false or use hugo server -D to preview the website. If you are not familiar with the basic usage of Hugo or want to know more about Hugo, you can refer to Hugo Basic Usage.</description>
+    </item>
+    
+    <item>
+      <title>Other links</title>
+      <link>http://aniket.co.uk/journal/docs/log-doc/2_links/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/log-doc/2_links/</guid>
+      <description>Centering images in Hugo
+... the solution
+in the end, after some energetic googling i did cobble together something that gets the job done with minimal markup and no extraneous tags in the content.
+to be able to center images in a Hugo-based blog or float them left/right (read: align left/right with text wrapping around them ), add the following to your CSS (typically under static/css/ on your side, or wherever the theme you’re using keeps its own stylesheets if you’re hacking the theme CSS directly):</description>
+    </item>
+    
+    <item>
+      <title>New posts</title>
+      <link>http://aniket.co.uk/journal/docs/log-doc/3_new_post/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/log-doc/3_new_post/</guid>
+      <description>Featured Image --- title: Featured Image description: Post with featured image. toc: true authors: - Kumar Aniket tags: - image categories: - themes series: - Themes Guide date: &#39;2020-05-26&#39; lastmod: &#39;2020-05-26&#39; featuredImage: images/hero-right.jpg draft: false --- Before more text &amp;lt;!-- more --&amp;gt; ## Section After more text  Default post --- title: Title description: Description toc: true slug: one authors: - Hugo Authors tags: - Aniket&#39;s tag categories: - Aniket&#39;s Category series: - Aniket&#39;s writings literature: - Microfinance date: &#39;2022-02-07&#39; lastmod: &#39;2022-02-07&#39; draft: false --- Short text ## Section Short text  </description>
+    </item>
+    
+    <item>
+      <title>One</title>
+      <link>http://aniket.co.uk/journal/page/log/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/page/log/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Five to one. Two.
+Time
+Time</description>
+    </item>
+    
+    <item>
+      <title>Title</title>
+      <link>http://aniket.co.uk/journal/posts/one/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/posts/one/</guid>
+      <description>&lt;p&gt;Short text&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>http://aniket.co.uk/journal/docs/example-doc/chapter-1/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/example-doc/chapter-1/</guid>
+      <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>http://aniket.co.uk/journal/docs/example-doc/nested-chapter/chapter-1/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/example-doc/nested-chapter/chapter-1/</guid>
+      <description>&lt;p&gt;This is chapter 1 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>http://aniket.co.uk/journal/docs/example-doc/chapter-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/example-doc/chapter-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>http://aniket.co.uk/journal/docs/example-doc/nested-chapter/chapter-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/docs/example-doc/nested-chapter/chapter-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://aniket.co.uk/journal/posts/zz_markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://aniket.co.uk/journal/posts/zz_markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

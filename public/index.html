@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Journal</title>
+
+<meta name="generator" content="Hugo Eureka 0.9.0" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-dark.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu0b11088d1437744cfa9dbe492ed1f99c_6044_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu0b11088d1437744cfa9dbe492ed1f99c_6044_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Aniket&#39;s journal for keeping track of things as they happen.">
+
+
+
+<meta property="og:title" content="Journal" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/" />
+
+
+
+
+
+<meta property="og:description" content="Aniket&#39;s journal for keeping track of things as they happen." />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Journal" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2022-02-07T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="" />
+
+
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Journal" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 ps-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="me-6 text-primary-text text-xl font-bold">Journal</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">About</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Posts</a>
+            <a href="/tags/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Tags</a>
+            <a href="/categories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Categories</a>
+            <a href="/series/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Series</a>
+            <a href="/literature/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Literature</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Documents</a>
+            <a href="/page/log/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Extra</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="grow pt-16">
+  
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="ps-scrollbar bg-secondary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="about" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    
+    
+    <div class="flex flex-col md:flex-row items-center justify-center mb-12">
+  
+  
+    <div class="flex-none w-48 mx-auto md:ms-0 md:me-8 md:pe-8 md:border-e">
+      <img src="/images/icon_aniket.jpeg" class="rounded-full" alt="Avatar">
+    </div>
+  
+  <div class="grow mt-4 md:mt-0">
+    <div class="text-3xl py-4">Kumar Aniket</div>
+    <div class="w-3/12 xl:w-2/12 border-b"></div>
+
+    <div class="flex items-center pt-4">
+      
+        <i class="fas fa-user"></i>
+      
+      <div class="flex flex-wrap">
+        
+          <span class="ps-4">Research Fellow</span>
+        
+
+        
+          <a href="https://example.com/" class="ps-4">UCL</a>
+        
+      </div>
+
+    </div>
+
+    
+      <div class="py-8 text-lg leading-normal">
+        Economist at UCL. A teacher at heart. Curious about the world. Trying to write constructively, soberly &amp; empathetically.
+      </div>
+    
+  </div>
+  <div class="flex md:flex-col justify-center items-end ms-8">
+    
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
+        <a href="mailto:k.aniket@ucl.ac.uk"><i class="fas fa-envelope"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
+        <a href="https://twitter.com/kumar_aniket"><i class="fab fa-twitter"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pe-4 md:pe-0 pt-4 md:pt-0">
+        <a href="https://econversation.github.io/"><i class="fab fa-github"></i></a>
+      </div>
+    
+  </div>
+</div>
+<div class="content">
+  <h3 id="about-me">About me</h3>
+<p>As labels go, I sometimes wear and Economist hat and other times wear the Social Scientist hat. It just depends on which part of the business cycle we are in.</p>
+<details><summary><b>Work</b></summary>
+<p>I am currently a Research Fellow in Economics in the Faculty of Built Environment at UCL.
+Before that I was a lecturer at the University of Cambridge from 2007 to 2017. At Cambridge, I was a Fellow at Murray Edwards College and Senior Member at Newnham College and Director of Studies in Economics for both Colleges. From 2007 to 2012, I was also a visiting lecturer at LSE Summer School.</p>
+</details>
+<details><summary><b>Education</b></summary>
+<p>I obtained my PhD at LSE under the supervision of Prof. Maitreesh Ghatak and Prof. Oriana Bandiera. I got my Bachelors at Hindu College and Masters at Delhi School of Economics at Delhi University. Both in Economics. I also have a MA (Cantab) from Cambridge.</p>
+</details>
+<details><summary><b>Research</b></summary>
+<p>My research is primarily focussed on microeconomic and macroeconomic theory, with a smattering of empirical work thrown in for good measure. My research papers can be found here and here.
+If there is one paper you would like to read, it should be the paper on automation and how it is likely to impact our social and economic system in the long-run. Or the one on why there are still so many poor countries trapped in the poverty trap.</p>
+</details>
+<details><summary><b>Teaching</b></summary>
+<p>I am passionate about teaching economics and have taught a wide range of courses in my career hitherto. These include courses on microeconomics, macroeconomics, economic development, economic growth and Microfinance. I am currently teaching a basic economics course based on the new Core-Econ text, which transcends the sub-discipline boundaries within economics. The teaching material I have created over the years can be found here. There are also some short teaching notes on a range of topics that can be found here.</p>
+</details>
+<details><summary><b>Life</b></summary>
+<p>I am enthusiastic about coding, design and Argentinian tango. Which just means that I try hard and often fail. The occasional success keeps me going. And everything I have learnt about the art of living, I learnt from Frasier.</p>
+</details>
+<details><summary><b>Curriculum Vitae</b></summary>
+<h3 id="current-position">Current Position</h3>
+<p>Research Fellow in Economics &amp; Finance The Bartlett, University College London, 2017 onwards</p>
+<h3 id="past-positions">Past positions</h3>
+<p>Great Burkhill Fellow in Economics, Lecturer &amp; Director of Studies in Economics Murray Edwards College, University of Cambridge, 2007–2017
+Lecturer &amp; Director of Studies in Economics Newnham College College, University of Cambridge, 2012–17
+Trinity College, University of Cambridge, 2007–2012
+Lecturer for Development Economics, Economics Department, LSE Summer School, 2007–2012
+Temporary Lecturer in Economics, Economics Department, University of Edinburgh, 2004–2007</p>
+<h3 id="education">Education</h3>
+<p>Ph.D. in Economics, London School of Economics, 2007
+M.A. in Economics, Delhi School of Economics, 1996
+B.A. (Honours) in Economics, Hindu College, Delhi, 1994</p>
+<h3 id="research-interests">Research Interests</h3>
+<p>Education &amp; Skills, Automation, Trade Theory, Economic Growth, Economic Development</p>
+<h3 id="teaching-areas">Teaching Areas</h3>
+<p>Applied Microeconomics, Macroeconomics, Economic Development, Mathematics, Statistics, Econometrics</p>
+<h3 id="programming-skills">Programming Skills</h3>
+<p>Python, Latex, PHP Scripts, HTML</p>
+<h3 id="research-papers">Research Papers</h3>
+<p>Sequential Group Lending with Moral Hazard, August 2013. Working Paper. <a href="http://www.aniket.co.uk/research/QCR_RR2.pdf">ම</a><br>
+Man versus Machine: Automation, Market Structure and Skills, June 2017. Working paper. <a href="http://www.aniket.co.uk/research/Skills.pdf">+</a><br>
+Poverty Trap with Convex Production Function: The role of Public and Private Capital,
+September 2014. Working Paper. <a href="http://www.aniket.co.uk/research/Escaping.pdf">+</a><br>
+Beyond Microcredit: Giving the Poor a Way to Save Their Way out of Poverty, December 2011. Working Paper. <a href="http://www.aniket.co.uk/research/Trap_Chicago2012.pdf">+</a><br>
+Does Subsidising the Cost of Capital Really Help the Poorest? An Analysis of Saving Opportunities in Group Lending, February 2007. Edinburgh School of Economics Discussion Paper Series No. 140. <br>
+Self Help Group Linkage Programme: A case-study, November 2006. Working Paper. <a href="http://www.econ.ed.ac.uk/papers/id140_esedps.pdf">+</a><br>
+Self Help Groups: Use of modified ROSCAs in Microfinance, November 2005. Edinburgh School of Economics Discussion Paper Series No. 137. <a href="http://www.aniket.co.uk/research/casestudy.pdf">+</a></p>
+<h3 id="research-grant">Research Grant</h3>
+<p>From Newton Trust to conduct research in Microfinance, 2010</p>
+<h3 id="invited-lectures">Invited Lectures</h3>
+<p>The Role in Institutions and the Crisis in Europe Nov 2012 Instituto Tecnolgico de Monterrey, November 2012
+Excellence in Education through Rigorous Competition Mar 2012 World Summit on Accreditation, New Delhi, March 2012</p>
+<h3 id="conference-presentation">Conference Presentation</h3>
+<p>10th Annual Conference on Economic Growth and Development, ISI, Delhi (December 2014), 3rd European Research Conference on Microfinance, University of Agder (June 2013), Workshop on Microfinance Management and Governance, Oslo and Akershus University College (October 2012), World Summit on Accreditation, Government of India, New Delhi (March 2012), American Economic Association Annual Meeting, Chicago (January 2012), Asian Meeting of the Econometric Society, Korea University, Seoul (August 2011), North American Summer Meeting of Econometric Society, Washington University in St. Louis (June 2011), Royal Economic Society Annual Conference, Royal Holloway, University of London (April 2011), International Growth Centre Conference in Bihar (December 2010), Econometric Society World Congress, Shanghai (August 2010), North American Summer Meeting of Econometric Society, Duke University (June 2007), Northeast Universities Development Consortium (NEUDC), Cornell University (September 2006), Centre for Economic Development and Institutions (CEDI), Brunel University (May 2007), Economic Growth and Development Indian Statistical Institute, Delhi (December 2006), Economic Analysis of Heterogeneity in Social Organizations, CORE, Universite catholiqu ́e de Louvain (May 2006), XIth Spring Meeting of Young Economists, University of Seville (May 2006), 75 Years of Development Research Conference, Cornell University (May 2004), International Association for Economics of Participation, Halifax, Canada (July 2004)</p>
+<h3 id="seminar-presentation">Seminar Presentation</h3>
+<p>Ruprecht-Karls-Universit ̈atHeidelberg(October2014),IndianInstitute of Management, Bangalore, India (September 2012), Indian School of Business, Hyderabad (August 2010), Network and Theory Meeting, University of Cambridge (June 2010), Centre for the Studies of African Economies, Oxford University, (June 2007), Heriot-Watt University (May 2007), University of Sheffield (May 2006), Centre of South Asian Studies, University of Edinburgh (Dec 2005)</p>
+<h3 id="journal-referee">Journal Referee</h3>
+<p>Structural Change and Economic Dynamics, Review of Economic Studies, Journal of European Economic Association, Journal of Development Economics, Oxford Economic Papers, Economica, Journal of Corporate Finance, Journal of Economic Surveys, Economic Development and Cultural Change.</p>
+<h3 id="honours--scholarship">Honours &amp; Scholarship</h3>
+<p>Economics Department Teaching Prize, LSE 2003
+LSE Research Studentship, LSE, 2001</p>
+<h3 id="other-experiences">Other Experiences</h3>
+<p>Founded Project Gujarat, A microfinance initiative in Gujarat, 2001
+Internship, DECPG &amp; MENA, World Bank, 1999</p>
+</details>
+<!-- ## Details
+
+Nunc pellentesque vitae:
+- Morbi accumsan nibh efficitur diam molestie, non dignissim diam facilisis.
+- Donec dignissim leo in mollis faucibus.
+- Donec blandit lacus a pellentesque fermentum.
+
+Donec mollis sollicitudin:
+- Nunc dictum purus ornare purus consectetur, eu pellentesque massa ullamcorper.
+- Aliquam eu leo vitae justo aliquam tincidunt.
+- Fusce non massa id augue interdum feugiat sed et nulla.
+- Vivamus molestie augue in tristique laoreet. -->
+
+</div>
+
+    
+    
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="ps-scrollbar bg-primary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="pages" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    
+    
+    
+  <h2 class=" font-bold text-3xl my-4">Pages</h2>
+
+
+  
+  
+  <div class="overflow-hidden divide-y">
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/one/" class="font-bold text-xl hover:text-eureka">Title</a>
+</div>
+<div class="content">
+  
+    Description
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="me-6 my-2">
+        <i class="fas fa-calendar me-1"></i>
+        <span>2022-02-07</span>
+    </div>
+    <div class="me-6 my-2">
+        <i class="fas fa-clock me-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+    <div class="me-6 my-2">
+        <i class="fas fa-folder me-1"></i>
+        
+        <a href="/categories/anikets-category/" class="hover:text-eureka">Aniket&#39;s Category</a>
+        
+    </div>
+    
+
+    
+    <div class="me-6 my-2">
+        <i class="fas fa-th-list me-1"></i>
+        
+        <a href="/series/anikets-writings/" class="hover:text-eureka">Aniket&#39;s writings</a>
+        
+    </div>
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/zz_markdown-syntax/" class="font-bold text-xl hover:text-eureka">Markdown Syntax Guide</a>
+</div>
+<div class="content">
+  
+    Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="me-6 my-2">
+        <i class="fas fa-calendar me-1"></i>
+        <span>2019-03-11</span>
+    </div>
+    <div class="me-6 my-2">
+        <i class="fas fa-clock me-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+    <div class="me-6 my-2">
+        <i class="fas fa-folder me-1"></i>
+        
+        <a href="/categories/themes/" class="hover:text-eureka">themes</a>
+        
+        
+        <span>, </span>
+        <a href="/categories/syntax/" class="hover:text-eureka">syntax</a>
+        
+    </div>
+    
+
+    
+    <div class="me-6 my-2">
+        <i class="fas fa-th-list me-1"></i>
+        
+        <a href="/series/themes-guide/" class="hover:text-eureka">Themes Guide</a>
+        
+    </div>
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+</div>
+
+
+  <div class="pt-2 hover:text-eureka">
+    
+  <a href="/posts/" class="font-semibold">Read More</a>
+  <i class='fas fa-caret-right ms-1'></i>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="ps-scrollbar " 
+     style="background-image: url(https://ik.imagekit.io/hhuw54lr6rh/econversation/scover_bw8_hLPdYGMjsNY.jpg);" >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="experience" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:me-4">
+        <h2 class="font-bold text-3xl my-4">Experience</h2>
+      </div>
+      <div class="grow lg:ms-4">
+        
+        
+        
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Example Role 1</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://example.org">Example Organization 1</a>
+          
+
+          
+          <span class="ms-2 me-2">·</span>
+          
+
+          <span>Country </span>
+        </div>
+        <div class="shrink-0"> 2019 - Present</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Donec scelerisque egestas augue at tempor. Fusce faucibus magna in.</p>
+<ul>
+<li>Suspendisse lacinia mauris a laoreet vehicula.</li>
+<li>Aenean tincidunt enim vitae ante blandit tempor.</li>
+<li>Nam tincidunt diam quis lorem rutrum ullamcorper.</li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Example Role 2</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://example.org">Example Organization 2</a>
+          
+
+          
+          <span class="ms-2 me-2">·</span>
+          
+
+          <span>Country </span>
+        </div>
+        <div class="shrink-0"> 2017 - 2019</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <strong>Aliquam</strong> at <strong>rutrum</strong> ante. In sed quam faucibus.
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+  
+
+  
+  
+  
+  
+
+  <div class="ps-scrollbar " 
+     style="background-image: url(https://ik.imagekit.io/hhuw54lr6rh/econversation/scover_bw8_hLPdYGMjsNY.jpg);" >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="vintage" class="">
+        
+  
+
+  
+    
+    
+    <div class="grid grid-cols-9 grid-rows-5 h-(screen-16)">
+  <div class="col-start-2 col-span-4 row-start-3 row-span-2 bg-local bg-cover z-10 shadow-2xl"
+    style="background-image: url(/images/default.jpg);"></div>
+
+  <div class="col-start-3 col-span-5 row-start-2 row-span-3 z-20">
+    <div class="flex flex-col items-center justify-center min-h-full">
+      <div class="bg-white bg-opacity-75 shadow-2xl -m-12 p-12">
+        <span class="font-bold text-black text-opacity-75 text-2xl md:text-3xl">The present epoch will perhaps be above all the epoch of space.&#34; - Foucault (1986)</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-start-5 col-span-4 row-start-2 row-span-2 bg-local bg-cover shadow-2xl"
+    style="background-image: url(https://ik.imagekit.io/hhuw54lr6rh/afghan_61wg_frx-L2.jpg);">
+  </div>
+</div>
+    
+    
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="ps-scrollbar " 
+     style="background-color: #fcf7ec;" >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="blank" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    
+    
+    
+<div style="text-align:center">
+  <p>Place is simply there, while space is produced or invented. - Conley (2012)</p>
+</div>
+    
+    
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+  </main>
+  <footer class="ps-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2022 <a href="http://www.aniket.co.uk/">Kumar Aniket</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
