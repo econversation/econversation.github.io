@@ -6,6 +6,10 @@ date: 05 August 2021, 15:09
 
 <link rel="stylesheet" href="/Users/aniket/_files/css/style1.css">
 
+[index](index.html)
+
+&nbsp;
+
 
 **Transaction cost economics**: 
 
@@ -15,7 +19,7 @@ date: 05 August 2021, 15:09
 
 Definition transaction: the act exchange between a buyer and seller. 
 
-### wikipedia
+### 1.0.1. wikipedia
 
 From this [page](https://en.wikipedia.org/wiki/Transaction_cost). 
 
@@ -39,10 +43,36 @@ Douglass North states that there are four factors that comprise transaction cost
 
 For example, the buyer of a used car faces a variety of different transaction costs. The *search costs* are the costs of finding a car and determining the car's condition. The *bargaining costs* are the costs of negotiating a price with the seller. The *policing* and *enforcement costs* are the costs of ensuring that the seller delivers the car in the promised condition.
 
-&nbsp;
+<hr>
 
-&nbsp;
+Main question: 
 
-&nbsp;
+What are markets? 
+
+What is a efficiency benchmark? 
+
+<hr>
+
+What areas of economics are relevant for project management? 
+
+- Transaction cost economics
+- Institutional economics
+- Game Theory
+- Environmental Economics
+
+What are markets? Decentralised transactions between the producers and consumers.
+
+the underlying them units all field are that markets don't work and society has mechanism for resurrecting markets,
+
+Units of analysis: 
+
+- Markets (nature of competition)
+- firms (producers, consumers) | owners, workers and institution
+- household (consumers, worker)
+
+
+
+
+
 
 

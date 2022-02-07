@@ -13,6 +13,7 @@ Each week we will cover 2 broad topics in the lectures and tutorial based on the
 
 
 :::box
+
 1. Economic System <br> [ ESPP, Ch1: Capitalism and Democracy](https://www.core-econ.org/espp/book/text/01.html) <br>  
 
 > <u>Students learn about about how a capitalistic economy works i.e., how firms and households buy and sell in the market.</u>
