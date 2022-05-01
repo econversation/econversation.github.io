@@ -8,7 +8,7 @@
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 08 Feb 2022 19:26:37 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 18:59:54 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up Eureka</title>
       <link>/docs/log-doc/1_log/</link>
@@ -42,6 +42,16 @@ to be able to center images in a Hugo-based blog or float them left/right (read:
       
       <guid>/docs/log-doc/3_new_post/</guid>
       <description>Featured Image --- title: Featured Image description: Post with featured image. toc: true authors: - Kumar Aniket tags: - image categories: - themes series: - Themes Guide date: &#39;2020-05-26&#39; lastmod: &#39;2020-05-26&#39; featuredImage: images/hero-right.jpg draft: false --- Before more text &amp;lt;!-- more --&amp;gt; ## Section After more text  Default post --- title: Title description: Description toc: true slug: one authors: - Hugo Authors tags: - Aniket&#39;s tag categories: - Aniket&#39;s Category series: - Aniket&#39;s writings literature: - Microfinance date: &#39;2022-02-07&#39; lastmod: &#39;2022-02-07&#39; draft: false --- Short text ## Section Short text  </description>
+    </item>
+    
+    <item>
+      <title>Lorem (20220501)</title>
+      <link>/posts/2022_05_01_lorem/</link>
+      <pubDate>Sun, 01 May 2022 18:59:54 +0100</pubDate>
+      
+      <guid>/posts/2022_05_01_lorem/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
