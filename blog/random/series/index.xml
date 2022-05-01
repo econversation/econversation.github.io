@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Random</title>
+    <link>/series/</link>
+    <description>Recent content in Series on Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Fri, 29 Apr 2022 21:41:04 +0100</lastBuildDate><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diary</title>
+      <link>/series/diary/</link>
+      <pubDate>Fri, 29 Apr 2022 21:41:04 +0100</pubDate>
+      
+      <guid>/series/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>/series/economics/</link>
+      <pubDate>Wed, 27 Apr 2022 13:05:18 +0100</pubDate>
+      
+      <guid>/series/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/series/links/</link>
+      <pubDate>Fri, 18 Feb 2022 17:48:43 +0000</pubDate>
+      
+      <guid>/series/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/series/books/</link>
+      <pubDate>Thu, 17 Feb 2022 16:44:33 +0000</pubDate>
+      
+      <guid>/series/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fight back</title>
+      <link>/series/fight-back/</link>
+      <pubDate>Thu, 10 Feb 2022 21:11:41 +0000</pubDate>
+      
+      <guid>/series/fight-back/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding</title>
+      <link>/series/coding/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/series/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aniket&#39;s writings</title>
+      <link>/series/anikets-writings/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/series/anikets-writings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes Guide</title>
+      <link>/series/themes-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/series/themes-guide/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

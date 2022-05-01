@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Literature on Random</title>
+    <link>/literature/</link>
+    <description>Recent content in Literature on Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Fri, 29 Apr 2022 21:41:04 +0100</lastBuildDate><atom:link href="/literature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Economics</title>
+      <link>/literature/economics/</link>
+      <pubDate>Fri, 29 Apr 2022 21:41:04 +0100</pubDate>
+      
+      <guid>/literature/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transaction Cost</title>
+      <link>/literature/transaction-cost/</link>
+      <pubDate>Wed, 27 Apr 2022 13:05:18 +0100</pubDate>
+      
+      <guid>/literature/transaction-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Property Rights</title>
+      <link>/literature/property-rights/</link>
+      <pubDate>Tue, 26 Apr 2022 18:28:26 +0100</pubDate>
+      
+      <guid>/literature/property-rights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markets</title>
+      <link>/literature/markets/</link>
+      <pubDate>Sun, 24 Apr 2022 14:12:49 +0100</pubDate>
+      
+      <guid>/literature/markets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/literature/links/</link>
+      <pubDate>Fri, 18 Feb 2022 17:48:43 +0000</pubDate>
+      
+      <guid>/literature/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fight back</title>
+      <link>/literature/fight-back/</link>
+      <pubDate>Thu, 10 Feb 2022 21:11:41 +0000</pubDate>
+      
+      <guid>/literature/fight-back/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microfinance</title>
+      <link>/literature/microfinance/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/literature/microfinance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

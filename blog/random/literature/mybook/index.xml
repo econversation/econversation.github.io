@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mybook on Random</title>
+    <link>/literature/mybook/</link>
+    <description>Recent content in Mybook on Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Thu, 17 Feb 2022 16:35:04 +0000</lastBuildDate><atom:link href="/literature/mybook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books on Markets</title>
+      <link>/posts/2022_02_17_books_on_markets/</link>
+      <pubDate>Thu, 17 Feb 2022 16:35:04 +0000</pubDate>
+      
+      <guid>/posts/2022_02_17_books_on_markets/</guid>
+      <description>The books on markets
++ The signal-to-noise ratio of business books generally tends towards zero. They fall into one of three categories:
+ baked-over platitudes designed to reinforce the self-esteem of the reader (see First Break all the Rules ), laughably faulty reasoning (see Good to Great ) , and interesting ideas that are overextended and driven into the ground (see The Tipping Point ).  </description>
+    </item>
+    
+  </channel>
+</rss>

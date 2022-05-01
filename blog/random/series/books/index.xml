@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Random</title>
+    <link>/series/books/</link>
+    <description>Recent content in Books on Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Thu, 17 Feb 2022 16:44:33 +0000</lastBuildDate><atom:link href="/series/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goodreads review on space</title>
+      <link>/posts/2022_02_17_goodreads_review_taleb_massey/</link>
+      <pubDate>Thu, 17 Feb 2022 16:44:33 +0000</pubDate>
+      
+      <guid>/posts/2022_02_17_goodreads_review_taleb_massey/</guid>
+      <description>Review of Space, Place, and Gender by Doreen Massey
+Review of Taleb Book by Trevor on Goodreads 
+review - interesting philosophy references  Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets | Nassim Nicholas Taleb
+Yeah, you see. I’ve just checked and most of the other reviews of this book do pretty much what I thought they would do. They complain about the tone. This guy is never going to win an award for modesty and he probably thinks you are stupid and have wasted your life.</description>
+    </item>
+    
+    <item>
+      <title>Books on Markets</title>
+      <link>/posts/2022_02_17_books_on_markets/</link>
+      <pubDate>Thu, 17 Feb 2022 16:35:04 +0000</pubDate>
+      
+      <guid>/posts/2022_02_17_books_on_markets/</guid>
+      <description>The books on markets
+From a goodreads review on Blue Ocean Strategy
+The signal-to-noise ratio of business books generally tends towards zero. They fall into one of three categories:
+ baked-over platitudes designed to reinforce the self-esteem of the reader (see First Break all the Rules), laughably faulty reasoning (see Good to Great) , and interesting ideas that are overextended and driven into the ground (see The Tipping Point).  There are a few good ideas in the book, but they are shrouded in unnecessary jargon and applied precariously to far too many companies.</description>
+    </item>
+    
+  </channel>
+</rss>

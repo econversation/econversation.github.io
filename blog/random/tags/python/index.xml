@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Random</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using python in textmate</title>
+      <link>/posts/python_20220208/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/python_20220208/</guid>
+      <description>Using python in textmate.
+Python in TextMate 2
+TextMate will parse the first line of your Python script for a shebang sequence.
+... If found, it will attempt to call that interpreter when you run your script. I have installed Python 3 using homebrew, so the binary is in my /usr/local/bin folder. Lets set up a simple script and test this: #!/usr/local/bin/python3 print(&#39;hello, hypepat!&#39;)  .tm_properties
+TM_PYTHON = &amp;quot;${CWD}/venv/bin/python&amp;quot; excludeDirectoriesInBrowser = &amp;quot;{__pycache__,include,lib,bin}&amp;quot; includeFilesInBrowser = &amp;quot;{.gitignore}&amp;quot; [ source.</description>
+    </item>
+    
+  </channel>
+</rss>

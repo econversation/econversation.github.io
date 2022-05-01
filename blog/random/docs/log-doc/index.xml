@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log files on Random</title>
+    <link>/docs/log-doc/</link>
+    <description>Recent content in Log files on Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/docs/log-doc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up Eureka</title>
+      <link>/docs/log-doc/1_log/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/log-doc/1_log/</guid>
+      <description>Hugo Themes | Eureka
+Getting Started
+Preview Use the following command to preview the project in the browser:
+hugo server  http://localhost:1313/docs/log/log/
+Drafts will not be deployed by Hugo, so you need to set the draft property of the content header to false or use hugo server -D to preview the website. If you are not familiar with the basic usage of Hugo or want to know more about Hugo, you can refer to Hugo Basic Usage.</description>
+    </item>
+    
+    <item>
+      <title>Other links</title>
+      <link>/docs/log-doc/2_links/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/log-doc/2_links/</guid>
+      <description>Centering images in Hugo
+... the solution
+in the end, after some energetic googling i did cobble together something that gets the job done with minimal markup and no extraneous tags in the content.
+to be able to center images in a Hugo-based blog or float them left/right (read: align left/right with text wrapping around them ), add the following to your CSS (typically under static/css/ on your side, or wherever the theme you’re using keeps its own stylesheets if you’re hacking the theme CSS directly):</description>
+    </item>
+    
+    <item>
+      <title>New posts</title>
+      <link>/docs/log-doc/3_new_post/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/log-doc/3_new_post/</guid>
+      <description>Featured Image --- title: Featured Image description: Post with featured image. toc: true authors: - Kumar Aniket tags: - image categories: - themes series: - Themes Guide date: &#39;2020-05-26&#39; lastmod: &#39;2020-05-26&#39; featuredImage: images/hero-right.jpg draft: false --- Before more text &amp;lt;!-- more --&amp;gt; ## Section After more text  Default post --- title: Title description: Description toc: true slug: one authors: - Hugo Authors tags: - Aniket&#39;s tag categories: - Aniket&#39;s Category series: - Aniket&#39;s writings literature: - Microfinance date: &#39;2022-02-07&#39; lastmod: &#39;2022-02-07&#39; draft: false --- Short text ## Section Short text  </description>
+    </item>
+    
+  </channel>
+</rss>
