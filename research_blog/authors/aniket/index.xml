@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kumar Aniket on Research</title>
+    <link>/authors/aniket/</link>
+    <description>Recent content in Kumar Aniket on Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 08 Feb 2022 19:26:37 +0000</lastBuildDate><atom:link href="/authors/aniket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mermaid with Eureka</title>
+      <link>/posts/2022_02_08_mermaid/</link>
+      <pubDate>Tue, 08 Feb 2022 19:26:37 +0000</pubDate>
+      
+      <guid>/posts/2022_02_08_mermaid/</guid>
+      <description> Mermaid Mermaid: Theme Configuration
+&amp;lt;div class=&amp;quot;mermaid&amp;quot;&amp;gt; %%{init: {&#39;securityLevel&#39;: &#39;loose&#39;, &#39;theme&#39;:&#39;base&#39;, &#39;themeVariables&#39;:{&#39;darkmode&#39;: &#39;false&#39;, &#39;background&#39;: &#39;Gray&#39; }}}%% flowchart RL T[Transaction costs] ==&amp;gt; |increases|N[NGO coverage] P[Profitability] ==&amp;gt; |decreases|N[NGO coverage] T1[distance from NGO] --&amp;gt; T T2[Physical infrastructure] --&amp;gt; T P1[Marketing cost] --&amp;gt; P P11[Distance from market] --&amp;gt; P1 P12[Market Thickness] --&amp;gt; P1 C[Borrower&#39;s cost] --&amp;gt; P C1[Adoption of modern irrigation methods] --&amp;gt; C C2[Soil quality of agricultural land] --&amp;gt; C D[Distance] --&amp;gt; T1 D[Distance] --&amp;gt; P11 D --&amp;gt; P12 D --&amp;gt; T2 PR[Productivity] --&amp;gt; C1 PR --&amp;gt; C2 &amp;lt;/div&amp;gt;  %%{init: {&#39;securityLevel&#39;: &#39;loose&#39;, &#39;theme&#39;:&#39;base&#39;, &#39;themeVariables&#39;:{&#39;darkmode&#39;: &#39;false&#39;, &#39;background&#39;: &#39;Gray&#39; }}}%% flowchart RL T[Transaction costs] == |increases|N[NGO coverage] P[Profitability] == |decreases|N[NGO coverage] T1[distance from NGO] -- T T2[Physical infrastructure] -- T P1[Marketing cost] -- P P11[Distance from market] -- P1 P12[Market Thickness] -- P1 C[Borrower&#39;s cost] -- P C1[Adoption of modern irrigation methods] -- C C2[Soil quality of agricultural land] -- C D[Distance] -- T1 D[Distance] -- P11 D -- P12 D -- T2 PR[Productivity] -- C1 PR -- C2    </description>
+    </item>
+    
+    <item>
+      <title>Mallick Nabin 2018</title>
+      <link>/posts/mallick2018cost/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mallick2018cost/</guid>
+      <description>D. Mallick and M. H. Nabin. Cost effectiveness or serving the poor? Factors determining program placement of NGOs in Bangladesh. Economic modelling, 69:281–290, 2018.
+  Notes from Mallick Nabin 2018 consensus on its efficacy as a poverty alleviation tool is still elusive (for a recent survey of the literature, see Banerjee et al. (2015))
+microfinance programs in Bangladesh target non-poor households without adhering to screening devices (Amin et al., 2003; Matin, 2005; Morduch, 2011)</description>
+    </item>
+    
+    <item>
+      <title>Seqeuntial Lending ideas</title>
+      <link>/posts/sqlideas/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sqlideas/</guid>
+      <description>Ideas sustainability and expansion depend on loan repayments, as well as on cost effectiveness (sql reduces cost).
+NGO coverage is higher in villages with better opportunities for productive activities (Mallick Nabin,2018).
+ need mechanisms that allow NGO to alleviate poverty by operating in areas with lower productivity.  From Mallick Nabin 2018 Microfinance organisations target non-poor
+ without adhering to screening devices target program locations1 mission drift2  poverty alleviation implies:
+ NGO will take the program to the locations where profit-driven financial institutions do not reach and target the poor households in a given location.</description>
+    </item>
+    
+  </channel>
+</rss>
