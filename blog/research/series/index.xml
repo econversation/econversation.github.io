@@ -10,11 +10,11 @@
 </copyright>
     <lastBuildDate>Sun, 01 May 2022 18:59:54 +0100</lastBuildDate><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Economics</title>
-      <link>/series/economics/</link>
+      <title>Development</title>
+      <link>/series/development/</link>
       <pubDate>Sun, 01 May 2022 18:59:54 +0100</pubDate>
       
-      <guid>/series/economics/</guid>
+      <guid>/series/development/</guid>
       <description></description>
     </item>
     
@@ -28,20 +28,11 @@
     </item>
     
     <item>
-      <title>microfinance</title>
-      <link>/series/microfinance/</link>
+      <title>Writing</title>
+      <link>/series/writing/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/series/microfinance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>/series/research/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/series/research/</guid>
+      <guid>/series/writing/</guid>
       <description></description>
     </item>
     

@@ -10,11 +10,20 @@
 </copyright>
     <lastBuildDate>Sun, 01 May 2022 18:59:54 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Economics</title>
-      <link>/tags/economics/</link>
+      <title>Microfinance</title>
+      <link>/tags/microfinance/</link>
       <pubDate>Sun, 01 May 2022 18:59:54 +0100</pubDate>
       
-      <guid>/tags/economics/</guid>
+      <guid>/tags/microfinance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving</title>
+      <link>/tags/saving/</link>
+      <pubDate>Sun, 01 May 2022 18:59:54 +0100</pubDate>
+      
+      <guid>/tags/saving/</guid>
       <description></description>
     </item>
     
@@ -28,16 +37,7 @@
     </item>
     
     <item>
-      <title>microfinance</title>
-      <link>/tags/microfinance/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/microfinance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>outreach</title>
+      <title>Outreach</title>
       <link>/tags/outreach/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -46,11 +46,11 @@
     </item>
     
     <item>
-      <title>Seqeuntial</title>
-      <link>/tags/seqeuntial/</link>
+      <title>Sequential</title>
+      <link>/tags/sequential/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/seqeuntial/</guid>
+      <guid>/tags/sequential/</guid>
       <description></description>
     </item>
     

@@ -14,13 +14,16 @@
     <loc>/authors/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
-    <loc>/tags/economics/</loc>
+    <loc>/categories/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
-    <loc>/series/economics/</loc>
+    <loc>/series/development/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
-    <loc>/literature/economics/</loc>
+    <loc>/posts/2022_05_01_do_rich_save_more/</loc>
+    <lastmod>2022-05-01T18:59:54+01:00</lastmod>
+  </url><url>
+    <loc>/literature/finance/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
     <loc>/authors/aniket/</loc>
@@ -29,13 +32,19 @@
     <loc>/literature/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
-    <loc>/posts/2022_05_01_lorem/</loc>
+    <loc>/tags/microfinance/</loc>
+    <lastmod>2022-05-01T18:59:54+01:00</lastmod>
+  </url><url>
+    <loc>/categories/papers/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-05-01T18:59:54+01:00</lastmod>
+  </url><url>
+    <loc>/tags/saving/</loc>
     <lastmod>2022-05-01T18:59:54+01:00</lastmod>
   </url><url>
     <loc>/series/</loc>
@@ -56,12 +65,6 @@
     <loc>/posts/mallick2018cost/</loc>
     <lastmod>2022-02-08T14:20:37+00:00</lastmod>
   </url><url>
-    <loc>/tags/microfinance/</loc>
-    <lastmod>2022-02-08T14:20:37+00:00</lastmod>
-  </url><url>
-    <loc>/series/microfinance/</loc>
-    <lastmod>2022-02-08T14:20:37+00:00</lastmod>
-  </url><url>
     <loc>/literature/microfinance/</loc>
     <lastmod>2022-02-08T14:20:37+00:00</lastmod>
   </url><url>
@@ -74,13 +77,13 @@
     <loc>/page/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/series/research/</loc>
-    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/seqeuntial/</loc>
+    <loc>/tags/sequential/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/sqlideas/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/series/writing/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/docs/</loc>
@@ -106,9 +109,6 @@
   </url><url>
     <loc>/docs/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>

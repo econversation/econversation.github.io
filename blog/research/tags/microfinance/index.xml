@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>microfinance on Research</title>
+    <title>Microfinance on Research</title>
     <link>/tags/microfinance/</link>
-    <description>Recent content in microfinance on Research</description>
+    <description>Recent content in Microfinance on Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/microfinance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 18:59:54 +0100</lastBuildDate><atom:link href="/tags/microfinance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do the rich save more?</title>
+      <link>/posts/2022_05_01_do_rich_save_more/</link>
+      <pubDate>Sun, 01 May 2022 18:59:54 +0100</pubDate>
+      
+      <guid>/posts/2022_05_01_do_rich_save_more/</guid>
+      <description>K. E. Dynan, J. Skinner, and S. P. Zeldes. Do the rich save more? Journal of political economy, 112(2):397–444, 2004.
+Do the rich save more? Abstract  The question of whether higher–lifetime income households save a larger fraction of their income was the subject of much debate in the 1950s and 1960s, and while not resolved, it remains central to the evaluation of tax and macroeconomic policies. We resolve this long‐standing question using new empirical methods applied to the Panel Study of Income Dynamics, the Survey of Consumer Finances, and the Consumer Expenditure Survey.</description>
+    </item>
+    
     <item>
       <title>Mallick Nabin 2018</title>
       <link>/posts/mallick2018cost/</link>
@@ -21,7 +31,7 @@ microfinance programs in Bangladesh target non-poor households without adhering 
     </item>
     
     <item>
-      <title>Seqeuntial Lending ideas</title>
+      <title>Sequential Lending ideas</title>
       <link>/posts/sqlideas/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
