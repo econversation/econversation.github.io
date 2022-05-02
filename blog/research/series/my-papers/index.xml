@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My papers on Research</title>
+    <link>/series/my-papers/</link>
+    <description>Recent content in My papers on Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/series/my-papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sequential Lending ideas</title>
+      <link>/posts/sqlideas/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sqlideas/</guid>
+      <description>Ideas sustainability and expansion depend on loan repayments, as well as on cost effectiveness (sql reduces cost).
+NGO coverage is higher in villages with better opportunities for productive activities (Mallick Nabin,2018).
+ need mechanisms that allow NGO to alleviate poverty by operating in areas with lower productivity.  From Mallick Nabin 2018 Microfinance organisations target non-poor
+ without adhering to screening devices target program locations1 mission drift2  poverty alleviation implies:
+ NGO will take the program to the locations where profit-driven financial institutions do not reach and target the poor households in a given location.</description>
+    </item>
+    
+  </channel>
+</rss>
