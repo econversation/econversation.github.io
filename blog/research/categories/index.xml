@@ -8,7 +8,25 @@
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 01 May 2022 18:59:54 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 14:41:15 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>/categories/links/</link>
+      <pubDate>Tue, 03 May 2022 14:41:15 +0100</pubDate>
+      
+      <guid>/categories/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>/categories/writing/</link>
+      <pubDate>Mon, 02 May 2022 11:48:10 +0100</pubDate>
+      
+      <guid>/categories/writing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Papers</title>
       <link>/categories/papers/</link>

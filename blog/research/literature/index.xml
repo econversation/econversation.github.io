@@ -8,22 +8,31 @@
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;http://www.aniket.co.uk/&#34;&gt;Kumar Aniket&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 01 May 2022 18:59:54 +0100</lastBuildDate><atom:link href="/literature/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 14:41:15 +0100</lastBuildDate><atom:link href="/literature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microfinance</title>
+      <link>/literature/microfinance/</link>
+      <pubDate>Tue, 03 May 2022 14:41:15 +0100</pubDate>
+      
+      <guid>/literature/microfinance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capitalism</title>
+      <link>/literature/capitalism/</link>
+      <pubDate>Mon, 02 May 2022 11:48:10 +0100</pubDate>
+      
+      <guid>/literature/capitalism/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Finance</title>
       <link>/literature/finance/</link>
       <pubDate>Sun, 01 May 2022 18:59:54 +0100</pubDate>
       
       <guid>/literature/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microfinance</title>
-      <link>/literature/microfinance/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/literature/microfinance/</guid>
       <description></description>
     </item>
     
