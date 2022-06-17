@@ -8,6 +8,11 @@ date: 22 July 2021, 16:55
 
 This is the Conversation homepage.
 
+### Presentations
+
+LBS Infrastructure Presentation | 17 June 2022 | 
+ [Link 1](https://econversation.github.io/pres/infra/1.html) | [Link 2](http://aniket.co.uk/research/pres/infra/1.html#1) 
+
 ### Blog
 
 [Random](https://econversation.github.io/blog/random/) | [Research](https://econversation.github.io/blog/research/) 
@@ -24,9 +29,7 @@ This is the Conversation homepage.
 
 [CV](cv.html)
 
-### Presentations
 
-[LBS Infrastructure presentation](https://econversation.github.io/pres/infra/1.html) | 17 June 2022
 
 
 
