@@ -24,5 +24,9 @@ This is the Conversation homepage.
 
 [CV](cv.html)
 
+### Presentations
+
+[LBS Infrastructure presentation](https://econversation.github.io/pres/infra/1.html) | 17 June 2022
+
 
 
