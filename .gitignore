@@ -10,7 +10,6 @@
 *.ind
 *.log
 *.out
-*.pdf
 *.toc
 *.bcf
 *.run.xml
