@@ -6,10 +6,20 @@
   --colem:  #00416A;
 }
 
+body {
+  background-image: url('../img/fade_blue_gota0.jpg');
+}
 
 html{background-color:#f8f8f8;}
+
 .text, p{color:#000000}
-.title,.author, .date {color:  #674E47;}
+
+.title,.author, .date, .subtitle {
+	background: red;/*#794F3A*/ /*#674E47*/
+	color: linen; /*#674E47*/
+	padding:10px 2px 0px 2px;
+	border-radius: 10px; 
+	}
 
 
 h1 {color: #08457E;font-size: 1.5em;}
@@ -22,6 +32,7 @@ h6 {color: #6082B6;}
 
 
 /*a {text-decoration: none;color: var(--collink);}*/
+
 a:link, a:visited { 
 	text-decoration: none;
 	color: gray;
@@ -30,9 +41,11 @@ a:hover, a:active { text-decoration: none;
 		color: #653529;}
 
 b,strong {color: #592720;}
-em {color: #00416A;;}
+em {color: #00416A;}
 
 .dtdef {padding: 1px 0px; font-weight: normal; float:right; font-size: 70%; color: gray; border: 0.1px solid transparent; }	
+
+
 
 
 div.outline {
@@ -59,6 +72,8 @@ div.paper {
 		padding: 1px 20px;}
 
 .card {border-radius: 10px;
+/*	background-image: url("../img/fade_blue_gota.jpg");*/
+	background:linen;
 	padding: 1px 27px;
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -97,7 +112,42 @@ div.paper {
 .lpar { width: 49%; float: left;}
 .rpar { width: 49%; float: right; clear: right;}
 
+/*navigation 28 July 2022, 19:52*/
 
+.topnav {
+  overflow: hidden;
+  background-color: linen;
+  margin: 0px;
+  padding: 0px;
+  font-family: inherit;
+/*  box-shadow: 0 0 3px #000000;*/
+}
 
+.topnav a {
+  float: left;
+  color: #794F3A;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 80%;
+/*  box-shadow: 0 0 3px #000000;*/
+}
 
+.topnav a:hover {
+  background-color:  #794F3A50;
+  color: gray;
+  transition: 1.8s;
+}
+
+.topnav a.active {
+  background-color:  #794F3A;
+  color: linen;
+}
+
+.cardnav {
+	padding: 0px 10px 0px 10px;
+	margin-bottom: 2.5em;
+	background:linen;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;;
+}
 
