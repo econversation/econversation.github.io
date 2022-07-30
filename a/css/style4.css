@@ -144,6 +144,10 @@ div.paper {
   color: linen;
 }
 
+.topnav a.copyright {
+	float: center;
+}
+
 .cardnav {
 	padding: 0px 10px 0px 10px;
 	margin-bottom: 2.5em;
