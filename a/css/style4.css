@@ -17,19 +17,74 @@ html{background-color:#f8f8f8;}
 .title,.author, .date, .subtitle {
 	background: #794F3A;/*#794F3A*/ /*#674E47*/
 	color: linen; /*#674E47*/
-	padding:10px;
-	border-radius: 10px; 
+	border-radius: 10px;
+	padding: 10px;
 	}
+	
+.subtitle,.author {margin-bottom:10px;}
 
+.card > blockquote {
+  margin-top: 26px;
+}
 
-h1 {color: #08457E;font-size: 1.5em;}
+pre {padding:10px; border-radius: 10px;}
+
+h1 {color: #08457E;}
 h2 {color: #1A5189;}
 h3 {color: #2B5D94;}
 h4 {color: #3D6AA0;}
-h5,h6 {all: revert;}
+/*h5,h6 {all: revert;}*/
 h5 {color: #4E76AB;}
 h6 {color: #6082B6;}
 
+.card > h1,h2,h3 {
+  margin-top: 26px;
+  margin-bottom: 13px;
+}
+
+.card > h4,h5,h6 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+
+
+nav#TOC {
+	text-decoration: none;
+	background-color:linen; 
+	padding:20px;
+	margin-top: 32px;
+	border-radius: 10px; 
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+/*	box-shadow: 0 0 3px #000000;*/
+}
+
+/*.my-element {
+    background-image: linear-gradient(linen, linen);
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-position: 0 center;
+}*/
+
+/*.decorative-line {
+    background-image: linear-gradient(var(--line-color), var(--line-color));
+    background-repeat: no-repeat;
+    background-size: 100% var(--line-height);
+    background-position: 0 center;
+}*/
+
+.my-element {
+    background-image: linear-gradient(
+        to right,
+        transparent,
+        linen 50%,
+		linen 50%,
+        transparent
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 4px;
+    background-position: 0 center;
+}
 
 /*a {text-decoration: none;color: var(--collink);}*/
 
@@ -81,6 +136,7 @@ div.paper {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
 	
 .cardnote {border-radius: 10px;
+	background:linen;
 	padding: 1px 10px;
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -88,6 +144,7 @@ div.paper {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
 
 .carda {border-radius: 10px;
+	background:linen;
 	padding: 1px 27px;
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -95,6 +152,7 @@ div.paper {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
 
 .cardtw {border-radius: 10px;
+	background:linen;
 	padding: 1px 27px;
 	margin-top: 2em;
 	margin-bottom: 2em;

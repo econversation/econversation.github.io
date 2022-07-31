@@ -786,8 +786,11 @@ table > caption code {
 /* }}} */
 /* ----- Table of contents --------------------------------------------- {{{ */
 
+/*31 July 2022, 00:07: I commented it out on because when I made coloured boxes there was too much spacing at the bottom.*/
+
 .date.before-toc {
-  padding-bottom: var(--line-height);
+/*  padding-bottom: var(--line-height);*/
+  padding-bottom: 13px;
 }
 
 nav#TOC {
