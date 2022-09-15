@@ -134,12 +134,12 @@
   :root {
     --background-color: #111;
 
-    --color-text: #fffff8;
-    --color-text-secondary: #fffff8;
+    --color-text: #454d52; /*#fffff8;*/
+    --color-text-secondary: #483C32; /*#fffff8;*/
     --color-link: inherit;
-    --color-sidenote: #fffff8;
+    --color-sidenote: #483C32; /*#fffff8;*/
 
-    --color-inline-code: #fffff8;
+    --color-inline-code:  gray ; /*#fffff8;*/
     --color-inline-code-bg: inherit;
 
     --color-border: inherit;

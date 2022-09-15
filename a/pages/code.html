@@ -9,21 +9,34 @@
 <meta property="og:site_name" content="Kumar Aniket">
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_GB" />
-  <meta name="author" content="Kumar Aniket" />
+<base href="https://econversation.github.io/a/">
   <title>Codes</title>
   <link rel="stylesheet" href="../css/theme.css" />
   <link rel="stylesheet" href="../css/skylighting-solarized-theme.css" />
   <link rel="stylesheet" href="../css/tufte.css" />
   <link rel="stylesheet" href="../css/style4.css" />
-<div class="cardnav">
-<div class="topnav">
-	  <a class="active" href="..">home</a>
-	  <a href="/research/">research</a>
-	  <a href="/teaching/">teaching</a>
-	   <a href="/pages/">pages</a>
-	  <a href="/cv/">cv</a>
-</div>
-</div>
+
+<!-- for my local website -->
+
+<div class="cardnav"><div class="topnav">
+<a class="active" href="/">home</a>
+<a href="/bio">bio</a>
+<a href="/cv">cv</a>
+<a href="/research">research</a>
+<a href="/teaching">teaching</a>
+<a href="/writing">writing</a>
+</div></div>
+
+<!-- for my ucl website -->
+
+<!-- <div class="cardnav"><div class="topnav">
+<a class="active" href="/~ucbqkan/">home</a>
+<a href="/~ucbqkan/bio">bio</a>
+<a href="/~ucbqkan/cv">cv</a>
+<a href="/~ucbqkan/research">research</a>
+<a href="/~ucbqkan/teaching">teaching</a>
+<a href="/~ucbqkan/writing">writing</a>
+</div></div> -->
 	
 
 </head>
@@ -34,11 +47,6 @@
 <h1 class="title">Codes</h1>
 <blockquote class="metadata">
 <p class="subtitle">Lorem ipsum dolor sit amet</p>
-<p class="author">
-      Kumar Aniket
-  </p>
-<p class="date before-toc"><time datetime="28 July 2022, 21:02">28 July
-2022, 21:02</time></p>
 </blockquote>
 </header>
 
@@ -46,9 +54,6 @@
     <strong>Contents</strong><label for="contents">⊕</label>
   <input type="checkbox" id="contents">
   <ul>
-  <li><a href="#background-colors-for-various-pages"
-  id="toc-background-colors-for-various-pages">background colors for
-  various pages</a></li>
   <li><a href="#misc-css-code" id="toc-misc-css-code">misc css
   code</a></li>
   <li><a href="#card-and-headings" id="toc-card-and-headings">card and
@@ -62,16 +67,154 @@
 <main>
 <p class="my-element decorative-line">&nbsp;</p>
 <style>
-    body {background-image: url('');}
-    body {background-color: #C2B28090;} 
+    body {background-image: url('../img/6a.png');}
+    body {background-color: #FF7E0099;/*#C2B28090;*/} 
+
+    
 </style>
+<div class="card">
+<p><a href="https://www.w3schools.com/colors/colors_mixer.asp">HTML
+Color Mixer</a></p>
+<details>
+<summary>
+colors
+</summary>
+<p>
+From #674E47 (title) to #F7E7CE (champagne)
+</p>
+</details>
+</div>
+<div class="card">
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.</p>
+</blockquote>
+</div>
+<div class="card">
+<details>
+<summary>
+Background Color for pages with gotas
+</summary>
+<pre><code>Fulvous #E48400 for the index page
+Gold (metallic) #D4AF37
+Indigo (dye)    #00416A
+Deep champagne  #FAD6A5
+</code></pre>
+<p>light colors - for card highlight</p>
+<pre><code>Lavender blush  #FFF0F5 economic growth</code></pre>
+<p>continuum between lavender blush and floralwhite</p>
+<pre><code>#fff0f5 | #fff0f5 | #fff1f4 | #fff2f4 | #fff2f4 | #fff2f4 | #fff3f4 | #fff4f3 | #fff4f3 | #fff4f3 | #fff5f2 | #fff6f2 | #fff6f2 | #fff6f2 | #fff7f2 | #fff8f1 | #fff8f1 | #fff8f1 | #fff9f0 | #fffaf0 | #fffaf0</code></pre>
+</details>
+</div>
+<div class="card">
+<details>
+<summary>
+Using factors to define classes
+</summary>
+<p><a
+href="https://stackoverflow.com/questions/34088278/can-i-use-inherited-values-in-less">Can
+I use inherited values in Less?</a></p>
+<p>No, you cannot inherit the property values from another class and use
+it. But you can set the default properties (and their calculation logic)
+of the <code>.card</code> class to a ruleset or mixin like in below
+snippets and call it. The same can be done using a wrapper mixin
+also.</p>
+<p>Here is the ruleset version where the <code>height</code>,
+<code>width</code> and <code>factor</code> are set within the caller’s
+scope before calling the ruleset.</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">@card</span>: {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span>: @height * @factor<span class="op">;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span>: @width * @factor<span class="op">;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>};</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">.card</span>{</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="im">@factor</span>: <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="im">@height</span>: <span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="im">@width</span>: <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="im">@card</span>()<span class="op">;</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  &amp;<span class="fu">.xs</span>{</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="im">@factor</span>: <span class="dv">0.5</span><span class="op">;</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="im">@card</span>()<span class="op">;</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  &amp;<span class="fu">.lg</span>{</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="im">@factor</span>: <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="im">@card</span>()<span class="op">;</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Below is a mixin version of how it can be done. It is very similar to
+the ruleset version except that it can take an input parameter
+directly.</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.card</span>(<span class="im">@factor</span>) {</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span>: @height * @factor<span class="op">;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span>: @width * @factor<span class="op">;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>};</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">.card</span>{</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="im">@height</span>: <span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="im">@width</span>: <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">.card</span>(1);</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  &amp;<span class="fu">.xs</span>{</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.card</span>(0<span class="fu">.5</span>);</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  &amp;<span class="fu">.lg</span>{</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.card</span>(2);</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>The above when compiled would result in the below CSS:</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.card</span> {</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span>: <span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span>: <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">.card.xs</span> {</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span>: <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span>: <span class="dv">100</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="fu">.card.lg</span> {</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span>: <span class="dv">800</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span>: <span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Alternately, if the factor is constant and all card elements would
+need rules for all sizes then you could create a mixin like the
+below:</p>
+<pre><code>.generate-card(@height; @width) {
+  height: @height;
+  width: @width;
+  &amp;.xs{
+    height: @height * 0.5;
+    width: @width * 0.5;
+  }
+  &amp;.lg{
+    height: @height * 2;
+    width: @width * 2;
+  }
+}
+
+.card {
+  .generate-card(400px; 200px);
+}
+.card-2 {
+  .generate-card(450px; 150px);
+}</code></pre>
+</details>
+<details>
+<summary>
+background colors for various pages
+</summary>
 <h3 id="background-colors-for-various-pages">background colors for
 various pages</h3>
 <p>Dark champagne #C2B280<br />
 Sunset #FAD6A5<br />
 Thistle #D8BFD8<br />
 Tangelo #F94D0050<br />
-Timberwolf #DBD7D2</p>
+Timberwolf #DBD7D2<br />
+Cadmium Green #006B3C</p>
 <p>css code: WhiteSmoke</p>
 <pre><code>&lt;style&gt;
 body {
@@ -80,82 +223,84 @@ body {
 body {background-color: #C2B28090;} /*dark champagne*/
 body {background-color: WhiteSmoke;}
 &lt;/style&gt;</code></pre>
+</details>
 <details>
 <summary>
 yaml
 </summary>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">return-url</span><span class="kw">:</span><span class="at"> </span><span class="st">&#39;..&#39;</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">return-text</span><span class="kw">:</span><span class="at"> </span><span class="st">&#39;← Return home&#39;</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">return-url</span><span class="kw">:</span><span class="at"> </span><span class="st">&#39;..&#39;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">return-text</span><span class="kw">:</span><span class="at"> </span><span class="st">&#39;← Return home&#39;</span></span></code></pre></div>
 </details>
+</div>
 <h3 id="misc-css-code">misc css code</h3>
 <details>
 <summary>
 css, not using it anymore.
 </summary>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode css"><code class="sourceCode css"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*navigation 28 July 2022, 19:52*/</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>nav {</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">border</span>:<span class="dv">20</span><span class="dt">px</span><span class="op">;</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background-color</span>:<span class="cn">FloralWhite</span><span class="op">;</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>:<span class="cn">gray</span><span class="op">;</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">padding-top</span>:<span class="dv">5</span><span class="dt">px</span><span class="op">;</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="kw">padding-bottom</span>:<span class="dv">3</span><span class="dt">px</span><span class="op">;</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>nav<span class="op">&gt;</span>a {</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">font-size</span>:<span class="dv">80</span><span class="dt">%</span><span class="op">;</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>body {</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin</span>: <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>: Arial<span class="op">,</span> Helvetica<span class="op">,</span> <span class="dv">sans-serif</span><span class="op">;</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">/*navigation 28 July 2022, 19:52*/</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>nav {</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">border</span>:<span class="dv">20</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">background-color</span>:<span class="cn">FloralWhite</span><span class="op">;</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span>:<span class="cn">gray</span><span class="op">;</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">padding-top</span>:<span class="dv">5</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>        <span class="kw">padding-bottom</span>:<span class="dv">3</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>nav<span class="op">&gt;</span>a {</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">font-size</span>:<span class="dv">80</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>body {</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin</span>: <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>: Arial<span class="op">,</span> Helvetica<span class="op">,</span> <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 </details>
 <details>
 <summary>
 html
 </summary>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;backnew&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;topnav&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;active&quot;</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;/&quot;</span><span class="kw">&gt;</span>Home<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;research&quot;</span><span class="kw">&gt;</span>research<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;teaching&quot;</span><span class="kw">&gt;</span>teaching<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;about&quot;</span><span class="kw">&gt;</span>about me<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;cv&quot;</span><span class="kw">&gt;</span>cv<span class="kw">&lt;/a&gt;&lt;br&gt;</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;backnew&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;topnav&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot;active&quot;</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;/&quot;</span><span class="kw">&gt;</span>Home<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;research&quot;</span><span class="kw">&gt;</span>research<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;teaching&quot;</span><span class="kw">&gt;</span>teaching<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;about&quot;</span><span class="kw">&gt;</span>about me<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>      <span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">&quot;cv&quot;</span><span class="kw">&gt;</span>cv<span class="kw">&lt;/a&gt;&lt;br&gt;</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 </details>
 <details>
 <summary>
 css
 </summary>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode css"><code class="sourceCode css"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> {</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">overflow</span>: <span class="dv">hidden</span><span class="op">;</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>: <span class="cn">linen</span><span class="op">;</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> a {</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">float</span>: <span class="dv">left</span><span class="op">;</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">#794F3A</span><span class="op">;</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">text-align</span>: <span class="dv">center</span><span class="op">;</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">padding</span>: <span class="dv">100</span><span class="dt">px</span> <span class="dv">16</span><span class="dt">px</span><span class="op">;</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="kw">text-decoration</span>: <span class="dv">none</span><span class="op">;</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span>: <span class="dv">90</span><span class="dt">%</span><span class="op">;</span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> a<span class="in">:hover</span> {</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:  <span class="cn">#794F3A50</span><span class="op">;</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">gray</span><span class="op">;</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> a<span class="fu">.active</span> {</span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:  <span class="cn">#794F3A</span><span class="op">;</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">linen</span><span class="op">;</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> {</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">overflow</span>: <span class="dv">hidden</span><span class="op">;</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>: <span class="cn">linen</span><span class="op">;</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> a {</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">float</span>: <span class="dv">left</span><span class="op">;</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">#794F3A</span><span class="op">;</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">text-align</span>: <span class="dv">center</span><span class="op">;</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">padding</span>: <span class="dv">100</span><span class="dt">px</span> <span class="dv">16</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>  <span class="kw">text-decoration</span>: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span>: <span class="dv">90</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> a<span class="in">:hover</span> {</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:  <span class="cn">#794F3A50</span><span class="op">;</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">gray</span><span class="op">;</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="fu">.topnav</span> a<span class="fu">.active</span> {</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:  <span class="cn">#794F3A</span><span class="op">;</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="cn">linen</span><span class="op">;</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 </details>
 <h3 id="card-and-headings">card and headings</h3>
 <details>
@@ -232,11 +377,23 @@ mollit anim id est laborum.</p>
 	| <a href="/cv/">cv</a>
 </nav> -->
 <br><br>
-<div class="cardnav">
-<div class="topnav">
+
+<!-- for my local website -->
+
+<div class="cardnav"><div class="topnav">
 	 <a href="" class="active">← Top of the page</a>
-</div>
-</div>
+	 <a href="/pages">pages</a>
+	 <a href="/about">about me</a>
+</div></div>
+
+<!-- for my ucl website -->
+
+<!-- <div class="cardnav"><div class="topnav">
+<a href="" class="active">← Top of the page</a>
+<a href="/~ucbqkan/pages">pages</a>
+<a href="/~ucbqkan/about">about me</a>
+</div></div> -->
+
 <br>
 
 </body>
