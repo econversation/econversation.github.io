@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc-markdown-css-theme" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta property="og:image" itemprop="image" content="https://ik.imagekit.io/hhuw54lr6rh/aniket_co_uk/card_aniket_xkgHfD68C.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1645034189563"/>
+
+<meta property="og:site_name" content="Kumar Aniket">
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_GB" />
+  <title>Build</title>
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/skylighting-solarized-theme.css" />
+  <link rel="stylesheet" href="../css/tufte.css" />
+  <link rel="stylesheet" href="../css/style4.css" />
+  <link rel="stylesheet" href="../css/style_ul.css">
+
+<!-- for my local website -->
+
+<div class="cardnav"><div class="topnav">
+<a class="active" href="/a/">home</a>
+<a href="/a/bio">bio</a>
+<a href="/a/cv">cv</a>
+<a href="/a/research">research</a>
+<a href="/a/teaching">teaching</a>
+<a href="/a/writing">writing</a>
+</div></div>
+
+<!-- for my ucl website -->
+
+<!-- <div class="cardnav"><div class="topnav">
+<a class="active" href="/~ucbqkan/">home</a>
+<a href="/~ucbqkan/bio">bio</a>
+<a href="/~ucbqkan/cv">cv</a>
+<a href="/~ucbqkan/research">research</a>
+<a href="/~ucbqkan/teaching">teaching</a>
+<a href="/~ucbqkan/writing">writing</a>
+</div></div> -->
+	
+
+</head>
+<body>
+	
+
+<header>
+<h1 class="title">Build</h1>
+<blockquote class="metadata">
+<p class="subtitle">Howt to build a page</p>
+</blockquote>
+</header>
+
+<nav id="TOC" role="doc-toc">
+    <strong>Contents</strong><label for="contents">⊕</label>
+  <input type="checkbox" id="contents">
+  <ul>
+  <li><a href="#card" id="toc-card">card</a></li>
+  <li><a href="#yaml" id="toc-yaml">Yaml</a></li>
+  <li><a href="#style" id="toc-style">style</a></li>
+  <li><a href="#background" id="toc-background">background</a></li>
+  <li><a href="#decorative-line" id="toc-decorative-line">decorative
+  line</a></li>
+  <li><a href="#links" id="toc-links">links</a></li>
+  </ul>
+</nav>
+
+<main>
+<p class="my-element decorative-line">&nbsp;</p>
+<style>
+    body {background-image: url('../img/7b.png');}
+    body {background-color: #DBD7D2;}
+    
+/*  body {box-shadow: inset 0 0 0 1000px    #E3A857;}*/
+
+    
+    a:hover {color: #CD5C5C;}
+    /*.card:hover a { text-decoration: none;
+            color: #aa6c6c; /*#CD5C5C;*/
+        }*/
+    .card:hover {
+/*      color: red;*/
+        background: #fff6f2;
+    }
+</style>
+<h3 id="card">card</h3>
+<div class="card">
+<details>
+<summary>
+card with lists and text …
+</summary>
+<p>
+<div class="card">
+<p><strong>Card with lists</strong> with<br />
+<code>&lt;link rel="stylesheet" href="../css/style_ul.css"&gt;</code></p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+</ul>
+</div>
+<div class="card">
+<p><strong>Card with lists</strong> with<br />
+<code>&lt;link rel="stylesheet" href="../css/style_ul.css"&gt;</code></p>
+<ul>
+<li>time | <a
+href="http://127.0.0.1:8000/pages/build.html">Table</a></li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.</li>
+</ul>
+</div>
+<div class="card">
+<p><strong>Card with text</strong></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.</p>
+<p>Some people would say that a <a href="time.html">time table is
+needed.</a></p>
+</div>
+</p>
+</details>
+</div>
+<h3 id="yaml">Yaml</h3>
+<div class="card">
+<details>
+<summary>
+yaml …
+</summary>
+<p>
+<pre><code>---
+title: &quot;Build&quot;
+subtitle: &quot;Howt to build a page&quot;
+include-after: &quot;&quot;
+---
+</code></pre>
+<p>change <code>ul</code></p>
+<pre><code>header-includes:
+- &#39;&lt;link rel=&quot;stylesheet&quot; href=&quot;../css/style_ul.css&quot;&gt;&#39;</code></pre>
+<p>All optionss</p>
+<pre><code>---
+title: &#39;Kitchen Sink Tufte `code`&#39;
+subtitle: &#39;&quot;Everything but the kitchen sink.&quot;&#39;
+author: &#39;jez&#39;
+author-url: &#39;https://github.com/jez&#39;
+date: &#39;2021-06-25&#39;
+return-url: &#39;..&#39;
+return-text: &#39;← Return home&#39;
+header-includes:
+- &#39;&lt;link rel=&quot;stylesheet&quot; href=&quot;../css/tufte.css&quot;&gt;&#39;
+include-after: &quot;&quot;
+---</code></pre>
+</p>
+</details>
+</div>
+<h3 id="style">style</h3>
+<div class="card">
+<details>
+<summary>
+style …
+</summary>
+<p>
+<p><code>7b.png</code> pages</p>
+<pre><code>&lt;style&gt;
+    body {background-image: url(&#39;../img/7b.png&#39;);}
+    body {background-color: #DBD7D2;} 
+&lt;/style&gt;</code></pre>
+<p>gota pages</p>
+<pre><code>body {box-shadow: inset 0 0 0 1000px #0072BB40;}</code></pre>
+<p><code>.cardsheer:hover</code></p>
+<pre><code>.cardsheer:hover { background: #FAF0E650;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }</code></pre>
+<p>border around elements</p>
+<pre><code>ul,h3,h4,b,p{border: 0.5px solid red;}</code></pre>
+</p>
+</details>
+</div>
+<h3 id="background">background</h3>
+<div class="card">
+<details>
+<summary>
+Background Color for pages with gotas
+</summary>
+<pre><code>#E48400 Fulvous (index page)
+#D4AF37 Gold (metallic) 
+#00416A Indigo (dye)    
+#FAD6A5 Deep champagne
+#E3A857 Indian yellow
+#674E47 (title) 
+#F7E7CE champagne
+</code></pre>
+<p>light colors - for card highlight</p>
+<pre><code>Lavender blush  #FFF0F5 economic growth</code></pre>
+<p>continuum between lavender blush and floralwhite</p>
+<pre><code>#fff0f5 | #fff0f5 | #fff1f4 | #fff2f4 | #fff2f4 | #fff2f4 | #fff3f4 | #fff4f3 | #fff4f3 | #fff4f3 | #fff5f2 | #fff6f2 | #fff6f2 | #fff6f2 | #fff7f2 | #fff8f1 | #fff8f1 | #fff8f1 | #fff9f0 | #fffaf0 | #fffaf0</code></pre>
+</details>
+</div>
+<h3 id="decorative-line">decorative line</h3>
+<div class="card">
+<details>
+<summary>
+decorative line
+</summary>
+<p><a
+href="https://stackoverflow.com/questions/14920401/how-to-simulate-hfill-with-html-and-css">How
+to simulate with HTML and CSS?</a><br />
+<a href="https://piccalil.li/blog/a-modern-css-reset/">A Modern CSS
+Reset</a></p>
+<pre><code>&lt;p class=&quot;my-element decorative-line&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+{.my-element .decorative-line}
+&amp;nbsp;
+</code></pre>
+</details>
+</div>
+<h3 id="links">links</h3>
+<div class="card">
+<details>
+<summary>
+Links …
+</summary>
+<p>
+<p><a
+href="https://meyerweb.com/eric/tools/color-blend/#FFF0F5:FAF0E6:3:hex">Color
+mixer with midpoints | meyerweb.com</a></p>
+<p><a href="https://www.w3schools.com/colors/colors_mixer.asp">HTML
+Color Mixer</a></p>
+</p>
+</details>
+</div>
+<p class="my-element decorative-line">&nbsp;</p>
+</main>
+
+
+
+<script>
+;(function() {
+  // Non-essential if user has JavaScript off. Just makes checkboxes look nicer.
+  var selector = '.task-list > li > input[type="checkbox"]';
+  var checkboxes = document.querySelectorAll(selector);
+  Array.from(checkboxes).forEach((checkbox) => {
+    var wasChecked = checkbox.checked;
+    checkbox.disabled = false;
+    checkbox.addEventListener('click', (ev) => {ev.target.checked = wasChecked});
+  });
+})();
+</script>
+<script>
+	var url = document.getElementById("firstlink")
+	url.setAttribute("href", "http://google.com")
+	var url = document.getElementById("aniketweb")
+	url.setAttribute("href", "http://www.aniket.co.uk/")
+</script>
+
+<!-- <br><br><br><nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="..">home</a>
+	| <a href="/research/">research</a>
+	| <a href="/teaching/">teaching</a>
+	| <a href="/teaching/">about me</a>
+	| <a href="/cv/">cv</a>
+</nav> -->
+<br><br>
+
+<!-- for my local website -->
+
+<div class="cardnav"><div class="topnav">
+	 <a href="" class="active">← Top of the page</a>
+	 <a href="/a/pages">pages</a>
+	 <a href="/a/about">about me</a>
+</div></div>
+
+<!-- for my ucl website -->
+
+<!-- <div class="cardnav"><div class="topnav">
+<a href="" class="active">← Top of the page</a>
+<a href="/~ucbqkan/pages">pages</a>
+<a href="/~ucbqkan/about">about me</a>
+</div></div> -->
+
+<br>
+
+</body>
+</html>

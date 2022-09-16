@@ -1,0 +1,29 @@
+ul {
+    list-style: outside none;
+    margin-left: 0; 
+    padding-left: -0.25em; /*-1+x*/
+    text-indent: -1.35em; /*-2+x*/
+}
+li{
+    padding-left: 0.25em; /*1-x*/
+	 margin-bottom: 6.5px;
+}
+li:last-child { 
+   margin-bottom: 26px;  
+}
+.card>ul {
+    list-style: outside none;
+    margin-left: 0; 
+    padding-left: 1em; /*-1+x*/
+    text-indent: -1.25em; /*-2+x*/
+}
+.card>li{
+    padding-left: 1em; /*1-x*/
+	 margin-bottom: 6.5px;
+}
+.card>li:last-child { 
+   margin-bottom: 26px;  
+}
+p+ul {margin-top: -16px;}
+/*h3+p,h3+ul {margin-top: 0px;}*/
+h4+ul {margin-top: 0.5em;}

@@ -122,6 +122,75 @@ mode</p>
 </p>
 </details>
 </div>
+<div class="card">
+<details>
+<summary>
+<code>style_ul.css</code> …
+</summary>
+<p>
+<pre><code> ul {
+        list-style: outside none;
+        margin-left: 0; 
+        padding-left: -0.25em; /*-1+x*/
+        text-indent: -1.35em; /*-2+x*/
+    }
+    li{
+        padding-left: 0.25em; /*1-x*/
+         margin-bottom: 6.5px;
+    }
+    li:last-child { 
+       margin-bottom: 26px;  
+    }
+    .card&gt;ul {
+        list-style: outside none;
+        margin-left: 0; 
+        padding-left: 1em; /*-1+x*/
+        text-indent: -1.25em; /*-2+x*/
+    }
+    .card&gt;li{
+        padding-left: 1em; /*1-x*/
+         margin-bottom: 6.5px;
+    }
+    .card&gt;li:last-child { 
+       margin-bottom: 26px;  
+    }
+    p+ul {margin-top: -16px;}
+    /*h3+p,h3+ul {margin-top: 0px;}*/
+    h4+ul {margin-top: 0.5em;}</code></pre>
+</p>
+</details>
+</div>
+<div class="card">
+<details>
+<summary>
+<code>.tack</code> and <code>.mygrapha</code> … in
+<code>style4.css</code>
+</summary>
+<p>
+<pre><code>    .mygrapha  {
+        color: gray; 
+        background-color: #F2F3F450;
+        margin: 0em;
+        padding: 1em 1em 0em 1em;
+        border-radius: 10px;
+        box-shadow: -3px -3px #EEDC8210, -0.1em 0 0.4em #674E4720;
+    }
+
+    .tack {
+        color: #3B444B;
+        border-color: #927c70;  /*#674E47*/  /*#3B444B*/
+        background-color: #F4F4F4; 
+        border-style: solid; /*ba*/
+        border-width: .25rem; /*bw2*/
+        border-radius: 10px; /*br3*/
+       padding-left: 1em; /*ph4*/
+       padding-right: 1em; /*ph4*/
+        margin-top: 1em;
+        box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+    }</code></pre>
+</p>
+</details>
+</div>
 <p class="my-element decorative-line">&nbsp;</p>
 </main>
 

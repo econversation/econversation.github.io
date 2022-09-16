@@ -4,6 +4,8 @@
   --colbold: #592720;
   --collink: #653529;
   --colem:  #00416A;
+  --linkcolor: #8B8589; /*#C4C3D0*/ /*#778899*/ /*#E3A857*/ /*#778899*/
+  --linkhover: #CD5C5C;
 }
 
 body {
@@ -47,7 +49,7 @@ nav#TOC {
 	margin-top: 32px;
 	border-radius: 10px; 
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-/*	box-shadow: 0 0 3px #000000;*/
+	/*	box-shadow: 0 0 3px #000000;*/
 }
 
 /*.my-element {
@@ -84,13 +86,13 @@ nav#TOC {
 
 a:link, a:visited { 
 	text-decoration: none;
-	color: gray;
+	color: var(--linkcolor);
 }
-a:hover, a:active { text-decoration: none;
-		color: #653529;}
+a:hover { text-decoration: none;
+		color: var(--linkhover);}
 
-b,strong {color: #592720;}
-em {color: #00416A;}
+b,strong {color: var(--colbold);}
+em {color: var(--colem);}
 
 .dtdef {padding: 1px 0px; font-weight: normal; float:right; font-size: 70%; color: gray; border: 0.1px solid transparent; }	
 
@@ -122,12 +124,12 @@ div.paper {
 
 .card {border-radius: 10px;
 	background:linen;
-	padding: 13px 26px;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	padding: 1rem 2rem; /*13px 26px*/
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	transition: 0.3s;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
-	
+		
 .cardsheer {border-radius: 10px;
 	padding: 1px 27px;
 	margin-top: 2em;
@@ -145,20 +147,26 @@ div.paper {
 	  margin-bottom: 0px;
 	}
 
-.card:hover a { text-decoration: none;
+.card > * {margin-bottom:1rem;margin-top:1rem;}
+/*.card>details{margin-bottom:1rem;margin-top:1rem;}*/
+/*.card>li{margin-bottom:26px;margin-top:0px;}*/
+/*.card>p{margin-top:26px;}*/
+	
+
+/*.card:hover a { text-decoration: none;
 		color: #CD5C5C;}
 .cardsheer:hover a { text-decoration: none;
-		color: #CD5C5C;}
-.card:hover, .cardsheer:hover  { 
+		color: #CD5C5C;}*/
+
+/*.card:hover, .cardsheer:hover  {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	color: #36454F; /*#536878;*/
-	background:  #fff6f2; /*#FFF0F5  Lavender blush*/
-	}	
-	
-/*.card>ul{margin-bottom:26px;margin-top:0px;}
-.card>li{margin-bottom:26px;margin-top:0px;}
-.card>p{margin-top:26px;}*/
-	
+	color: #36454F;
+	background: #FDF0EE;
+	}*/	
+
+/*#536878;*/
+/*#fff6f2;*/ /* #FFF0F5 Lavender blush*/
+
 .cardnote {border-radius: 10px;
 	background:linen;
 	padding: 1px 10px;
@@ -278,7 +286,8 @@ details + details {margin-top:0.6rem;}
 
 
 details summary::-webkit-details-marker {
-  color:#F0DC82;}
+  color: #E3A85750; /*#F0DC82;*/ 
+}
   
 details summary:hover {
     color:#653529;} /*#CC5500 Burnt orange*/
