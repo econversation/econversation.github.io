@@ -1,1 +1,4 @@
-Redirect 301 / http://www.aniket.co.uk/
+RewriteEngine on
+RewriteCond %{HTTP_HOST} https://econversation\.github\.io [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /a/$1 [L]
