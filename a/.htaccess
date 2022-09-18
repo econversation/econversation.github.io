@@ -1,5 +1,0 @@
-RewriteEngine on
-RewriteBase /
-
-# Rewrites all URLS without blog in them
-RewriteCond %{REQUEST_URI} !^/a/
