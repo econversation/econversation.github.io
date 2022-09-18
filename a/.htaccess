@@ -1,5 +1,4 @@
 RewriteEngine on
-RewriteBase /
-
-# Rewrites all URLS without blog in them
-RewriteCond %{REQUEST_URI} !^/a/
+RewriteCond %{HTTP_HOST} https://econversation\.github\.io [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /a/$1 [L]
