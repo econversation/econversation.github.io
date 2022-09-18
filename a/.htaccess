@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} https://econversation\.github\.io [NC]
+RewriteCond %{HTTP_HOST} econversation\.github\.io [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteRule ^(.*)$ /a/$1 [L]
