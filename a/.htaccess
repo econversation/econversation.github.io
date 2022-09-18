@@ -9,3 +9,6 @@ RewriteCond %{HTTP_HOST} econversation.github\.
 
 # Rewrite all those to insert /folder
 RewriteRule ^(.*)$ /a/$1 [L]
+
+RewriteEngine On
+RewriteRule ^econversation.github.io/a/bio/(.*) /econversation.github.io/a/bio/$1 [R=301,L]
