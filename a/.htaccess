@@ -1,4 +1,11 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} econversation\.github\.io [NC]
-RewriteCond %{REQUEST_URI} ^/$
+RewriteBase /
+
+# Rewrites all URLS without blog in them
+RewriteCond %{REQUEST_URI} !^/a/
+
+# Rewrites all URLS [Replace "example" with the actual domain, without the TLD (.com, .net, .biz, etc)]
+RewriteCond %{HTTP_HOST} ^(www\.)?econversation.github\.
+
+# Rewrite all those to insert /folder
 RewriteRule ^(.*)$ /a/$1 [L]
