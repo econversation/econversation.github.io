@@ -1,0 +1,237 @@
+:root {
+
+  --colauthor: #794F3A;
+  --coltitle: #674E47;
+  --colbold: #592720;
+/*  --collink: #6D351A;*/
+  --collink: #1560BD;
+  --colem:  #00416A;
+}
+
+
+html{background-color:#f8f8f8;}
+.text, p{color:#000000}
+.title,.author, .date {color: var(--coltitle);}
+
+
+h1 {color: #08457E;}
+h2 {color: #1A5189;}
+h3 {color: #2B5D9499;}
+h4 {color: #3D6AA079;}
+h5,h6 {all: revert;}
+h5 {color: #4E76AB69;}
+h6 {color: #6082B6;}
+
+
+/*a:visited, a:link, a:active {
+	  color: #1560BD;
+	  background: transparent;
+	  text-decoration: none!important;
+	  text-decoration-color: transparent;
+	}
+
+a:hover {
+	  color: rgb(138,69,81);
+	  background: transparent;
+	  text-decoration: none!important;
+	  text-decoration-color: transparent;
+	}*/
+
+a {text-decoration: none;color: var(--collink);}
+a:hover {color: red;}
+b,strong {color: var(--colbold);}
+em {color: var(--colem);}
+
+u { border-radius: 5px; padding: 1px; text-decoration:none;}
+u { color:var(--colauthor); }
+
+/*s {text-decoration:none;border-radius: 5px; padding: 5px 5px;}*/
+
+
+pre { text-decoration:none; 
+	background-color: #AEC6CF20; 
+	border-radius: 5px; padding: 5px 5px;}
+
+details {color: inherit; 
+	background-color: none;
+	border-radius: 5px 5px 5px 5px; 
+	padding: 1px 10px;}
+div.a { background-color:#e6f0ff;
+	border-radius: 5px; 
+	padding: 1px 10px;} 
+.box { background-color:#e6f0ff;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0.5px 20px;}
+.mm { background-color: #DDADAF20;
+		border-radius: 5px 5px 5px 5px; 
+		padding: 1px 20px;}
+		
+.line { display: inline-block; 
+	width: 80%; 
+	height: 3px; background-color: #000; }
+
+
+
+/*div.outline {
+	border-radius: 10px;
+	padding: 1px 27px;
+	box-shadow: 0 0 3px #000000;}*/
+		
+div.outline {
+	border-radius:10px; 
+	padding: 12px 5px 1px 27px; /*padding: 1px 27px;*/
+	margin-top: 1em;
+	margin-bottom: 1em;
+	box-shadow: 0 0 3px #000000;
+	}
+		
+div.paper { background-color: #EEDC8210;
+	border-radius: 15px;
+	padding: 0px 10px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+/*	border: 2px solid #EEDC8210;*/
+	box-shadow: -3px -3px #EEDC8210, -0.1em 0 0.4em #674E4720;
+} 		
+
+		
+.hide {
+  margin: 0;
+  padding: 10px;
+  background-color:#848482;
+  border-radius: 5px;
+  border: 6px solid #6E7F80;
+}
+
+.gsp {
+   margin-bottom: 5cm;
+}
+
+div.fwd {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+	}
+	
+
+/*---stuff---*/
+
+
+	.book .book-body .page-wrapper .page-inner section.normal a {
+	  text-decoration: none;
+	  color:  var(--collink);
+	}
+
+
+/*--- csl ---*/
+
+.csl-entry {
+    padding-bottom: 0.5em;
+}
+
+/*--- some stuff ---*/
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/*--- LOGO ---*/
+
+.toc-logo {
+  width: 60px !important;
+  object-fit: contain;
+  margin: 0px auto;
+}
+
+.toc-logo img {
+  max-width: 100%;
+  margin-bottom: 1px;
+}
+
+.summary > li:first-child {
+  height: auto !important; 
+}
+
+
+/*from 1.html*/
+
+/*a:visited, a:link, a:active {
+	  color: #1560BD;
+	  background: transparent;
+	  text-decoration: none!important;
+	  text-decoration-color: transparent;
+	}
+
+a:hover {
+	  color: rgb(138,69,81);
+	  background: transparent;
+	  text-decoration: none!important;
+	  text-decoration-color: transparent;
+	}*/
+
+
+rr  {color: rgb(43,106,108);}
+cm {color: #592720;}
+qt {color: #008000;}
+hi {color: #C84630;}
+
+
+/*table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border-spacing: 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+table th {
+    padding: 3px 10px;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+table td {
+    padding: 3px 10px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}*/
+
+
+/* Add border for the last row of the table.           */
+/*      (Might be of use for table footnotes, later).  */
+/* tr:last-child td { border-top: 2px solid black; }   */
+
+td {vertical-align:top}
+
+table th:first-of-type {
+    width: 20%;
+}
+table th:nth-of-type(2) {
+    width: 60%;
+}
+table th:nth-of-type(3) {
+    width: 0%;
+}
+table th:nth-of-type(4) {
+    width: 0%;
+}
+
+pre code {
+  white-space: pre-wrap;
+}
