@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Kumar Aniket" />
+  <meta name="author" content="UCL" />
+  <title>Note on Market Structure</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #643326;
+    }
+    a:visited {
+      color: #643326;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  
+  
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Note on Market Structure</h1>
+<p class="author">Kumar Aniket</p>
+<p class="author">UCL</p>
+<p class="date">04 April 2020, 13:22</p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>Market structure of an industry is the nature of the competition in
+an industry or the market segment. It is essentially describes how many
+firms operate within the industry and the way which which they
+compete.</p>
+This paper describes a simple framework that can be used to understand
+how the market structure of an industry can be predicted based on three
+parameters, i.e., sunk cost or fixed cost of developing a product, the
+potential size of the market and the consumer’s preference for variety.
+</div>
+</header>
+<p><link rel="stylesheet" href="/Users/aniket/_files/1/style3.css"></p>
+<!-- > **Market structure** of an industry is the nature of the competition in an industry or market segment. It is essentially describes how many firms operate within the industry and the way which which they compete. -->
+<p> </p>
+<p>Following <span class="citation"
+data-cites="dixit1977monopolistic">@dixit1977monopolistic</span> and
+<span class="citation"
+data-cites="krugman1980scale">@krugman1980scale</span>, the market
+structure is considered <em>endogenous</em>, i.e., the structure of
+competition in the market is determined by some underlying fundamental
+characteristics. <span class="citation"
+data-cites="dixit1977monopolistic">@dixit1977monopolistic</span>’s
+insight was to show that market competition will emerge from two key
+factors.</p>
+<ol type="1">
+<li>Increasing returns to scale.</li>
+<li>Consumer preference for variety.</li>
+</ol>
+<p>Here is my parsimonious 3-parameter model that explains the key
+insight of this generation of Dixit-Stiglitz-Krugman market structure
+models that are currently being used across fields. The three parameters
+are:</p>
+<ol type="1">
+<li><span class="math inline"><em>F</em></span> sunk cost or fixed cost
+of developing a product.</li>
+<li><span class="math inline"><em>M</em></span> potential size of the
+market</li>
+<li><span class="math inline"><em>ρ</em></span> consumer’s preference
+for variety.</li>
+</ol>
+<p>The first two parameters are related to the increasing returns to
+scale. The third one is related to the consumer’s preference for
+variety.<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a> <span
+class="math inline"><em>F</em></span> and <span
+class="math inline"><em>M</em></span> on their own can explain the
+supply side in all markets other than monopolistic competition. <span
+class="math inline"><em>ρ</em></span> is required to complete the model
+on the demand side in monopolistic competition.<a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+<span class="math inline"><em>ρ</em></span> was often assumed away in
+the past when supply side economics was in its ascendancy. Yet, we find
+that <span class="math inline"><em>ρ</em></span> is increasingly playing
+a pivotal role in a large number of theoretical and empirical paper as
+witnessed by the voluminous literature that has followed <span
+class="citation" data-cites="melitz2003impact">@melitz2003impact</span>.
+The important question for you is whether monopolistic competition
+models are the relevant market structure model for climate change
+geo-engineering approaches.</p>
+<h1 id="supply-side">Supply side</h1>
+<h2 id="increasing-returns-to-scale">Increasing returns to scale</h2>
+<p>Take a very simple example of a production function with increasing
+returns to scale, i.e., fixed cost of setting up a plant but zero
+marginal cost of production.<a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a> Let’s say the fixed cost
+of setting up production is <span class="math inline"><em>F</em></span>
+and there is no variable cost. <span
+class="math inline"><em>F</em></span> includes all sunk cost, i.e.,
+innovation, acquiring project specific human capital and cost of
+establishing the brand.</p>
+<p>Let’s say the market size is <span
+class="math inline"><em>M</em></span>. We will expand on <span
+class="math inline"><em>M</em></span> later in the section on consumer
+preference. For now, let’s freeze the demand side and think of <span
+class="math inline"><em>M</em></span> as simply the pounds that can be
+spent on buying goods in the market. It follows that</p>
+<blockquote>
+<p>There would be <span class="math inline">$\frac{M}{F}$</span> firms
+in this market.</p>
+</blockquote>
+<blockquote>
+<p><span class="math inline">$\frac{M}{F}$</span> is the key parameter
+that determines the nature of competition in the market.</p>
+</blockquote>
+<p>In an interesting paper, <span class="citation"
+data-cites="krugman1987free">@krugman1987free</span> show that <span
+class="math inline">$1&lt;\frac{M}{F}&lt;2$</span> in the jumbo jet
+industry. The fixed cost <span class="math inline"><em>F</em></span> of
+designing a jumbo jet is very high and the potential market size <span
+class="math inline"><em>M</em></span> is comparatively low. Increasing
+returns to scale restricts the number of firms in the market. Left to
+its own devices, there would be only 1 jumbo jet manufacturer in the
+market and other firms would have to exit. Yet, we have two, i.e.,
+Boeing and Airbus.</p>
+<p><span class="citation"
+data-cites="krugman1987free">@krugman1987free</span> shows that highly
+scale oriented industries<a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a> have externalities through their
+supply chain linkages. Each country thus has the incentive to capture
+these externalities. Hence, the market competition in an industry like
+the jumbo jet industry has become essentially a competition of strategic
+trade policy between the US and EU.</p>
+<p>Thus, it is no longer a strategic game between Boeing and airbus. It
+becomes a strategic game between the US and Europe. Both US and Europe
+are keen to subsidise their own jumbo jet firms for two reasons.</p>
+<ul>
+<li><p>These firms generate externalities that outweigh the subsidies
+and be captured locally.</p></li>
+<li><p>Each country hopes that one day their firms will take over the
+market and if it does happen, then there are supernormal profits to be
+earned. We can illustrate this with the following example. Let’s say
+<span class="math inline">$\frac{M}{F}=1.6$</span>. If someday Boeing
+exits the market due to some unforeseen circumstances, then Airbus would
+start earning 60% supernormal profit after its recovered <span
+class="math inline"><em>F</em></span>.</p></li>
+</ul>
+<h3 id="varying-m-and-f">Varying <span
+class="math inline"><em>M</em></span> and <span
+class="math inline"><em>F</em></span></h3>
+<p>There would be a large number of firms in the market segment if <span
+class="math inline"><em>M</em></span> is high and <span
+class="math inline"><em>F</em></span> is low. There would be a low
+number of firms in the market segment if <span
+class="math inline"><em>M</em></span> is low and <span
+class="math inline"><em>F</em></span> is relatively high. Let’s discuss
+the market structure for each range of <span
+class="math inline">$\frac{M}{F}$</span>.</p>
+<p><strong>Case I:</strong> <span
+class="math inline">$\frac{M}{F}&lt;1$</span>: <strong>The market
+doesn’t exist</strong>. There are a lot of markets that don’t exist
+because the potential market size is smaller than the fixed cost of
+starting production. E.g., drugs that can be invented for niche
+diseases, but are not invented because the potential size of the market
+doesn’t cover fixed costs.</p>
+<p><strong>Case II:</strong> <span
+class="math inline">$1&lt;\frac{M}{F}&lt;2$</span>: This is case of
+<strong>monopoly</strong>, but as you can see below, monopolies are not
+as simple as people presume they are. For <span
+class="math inline">$1&lt;\frac{M}{F}&lt;2$</span> there should be only
+one incumbent firm. The incumbent firm would earn supernormal rents
+<span class="math inline">$(\frac{M}{F}-1)$</span> due to the fact that
+there is only one firm in the market segment. It gives another
+challenger firm with deep-pockets incentive to enter the market segment
+and displace the incumbent. If the challenger enters, then it becomes a
+game of wits and deep-pockets between the challenger and the incumbent.
+<span class="citation"
+data-cites="selten1978chain">@selten1978chain</span> shows that this
+game becomes a game of credible threats of retaliation, i.e., reputation
+to follow through on threats.</p>
+<ul>
+<li>If <span class="math inline"><em>F</em></span> is very high, then it
+is likely that there are a lot of supply chains and that implies that it
+becomes a game of strategic exports between national governments (<span
+class="citation"
+data-cites="krugman1980scale">@krugman1980scale</span>).</li>
+</ul>
+<!-- ^[Even through the analysis in @schelling1980strategy and @schelling2014arms are about the nuclear arms race, there are parallels with climate change. It is all about the industrial race between the incumbent and the challengers to prevent a catastrophe.] -->
+<p><strong>Case III:</strong> <span
+class="math inline">$1&lt;\frac{M}{F}&lt;\underline{n}$</span>, where
+<span class="math inline">$\underline{n}$</span> is small number greater
+than 1, say 5. This is the case of <strong>oligopoly</strong>. If there
+are a small number of firms in the market segment, the strategic game is
+likely to ensure with potential for collusion.<a href="#fn5"
+class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<ul>
+<li><p>If the firms play Cournot, i.e., compete with each other in
+quantities, there is always an implicit collusion equilibrium where the
+firms make super-normal profits.</p></li>
+<li><p>If the firms play Bertrand, i.e., compete in prices, then firms
+make no profit over and above their costs.</p>
+<p>Cournot competition takes firms in the direction of monopoly.
+Bertrand competition takes the firms towards perfect competition. This
+is why a good competition policy always tries to ensure that firms
+compete in prices.<a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a> Further, a good competition policy
+also has to ensure that market segments with fews firms remains
+competitive and firms are not able to find opportunities to implicitly
+collude through some extraneous means.</p></li>
+</ul>
+<p><strong>Case IV:</strong> <span
+class="math inline">$\frac{M}{F}\rightarrow\infty$</span>: This is the
+case of <strong>perfect competition</strong>. There are a large number
+of infinitesimally small firms in the market with no market power. All
+firms compete and drive down the prices to marginal cost, which is zero
+because we assumed that there was no variable cost. Hence, all firms
+make negative profits and either the market collapses or a small number
+of firms find some extraneous means to erecting an artificial entry
+barrier, i.e., increase <span class="math inline"><em>F</em></span>
+through lobbying or corruption.</p>
+<p>This is the reason why <em>constant returns to scale</em> is so
+critical for <em>perfect competition</em>.<a href="#fn7"
+class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> The
+moment there is increasing returns to scale, the market either collapses
+or you have an emergence of firms that can keep small challengers at bay
+through some artificial means.</p>
+<p><strong>Case V:</strong> <span
+class="math inline">$\underline{n}&lt;\frac{M}{F}&lt;\bar{n}$</span>:
+This is the range in which <strong>monopolistic competition</strong> can
+potentially occur if certain other conditions on consumer preferences
+(see below) are satisfied. The essence of monopolistic competition is
+that number of firms <span class="math inline">$\frac{M}{F}$</span> is
+large enough so that they cannot strategically interact with each other,
+i.e., obtain the benefits from oligopoly. Yet, the <span
+class="math inline">$\frac{M}{F}$</span> is small enough so that market
+doesn’t collapse under the burden of perfect competition. As we will see
+below, monopolistic competition is a very distinctive kind of
+competition where consumer preference plays a critical role in
+determining the number of firms in the market segment.</p>
+<p>Adding the variable cost adds more complications and makes its more
+realistic, but the basic insight about how increasing returns to scale
+impacts market structure is retained through it.</p>
+<h2 id="consumer-preferences">Consumer preferences</h2>
+<p>While consumer preferences are irrelevant if either <span
+class="math inline">$\frac{M}{F}&lt;\underline{n}$</span> or <span
+class="math inline">$\frac{M}{F}\rightarrow\infty$</span>, consumer
+preferences are of consequence in the intermediate range where
+monopolistic competition occurs. The key parameter that matters in this
+intermediate range is the consumer’s preference for variety, which
+determines the consumer’s willingness to pay more for variety. <a
+href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></p>
+<p>There are <span class="math inline">$n=\frac{M}{F}$</span> firms in
+the market segment. Each firm produces a new variety by sinking in the
+cost <span class="math inline"><em>F</em></span>. The variety is
+appropriate in narrow market segments and <span
+class="math inline"><em>n</em></span> should be interpreted as a type of
+good if thinking about broader market segments. <span
+class="math inline"><em>M</em></span> is the size of the market, but as
+the analysis becomes more complicated because the size of the market
+itself is a function of <span class="math inline"><em>ρ</em></span>.
+This is intuitive. Apple iPhone increased the amount people spend on
+phones dramatically, hence increasing the size of <span
+class="math inline"><em>M</em></span> by inventing a new product. It
+drew in other firms and now the competition within a market segment is
+defined by the size of the market and cost of inventing a new variety
+(generation) of the smartphone, accounting of course for obsolesce. The
+simple <span class="math inline"><em>M</em></span>, <span
+class="math inline"><em>F</em></span> and <span
+class="math inline"><em>ρ</em></span> model captures the insight of the
+Dixit-Stiglitz-Krugman model.</p>
+<p>A representative consumer’s utility derived from range a range of
+<span class="math inline">$n=\frac{M}{F}$</span> differentiated goods is
+given by <span class="math display">$$U=\left[\sum_{i}^{\eta}
+x_i^{\rho}\right]^{\frac{1}{\rho}}$$</span> where <span
+class="math inline"><em>i</em> ∈ {1, <em>n</em>}</span> represents the
+range of differentiated goods and <span
+class="math inline"><em>ρ</em></span> denotes consumers’ preferences for
+variety with.</p>
+<ul>
+<li><p>If consumers have no taste for variety, i.e., <span
+class="math inline"><em>ρ</em> = 1</span> then it leads to a linear
+utility function <span
+class="math display"><em>U</em> = <em>x</em><sub>1</sub> + <em>x</em><sub>2</sub> + … + <em>x</em><sub><em>n</em></sub>.</span>
+This implies that goods are are perfect substitutes for the consumer. If
+goods are perfect substitutes <span
+class="math inline"><em>U</em> = <em>x</em><sub>1</sub> + <em>x</em><sub>2</sub> + … + <em>x</em><sub><em>n</em></sub></span>
+then consumers will go for the cheapest one, which potentially triggers
+a Bertrand competition amongst the producers and removes variety from
+the market.</p>
+<p>E.g., Market for wine in an area where people think all types of
+wines are perfect substitutes for each other. In this market, the
+cheapest wine ends up dominating the market. This is what happened to
+most commodities markets in the past in places people didn’t care about
+wheat or corn variety. Over time variety of wheat disappeared leaving us
+with cheapest variety to produce, the one invented by Norman Borlaug at
+the start of the Green revolution. A recent reversal of consumer
+preference, largely triggered by increasing prevalence of intolerance to
+gluten, has revived consumer preference for variety in wheat. As a
+result, products made from certain old varieties of wheat like Spelt and
+Khorasan are appearing back on the market shelves. Changes in <span
+class="math inline"><em>ρ</em></span> over time can collapse or revive a
+differentiated products market segment.</p></li>
+<li><p>If consumer have a very strong taste for variety i.e., <span
+class="math inline"><em>ρ</em> → −∞</span> then it leads to a Leontief
+Utility function <span
+class="math display"><em>U</em> = min [<em>x</em><sub>1</sub>,<em>x</em><sub>2</sub>,…,<em>x</em><sub><em>n</em></sub>].</span>
+This means that consumers perceive goods as perfect complements
+production function. If goods are perfect complements, i.e., <span
+class="math inline"><em>U</em> = min [<em>x</em><sub>1</sub>,<em>x</em><sub>2</sub>,…,<em>x</em><sub><em>n</em></sub>]</span>,
+then they have to be consumed in fixed proportion, irrespective of their
+price.</p>
+<p>Broad categories like food, housing and transport are an example of
+goods that are close to perfect complements are not that sensitive to
+prices. While prices may change the type of goods or type of housing
+people consume, there is complementarity between the broad
+categories.</p></li>
+<li><p>Monopolistic competition occurs in the intermediate case where
+consumers have some taste for variety. That is if consumers perceive the
+goods as either imperfect substitutes (or imperfect
+complements).</p></li>
+</ul>
+<!-- - If there is no taste for variety in the consumers' preferences $(\rho\rightarrow{1})$ then it implies that consumers perceive all goods in a market segment as a perfect substitutes $(\sigma\rightarrow{\infty})$.
+- If consumers perceive all goods in a market segment as a perfect complements $(\rho\rightarrow{0})$, then it implies consumers love variety $(\sigma\rightarrow{1})$..  -->
+<p>What matters in monopolistic competition is that consumers are ready
+to pay more for variety. In our parsimonious setup, <span
+class="math inline"><em>F</em></span> represents the cost of creating a
+new variety. This captures the basic insight that creating a new variety
+requires <em>innovation</em> generating a new idea, which makes the
+production process exhibit <em>increasing returns to scale</em>. This
+innovation or new idea is also a <em>non-rival good</em> and as we will
+see below, it plays an important part in analysing any technological
+change associated with climate change. The fact that consumers’ are
+willing to pay variety implies the following four things.</p>
+<ol type="1">
+<li><p>It gives a firm an incentive to create a new variety.</p></li>
+<li><p>The consumers pay so that firms can recover the cost of <span
+class="math inline"><em>F</em></span> and new varieties keep appearing
+till consumers are no longer willing to collectively bear the cost of
+creating another variety.</p>
+<p>Since we are abstracting away from variable costs, the only cost that
+matters is the total cost borne in creating variety. For <span
+class="math inline"><em>n</em></span> firms, this cost adds up to <span
+class="math inline">$\sum_i^n{F}=nF$</span>. For all firms to break
+even, the size of the market needs to be greater than the total cost
+borne by the firms, i.e., <span
+class="math inline"><em>n</em><em>F</em> &lt; <em>M</em></span>. In
+equilibrium, the market would sustain <span
+class="math inline">$n=\frac{M}{F}$</span> varieties.<br />
+</p></li>
+<li><p>The size of the market is a function of <span
+class="math inline"><em>ρ</em></span>. The potential market <span
+class="math inline"><em>M</em></span> is a function of consumer
+preference for variety represented by <span
+class="math inline"><em>ρ</em></span>, i.e., <span
+class="math inline"><em>M</em> = <em>M</em>(<em>ρ</em>)</span>.</p></li>
+<li><p>Each firm has no market power over the whole market.</p></li>
+</ol>
+<p>In equilibrium, the number of firms or number of differentiated
+products <span class="math inline">$n=\frac{M(\rho)}{F}$</span> is
+ultimately determined by <span class="math inline"><em>ρ</em></span> and
+<span class="math inline"><em>F</em></span>.</p>
+<!-- In monopolistic competition, each producer sinks cost $F$ to create a new variety.  -->
+<!-- Hence, it is consumers' taste for variety and $F$ that determines how many varieties there would be.
+
+  -->
+<h3 id="advertising">Advertising</h3>
+<p>The moment firms can exert market power through some means, it starts
+becoming a strategic game between deep-pocket firms. Firms with
+deep-pockets spend on advertising or lobbying to influence <span
+class="math inline"><em>ρ</em></span>. Advertising increases <span
+class="math inline"><em>ρ</em></span> and the cost of advertising or
+lobbying increases the <span class="math inline"><em>F</em></span>
+required to be sunk in order to remain in the market. This decreases the
+number of firms in the market segment.</p>
+<p>This explains why the soft-drinks market, even though it should not
+exhibit any increasing returns to scale, remains a duopoly. The
+incumbents with deep pockets have been able to turn the soft drinks
+market into an increasing return to scale production process, which in
+turn allows them to earn oligopoly rents. They are quick to buy up firms
+that threaten the duopoly.</p>
+<ul>
+<li>Innocent drinks that had the potential to change the soft drinks
+market were bought up by Coco-cola in 2013.</li>
+<li>The case of how Coke and Pepsi transformed the <a
+href="https://www.bbc.co.uk/news/world-asia-india-51942067">Indian soft
+drinks</a> market in the 1980s is the other example that illustrates
+this. Before the entry of the deep pocket multinationals, the soft
+drinks market in India had a huge variety. Within years of Coke and
+Pepsi entering, the same market became a duopoly with all the other
+firms being driven out. The consumers’ preference for variety did not
+change suddenly, yet, the range of variety offered to them decreased
+through an implicitly collusive strategy of the two firms.</li>
+</ul>
+<p>The upshot is that <span class="math inline"><em>F</em></span> can
+either be exogenously high because of technology or can be increased if
+some deep-pocket players within the market want to reduce competition in
+the market. Whether that strategy succeeds or not largely depends on the
+competition policy that is in place.</p>
+<!--+ ## Junk
+
+With consumer preference, $F$ is though of as cost of inventing a new differentiated product. If $\frac{M}{F}$ is high in a market segment, then there will be a lot of firms in the market. In this case, if consumers like variety, then they would be every spread their purchasing power over all the firms in the market. The question is how strong is their preference for variety, i.e., how much are they willing to pay for variety. If they are willing to pay for variety, that means $M$ will increase with variety, giving a new firms incentive to invent a new variety at cost $F$. Monopolistic competition says that the market structure results from interaction between consumer's taste for variety and increasing returns to scale (our $F$).
+
+The monopoly and the perfect competition case is nested in this model. Perfect competition occurs if fixed cost is extremely low or if people are not willing to pay for variety. Similarly, monopoly occurs if either $F$ is very high or consumers have a very strong preference for something. E.g., Marmite.^[The increasing returns to scale could be due to technology or due to other factors like the cost of manipulating the consumer's preferences. Firms often spend a lot of manipulate people's preference through advertising and that becomes part of the $F$, i.e., if you don't spend $F$, you can't find you place in the market. Firms also spend a lot of money on buying away their competitors, which both increases $F$ and makes it easier to manipulate people's preference. A very interesting story about the market for soft drinks in India before multinationals enters and how they bought up all their rivals to create the usual duopoly in India so that only firms with deep pockets willing to fork up the high $F$ remained in the market.  +-->
+<h1 id="demand-side">Demand Side</h1>
+<p>The geo-engineering product described in the paper sounds like a pure
+public good. It is both non-rival and non-excludable. Any public good
+provision is in essence an <em>coordination game</em>.</p>
+<p>Let’s think of a street with several houses. There is no street light
+on the street and the local authorities refuse to put up the street
+light. The street light, in this case, is pure public good because the
+light from the street light is <em>non-rival</em> and
+<em>non-excludable</em>. Each house can choose to either contribute
+towards the street light or not contribute. Hence, it becomes a game
+between the households living on the street on whether to contribute or
+not and if they do, how much do they choose to contribute. There are two
+possible case and I list the Nash equilibria in each case.</p>
+<ol type="1">
+<li><p><em>Private provision of public good</em>: One participant feels
+so strongly that they are ready to self provide it and have the
+resources to do so. They have such a strong preference for the street
+light that they are ready to internalise the cost of paying for the
+public good on their own.<a href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a> This is essentially a person with
+<span class="math inline"><em>ρ</em> → −∞</span> who feels that the
+street light is a pure complement to their other consumption goods. In
+climate change movement one could think of Greta Thurberg or a dedicated
+climate change NGO as having <span
+class="math inline"><em>ρ</em> → −∞</span>.</p>
+<p>This is also a <strong>unique Nash equilibrium</strong> because
+knowing that there is someone on the street with a strong preference for
+street light, it is optimal for all the other household not to
+contribute.</p></li>
+<li><p>Either no one participant feels so strongly about the street
+light or the ones that do do not have the resources to contribute the
+full amount. In this case, there is a good outcome that is not an
+equilibrium and there is a bad outcome that is an equilibrium.</p>
+<ul>
+<li><p><em>Good outcome:</em> There is an outcome where all houses
+contribute towards the street light and benefit from the street light.
+This is <strong>not a Nash equilibrium</strong> because if everyone else
+is contributing, it is optimal for a household to deviate and not
+contribute.</p></li>
+<li><p><em>Bad equilibrium:</em> No one contributes to the public good
+and the public good is not provided. No household has an incentive to
+deviate an contribute if no one else is contributing. This is the
+<strong>unique Nash equilibrium</strong> in this case.</p></li>
+</ul></li>
+</ol>
+<!-- The good equilibrium is also the Pareto-optimal equilibrium and the bad equilibrium is also the Pareto sub-optimal equilibrium.  -->
+<p>If there is no private provision of public good, pure public goods
+require explicit coordination from the government so that the good
+outcome can be attained. Alternatively, technology can be used to make
+good excludable and create a private market from it.</p>
+<p>Excludability is key to charging a price. Autoroutes in France is an
+example of using technology to change the nature of the good and making
+it excludable in order to create a private market for what is
+essentially a public good. Yet, this private market competes with public
+goods, i.e., other roads in France. What can be charged for this kind of
+public good depends on how non-rival the non-excludable alternatives are
+and consumer’s perceive substitutability between the two. In the case of
+autoroutes, the other competing goods are the highways that run along
+the autoroutes. If they are substitutes, no one would pay for
+autoroutes. The autoroutes system has been specifically designed in such
+a way that local roads are not a substitute for the autoroutes.</p>
+<!-- The key to this is non-rivalry of the pure public good which competes with private good. It is very closely related to increasing returns to scale, i.e., sink the fixed cost $F$ and then every one can consume it without any rivalry in consumption.  -->
+<p>If having a healthy global environment is considered critical, then
+that means it complements other consumer goods. That implies that <span
+class="math inline"><em>ρ</em> → −∞</span> for these broad categories of
+goods, ie, environment and other consumer goods. If a country has a very
+high <span class="math inline"><em>ρ</em></span>, they would privately
+provide the public good. This seems highly unlikely in the current
+circumstances.</p>
+<p>With <span class="math inline"><em>ρ</em> → 1</span>, the bad
+equilibrium is inevitable in the public goods game. The <span
+class="math inline"><em>ρ</em></span> the various governments across the
+world have and how to change it is key debate about using increasing
+returns to scale technology in solving the climate change policy.<a
+href="#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></p>
+<h1 id="upshot">Upshot</h1>
+<p>I suspect a range of extremely high <span
+class="math inline"><em>F</em></span> climate change policies are stuck
+in the <em>bad equilibrium</em> in spite of having a potential <span
+class="math inline">$\frac{M}{F}&gt;1$</span> because the <span
+class="math inline"><em>M</em></span> is price governments have to pay
+and no one wants to pay it because of the coordination failure in the
+public goods game.</p>
+<p>Further, there is a debate about whether to provide it as a public
+good or through market based measures. If geo-engineering is going to
+compete with all the market oriented solutions then it is important to
+pin down the efficacy of geo-engineering in terms of climate change
+outcome variables and comparing it to other solutions. That requires
+pinning down <span class="math inline"><em>F</em></span> and some proxy
+for <span class="math inline"><em>M</em></span>.</p>
+<p><span class="citation"
+data-cites="krugman1987free">@krugman1987free</span> shows partly how
+the <em>bad equilibrium</em> trap can be escaped. A highly scale
+oriented industry with a very high <span
+class="math inline"><em>F</em></span> is able to have two players in
+spite of the fact that <span
+class="math inline">$1&lt;\frac{M}{F}&lt;2$</span> because the
+increasing returns to scale offers some externalities that countries can
+capture and hence subsidise the high <span
+class="math inline"><em>F</em></span>.</p>
+<h3 id="role-of-financial-markets">Role of Financial markets</h3>
+<p>There is also an interesting story of how to finance a big <span
+class="math inline"><em>F</em></span> for increasing returns to scale
+that have public goods attributes. <span class="citation"
+data-cites="de1999development">@de1999development</span> makes the point
+that (laissez-faire) decentralised banking system underinvests and under
+transmits expertise. This is especially true if either <span
+class="math inline"><em>F</em></span> is very high or the planning
+horizon is very long. <span class="citation"
+data-cites="de1999development">@de1999development</span> thus argues for
+a development bank. There may be some merit to this idea for high <span
+class="math inline"><em>F</em></span> climate change mitigation
+technology projects that have public goods characteristics.</p>
+<div style="page-break-after: always; visibility: hidden">
+
+</div>
+<h1 id="references">References</h1>
+<!-- ^[The soft drinks market is an excellent example of how deep market firms turns a slightly increasing returns to scale industry into duopoly through implicit collusion.]  -->
+<h3 id="references-1">References</h3>
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>We will ignore the variable costs
+because they made the model far more complicated and second they may be
+less relevant in innovation where the up-front sunk cost <span
+class="math inline"><em>F</em></span> is very large.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><span class="citation"
+data-cites="dixit1977monopolistic">@dixit1977monopolistic</span> were
+the first to develop a tractable model with consumer preference for
+variety and <span class="citation"
+data-cites="krugman1980scale">@krugman1980scale</span> was the first
+paper to turn it into a general equilibrium trade model.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>It is not critical whether the good
+produced is one indivisible good like a unique skyscraper or number of
+small goods like inventing a new drug in the pharmaceutical industry.
+What matters is that once <span class="math inline"><em>F</em></span> is
+sunk, production can begin.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>where <span
+class="math inline"><em>F</em></span> is extremely high<a href="#fnref4"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p><span class="citation"
+data-cites="ft2010ba">@ft2010ba</span> reports on how BA and Virgin
+Atlantic executives collude to fix prices in 2010. <a
+href="https://www.ft.com/content/f5225e0c-5146-11df-aceb-00144feab49a">Link.</a><a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>It also explains why negotiations in
+<strong>international trade agreements</strong> are so complicated. In
+international trade agreement, countries are trying to create a level
+playing field and any product standards can be used as an implicit
+collusion mechanism.<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>More generally, in perfect
+competition, price equals marginal cost. Yet, with increasing returns to
+scale, the marginal cost is always below the average cost and hence at
+any price that equals marginal cost, firms will make negative profits.<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p><strong>Variety</strong> is a
+technical term here and its definition depends on the market segment in
+question. Within a narrow market segment, it retains its meaning, i.e.,
+range of wine or range of cheese. In a broader market segment like food,
+it means types of food, i.e., wine and cheese as different types of
+goods.<a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>One could argue that at face value
+charitable organisations like Gates Foundation and Greenpeace are an
+example of private provision of a public good.<a href="#fnref9"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>The current competition between US
+and China to buy firms working on covid-19 vaccines is an example where
+countries are ready to pay the sunk cost <span
+class="math inline"><em>F</em></span> for public goods if they are able
+to capture some of the externalities, even if it has other externalities
+for the rest of the world.<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
