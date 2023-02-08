@@ -12,6 +12,8 @@ date: 17 June 2022, 01:42
 
 [28 June 2022]{.dtdef}
 
+AMD Presentation | [Link 1](https://econversation.github.io/pres/amd/1.html) | [Link 2](http://aniket.co.uk/research/pres/amd/1.html#1) 
+
 NIESR Infrastructure Lecture | [Link 1](https://econversation.github.io/pres/niesr/1.html) | [Link 2](http://aniket.co.uk/research/pres/niesr/1.html#1) 
 
 [17 June 2022]{.dtdef}
