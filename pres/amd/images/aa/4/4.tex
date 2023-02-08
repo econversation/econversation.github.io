@@ -1,0 +1,168 @@
+% \documentclass{amsart}
+\documentclass[multi=false,tikz,border=2mm]{standalone}
+% \documentclass[multi=false,tikz,border=1mm,convert={size=1200}]{standalone}
+% \documentclass[convert={size=640}]{standalone}
+% \documentclass[convert={density=300,size=800x800,outext=.png}]{standalone}
+% \documentclass[10pt,convert={density=300,size=500x500,outext=.png}]{standalone}
+
+
+\newcommand{\minpg}[2]{\begin{minipage}[t]{#1}\centering{}#2\end{minipage}}
+\newcommand{\minpgn}[2]{\begin{minipage}[t]{#1}#2\end{minipage}}
+\newcommand{\minpgh}[3]{\begin{minipage}[t][#1]{#2}\centering{}#3\end{minipage}}
+
+
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage[latin1]{inputenc}
+% \usepackage{fullpage}
+\usepackage{tikz}
+\usetikzlibrary{intersections}
+
+
+% \parindent0cm
+
+% \definecolor{examplefill}{rgb}{1.0, 0.75, 0.0}
+
+\begin{document}
+	
+	\usetikzlibrary{arrows.meta,decorations.markings}
+	\usetikzlibrary{positioning}
+	
+	
+	% \definecolor{cblue}{rgb}{0.0, 0.48, 0.65} %%%cerulean
+	% \definecolor{cblue}{rgb}{0.0, 0.28, 0.67} %%%cobalt
+	% \definecolor{cblue}{rgb}{0.11, 0.22, 0.73} %%%persianblue
+	% \definecolor{cred}{rgb}{0.79, 0.0, 0.09} %%%harvardcrimson
+	
+% rgba(% 172, 210, 237, 1);
+
+	\definecolor{cblue}{rgb}{0.07, 0.04, 0.56}%%%ultramarine
+	% \definecolor{cblue}{RGB}{9, 4, 70} %%%persianblue
+	\definecolor{cred}{RGB}{214, 73, 51}
+		
+	% \tikzset{near start abs/.style={xshift=1cm}}
+	% \tikzstyle{arrow} = [ultra thick]
+	% \tikzset{every arrow/.style={ultra thick}}
+	
+ \tikzset{->/.style={thick,-{Stealth[length=2mm, width=2mm, sep=0pt]}}}
+	
+	\tikzset{every node/.style={outer sep=1pt, inner sep=8pt}}
+	
+\begin{tikzpicture}[scale=0.825]
+\path (-8+3.5,10.5) node []  (y) {\minpg{1.5cm}{Output\\today}};
+\path (-8,8.5) node (ytt) {\minpg{2cm}{Consumed output}};
+\draw [->, black!50!white] (y) -| (ytt);
+\path (0,8.5) node []   (c) {\minpg{3cm}{Non-consumed \\ output today}};
+\draw [->,  black!50!white] (y) -| (c);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\path (-3,6-0.3) node [cblue!50!black] (s) {\minpg{3cm}{Private \\ Savings}};
+\path (3,6-0.3) node [cred!50!black] (t) {\minpg{3cm}{Tax collected \\ by government}};
+\draw [->,ultra thick,cblue!50!white] (c) -| (s);
+\draw [->,ultra thick,cred!50!white] (c) -| (t);
+
+
+\path (-3,3-3+3-0.15) node [cblue!50!black] (fs) {{Financial Sector}};
+\path (3,3-3+3-0.15) node [cred!50!black] (gt) {{Government}};
+
+\draw [->,ultra thick,cblue!50!white] (s) -- (fs);
+\draw [->,ultra thick,cred!50!white] (t) -- (gt);
+
+
+\path (-3,3-3) node [cblue!50!black] (sk) {\minpg{3cm}{Private \\ Capital}};
+\path (3,3-3) node [cred!50!black] (tk) {\minpg{3cm}{Public \\ Capital}};
+
+\draw [->,ultra thick,cblue!50!white] (fs) -- (sk);
+\draw [->,ultra thick,cred!50!white] (gt) -- (tk);
+
+% \draw [->,,ultra thick,  cblue!50!white] (s) -- (fs) node[pos=0.4, left, text width=1.3cm, cblue, xshift=-0.6cm] {Savings Channel};%
+% \draw [->,,ultra thick,  cred!50!white] (t) -- (gt) node[pos=0.4, right, text width=1.3cm, cred, xshift= 0.6cm] {Fiscal Channel};%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\path (-3-3,6+1.5) node []  (lefttop) {};
+\path (-3+2,3-1.5-3) node []  (leftbot) {};
+\fill[cblue!50!white, opacity=0.1] (lefttop) rectangle (leftbot);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\path (3-2,6+1.5) node []  (righttop) {};
+\path (3+3,3-1.5-3) node []  (rightbot) {};
+\fill[cred!50!white, opacity=0.1] (righttop) rectangle (rightbot);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% channels %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \path (-5,7.5) node [cblue!50!black,below] {\minpg{1cm}{Savings\\Channel}};
+% \path (5.1,7.5) node [cred!50!black, below] {\minpg{3cm}{Fiscal\\Channel}};
+
+\path (-5,7-0.1) node [cblue!50!black] {\minpgn{1.4cm}{\it Savings\\Channel}};
+\path  (5,7-0.1)  node [cred!50!black] {\minpgn{1.4cm}{\it Fiscal\\Channel}};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\path (0,0.5-3) node []  (pf) {\minpg{2.2cm}{Production\\function}};
+\draw [->,ultra thick, cblue!50!white] (sk) |- (pf);
+\draw [->,ultra thick, cred!50!white] (tk) |- (pf);
+\path (6,-1.5-3) node []  (yy) {\minpg{2cm}{Output tomorrow}};
+\draw [->,  black!50!white] (pf) |- (yy);
+\end{tikzpicture}
+
+
+
+
+
+
+
+% ========
+% = Junk =
+% ========
+
+
+% \vspace{20pt}
+% \begin{tikzpicture}[scale=1]
+% \path (3,4) node []  (firms) {Firms};
+% \path (3,0) node []  (hh) {Households};
+% \path (6,2) node [outer sep=5pt, inner sep=10pt, fill=cblue!5!white] (cons) {\begin{minipage}[t]{0.16\textwidth}\centering{}Consumption \\ Expenditure\end{minipage}};
+% \path (0,2) node [outer sep=5pt, inner sep=5pt] (wages) {\begin{minipage}[t]{0.16\textwidth}\centering{}Wages\\Profits\\Rents \end{minipage}};
+% \draw [<-,  cblue!50!white] (firms) -| (cons);
+% \draw [<-,  cblue!50!white] (cons) |- (hh);
+% \draw [->,  cred!50!white] (firms) -| (wages);
+% \draw [->,  cred!50!white] (wages) |- (hh);
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \path (8,-2.5) node (saving) {Saving};
+% \path (8,7) node  (investment) {Investment};
+%
+% \path (10,3) node [outer sep=5pt, inner sep=10pt, fill=green!5!white] (banks) {
+% \begin{minipage}[t]{0.16\textwidth}
+% 	\centering{Financial\\Sector}
+% \end{minipage}};
+% \draw[->,  green!35!gray]  (hh) |- node[near start,below] {} (saving);
+% \draw[<-,  green!35!gray]  (firms) |- node[near start,below] {} (investment);
+% \draw[->,  green!35!gray]  (banks) |- (investment);
+% \draw[->,  green!35!gray]  (saving) -| (banks);
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \end{tikzpicture}
+% \section{Junk} % (fold)
+% \path (6,-1.5) node (tax) {Tax};
+% \path (6,6) node  (govtexp) {
+% \begin{minipage}[t]{0.15\textwidth}
+% 	\centering{Government\\Expenditure}
+% \end{minipage}};
+% \path (8,0.25) node [outer sep=5pt, inner sep=10pt, fill=purple!5!white] (govt) {Government};
+% \draw[->, purple!35!gray]  (hh) +(1,-1) |- (tax);
+% \draw[->, purple!35!gray]  (tax) -| (govt);
+% \draw[->, purple!35!gray]  (govt) |- (govtexp);
+% \draw[<-, purple!35!gray]  (firms) +(0.75,1) |-  (govtexp) ;
+% section section_name (end)	
+	
+% \newpage
+%
+% 	\begin{align*}
+% 		\frac{Y}{K} &= \frac{\delta+n+g}{s}\\
+% 		\frac{K^{\alpha}{AL}^{1-\alpha}}{K} & = \frac{\delta+n+g}{s}\\
+% 		\frac{1}{k^{1-\alpha}} & = \frac{\delta+n+g}{s}\\
+% 		y = k^{1-\alpha} & = \frac{s}{\delta+n+g}
+% 	\end{align*}
+	
+	
+
+
+
+	
+\end{document}
