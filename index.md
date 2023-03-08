@@ -7,6 +7,7 @@ date: 17 June 2022, 01:42
 <!-- <link rel="stylesheet" href="style.css"> -->
 
 <link rel="stylesheet" href="/Users/aniket/_files/1/style3.css">
+<link rel="stylesheet" href="http://aniket.co.uk/pages/template/style3.css">
 
 ### Presentations
 
