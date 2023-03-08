@@ -10,9 +10,13 @@ date: 17 June 2022, 01:42
 
 ### Presentations
 
-[28 June 2022]{.dtdef}
+[08 February 2023]{.dtdef}
 
-AMD Presentation | [Link 1](https://econversation.github.io/pres/amd/1.html) | [Link 2](http://aniket.co.uk/research/pres/amd/1.html#1) 
+AMD Presentation | [Link 1](https://econversation.github.io/pres/amd/1.html) 
+
+<!-- | [Link 2](http://aniket.co.uk/research/pres/amd/1.html#1)  -->
+
+[28 June 2023]{.dtdef}
 
 NIESR Infrastructure Lecture | [Link 1](https://econversation.github.io/pres/niesr/1.html) | [Link 2](http://aniket.co.uk/research/pres/niesr/1.html#1) 
 
