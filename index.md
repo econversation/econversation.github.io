@@ -9,6 +9,16 @@ date: 17 June 2022, 01:42
 <link rel="stylesheet" href="/Users/aniket/_files/1/style3.css">
 <link rel="stylesheet" href="http://aniket.co.uk/pages/template/style3.css">
 
+<style>
+	.dtdef{ 
+		font-size: 70%; 
+		line-height: 2; 
+		display: inline-block;
+		vertical-align: bottom;
+		float:right; color: gray; 
+	}
+</style>
+
 ### Presentations
 
 [11 April 2023, 23:56]{.dtdef}
