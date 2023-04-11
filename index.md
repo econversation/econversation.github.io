@@ -11,6 +11,10 @@ date: 17 June 2022, 01:42
 
 ### Presentations
 
+[11 April 2023, 23:56]{.dtdef}
+
+Market, space and Infrastructure | Presentation | [Link](https://econversation.github.io/pres/amity/1.html) 
+
 [08 February 2023]{.dtdef}
 
 AMD Presentation | [Link 1](https://econversation.github.io/pres/amd/1.html) 
