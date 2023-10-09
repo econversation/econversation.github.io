@@ -8,9 +8,6 @@
   <title>econversation</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -29,13 +26,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -59,6 +59,10 @@
       color: #643326;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -85,9 +89,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -152,8 +157,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -168,21 +176,24 @@
 <header id="title-block-header">
 <h1 class="title">econversation</h1>
 <p class="author">Dr. Kumar Aniket</p>
-<p class="date">17 June 2022, 01:42</p>
+<p class="date">10 October 2023, 01:12</p>
 </header>
 <!-- <link rel="stylesheet" href="style.css"> -->
 <p><link rel="stylesheet" href="/Users/aniket/_files/1/style3.css">
 <link rel="stylesheet" href="http://aniket.co.uk/pages/template/style3.css"></p>
-<style>
-    .dtdef{ 
-        font-size: 70%; 
-        line-height: 2; 
+<!-- <style>
+    .dtdef{
+        font-size: 70%;
+        line-height: 2;
         display: inline-block;
         vertical-align: bottom;
-        float:right; color: gray; 
+        float:right; color: gray;
     }
-</style>
+</style> -->
 <h3 id="presentations">Presentations</h3>
+<p><span class="dtdef">10 October 2023, 01:08</span></p>
+<p>Role of Infrastructure in Organising Space | Amity University <a
+href="https://econversation.github.io/pres/amity/1.html">Link</a></p>
 <p><span class="dtdef">11 April 2023, 23:56</span></p>
 <p>Market, space and Infrastructure | Presentation | <a
 href="https://econversation.github.io/pres/amity/1.html">Link</a></p>

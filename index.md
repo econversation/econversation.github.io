@@ -1,7 +1,7 @@
 ---
 title: econversation
 author: Dr. Kumar Aniket
-date: 17 June 2022, 01:42
+date: 10 October 2023, 01:12
 ---
 
 <!-- <link rel="stylesheet" href="style.css"> -->
@@ -9,21 +9,21 @@ date: 17 June 2022, 01:42
 <link rel="stylesheet" href="/Users/aniket/_files/1/style3.css">
 <link rel="stylesheet" href="http://aniket.co.uk/pages/template/style3.css">
 
-<style>
-	.dtdef{ 
-		font-size: 70%; 
-		line-height: 2; 
+<!-- <style>
+	.dtdef{
+		font-size: 70%;
+		line-height: 2;
 		display: inline-block;
 		vertical-align: bottom;
-		float:right; color: gray; 
+		float:right; color: gray;
 	}
-</style>
+</style> -->
 
 ### Presentations
 
 [10 October 2023, 01:08]{.dtdef}
 
-Role of Infrastructure in Organising Space | Presentation | Amity University [Link](https://econversation.github.io/pres/amity/1.html) 
+Role of Infrastructure in Organising Space | Amity University [Link](https://econversation.github.io/pres/amity/1.html) 
 
 [11 April 2023, 23:56]{.dtdef}
 
