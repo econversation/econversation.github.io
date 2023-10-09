@@ -21,6 +21,10 @@ date: 17 June 2022, 01:42
 
 ### Presentations
 
+[10 October 2023, 01:08]{.dtdef}
+
+Role of Infrastructure in Organising Space | Presentation | Amity University [Link](https://econversation.github.io/pres/amity/1.html) 
+
 [11 April 2023, 23:56]{.dtdef}
 
 Market, space and Infrastructure | Presentation | [Link](https://econversation.github.io/pres/amity/1.html) 
