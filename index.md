@@ -23,7 +23,7 @@ date: 10 October 2023, 01:12
 
 [10 October 2023, 01:08]{.dtdef}
 
-Role of Infrastructure in Organising Space | Amity University [Link](https://econversation.github.io/pres/amity/1.html) 
+Role of Infrastructure in Organising Space | Amity University [Link](https://econversation.github.io/pres/amity2/1.html) 
 
 [11 April 2023, 23:56]{.dtdef}
 
