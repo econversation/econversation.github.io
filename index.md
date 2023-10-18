@@ -24,18 +24,24 @@ date: 17 October 2023, 01:56
 
 ### Presentations
 
+[18 October 2023, 06:03]{.dtdef}
+
+[Tackling the PhD | FLAME University](https://econversation.github.io/pres/flame/seminar/1.html) 
+
+
+
 [17 October 2023, 01:47]{.dtdef}
 
 [Tackling the PhD | FLAME University](https://econversation.github.io/pres/flame/phdstudents/1.html) 
 
 
-[10 October 2023, 01:08]{.dtdef}
+<!-- [10 October 2023, 01:08]{.dtdef} -->
 
-[Role of Infrastructure in Organising Space | Amity University ](https://econversation.github.io/pres/amity2/1.html) 
+<!-- [Role of Infrastructure in Organising Space | Amity University ](https://econversation.github.io/pres/amity2/1.html)  -->
 
-[11 April 2023, 23:56]{.dtdef}
+<!-- [11 April 2023, 23:56]{.dtdef} -->
 
-[Market, space and Infrastructure | Presentation](https://econversation.github.io/pres/amity/1.html) 
+<!-- [Market, space and Infrastructure | Presentation](https://econversation.github.io/pres/amity/1.html)  -->
 
 [08 February 2023]{.dtdef}
 
