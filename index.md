@@ -26,7 +26,7 @@ date: 17 October 2023, 01:56
 
 [18 October 2023, 06:03]{.dtdef}
 
-[Tackling the PhD | FLAME University](https://econversation.github.io/pres/flame/seminar/1.html) 
+[Market, Space and Infrastructure | FLAME University](https://econversation.github.io/pres/flame/seminar/1.html) 
 
 
 
