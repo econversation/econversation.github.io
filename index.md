@@ -24,6 +24,12 @@ date: 17 October 2023, 01:56
 
 ### Presentations
 
+[29 February 2024, 02:25]{.dtdef}
+
+[Market, Space and Infrastructure | Dubai](https://econversation.github.io/pres/dubai/1/1.html) 
+
+
+
 [18 October 2023, 06:03]{.dtdef}
 
 [Market, Space and Infrastructure | FLAME University](https://econversation.github.io/pres/flame/seminar/1.html) 
