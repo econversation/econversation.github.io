@@ -80,7 +80,13 @@ CV | [ .pdf](http://www.aniket.co.uk/cv/cv_aniket.pdf)  | [.html](https://aniket
 [ucl talis page](https://ucl.rl.talis.com/modules/bcpm0052.html) |
 [Tails reading list](https://rl.talis.com/3/ucl/lists/0E9053CC-50DA-F00B-F8C6-4E931E49DE56.html?lang=en-gb) -->
 
+### `git code`
 
+
+```
+rungit
+git push -u origin main
+```
 
 
 
