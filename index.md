@@ -27,7 +27,9 @@ date: 17 October 2023, 01:56
 
 [17 June 2025]{.dtdef}
 
-[Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/1.html#1){target='_blank'}
+[Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/1.html#1){target='_blank'} | ISAC, Amherst.
+
+
 
 
 [29 February 2024, 02:25]{.dtdef}
