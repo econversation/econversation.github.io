@@ -22,6 +22,8 @@ date: 17 October 2023, 01:56
 	}
 </style> -->
 
+Here is the list of presentations that I have made in the last couple of years. 
+
 ### Presentations
 
 
