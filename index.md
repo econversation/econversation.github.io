@@ -29,7 +29,7 @@ Here is the list of presentations that I have made in the last couple of years.
 
 [17 June 2025]{.dtdef}
 
-[Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/1.html#1){target='_blank'} | ISAC, Amherst.
+[Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/umass.html){target='_blank'} | ISAC, Amherst.
 
 
 
