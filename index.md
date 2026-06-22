@@ -32,8 +32,6 @@ Here is the list of presentations that I have made in the last couple of years.
 [Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/umass.html){target='_blank'} | ISAC, Amherst.
 
 
-
-
 [29 February 2024, 02:25]{.dtdef}
 
 [Market, Space and Infrastructure | Dubai](https://econversation.github.io/pres/dubai/1/1.html) 
