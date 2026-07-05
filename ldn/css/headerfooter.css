@@ -1,0 +1,147 @@
+:root {
+	--colfonta: #100C08; /*Smoky black*/
+	--colfontb: #36454F; /*Charcoal*/
+	--colfontc: #3B444B; /*Arsenic*/
+	--coltitle: LightSlateGray; /*LightSlateGray*/
+	--colline: #D3D3D3; /*Light Gray*/
+	--colquote: #CFCFC450; /*Pastel gray*/	
+	--colalink: #588157; /*Taupe gray*/
+	--colalinkb: #EE6123; /*Gray-asparagus*/
+	--colhead: silver; /*silver*/
+	--colhh: #888D90; /*silver*/
+	--collinkunderline: rgba(155,155,155,0.33);
+}
+
+#title-block-header{text-align:right; 
+	border-radius: 0 0 2pt 0 ; 
+	border-bottom: 1.5pt solid var(--colline);
+	border-right: 1.5pt solid  var(--colline);
+	padding: 0 1em 0 0; 
+	background: transparent; 
+	color: var(--colline) !important;}
+
+header > * {font-weight: 300; font-size: 0.9em;}
+header > .title 	{font-size: 0.9em; letter-spacing: 0pt;  text-shadow: 0px 0px #FFFFFF;} 
+header > .subtitle 	{font-size: 0.5em;} 
+header > .author 	{font-size: 0.5em;}
+header > .date 		{font-size: 0.5em;}
+header { font-family: "Monaco";
+		font-weight: 100; 
+		line-height: 1.25;}
+
+body > h1,h2,h3,h4,h5,h6 {
+	font-weight: 300;
+	font-family: sans-serif; /*options: Monaco, serif*/
+	font-style: normal;
+	background-color: #666666;
+	color: transparent; 
+	text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text; 
+	 }	
+
+body > h1,h2,h3 {margin-top: 0.96em;  margin-bottom: 0.96em; letter-spacing: 0.25pt;}
+body > h4,h5,h6 {margin-top: 0.48em;  margin-bottom: 0.48em; letter-spacing: 0.4pt;}
+body > h1{font-size: 1.234568em;  margin-top: 0.96em;  margin-bottom: 0.96em;}
+body > h2{font-size: 1.111111em;}
+body > h3{font-size: 1em;}
+body > h4{font-size:0.9em;}
+body > h5{font-size:0.81em;}
+body > h6{font-size:0.729em;}  
+
+#refs:before {content: "References"; line-height: 2; font-size: 1em; font-family: Monaco; font-weight: 300; letter-spacing: 0.5pt;}
+
+#refs {padding: 1em 0 0 0; 
+	border-bottom: 1px solid inherit;
+	color: gray; font-size: 0.8em;}
+
+#footnotes, #footnotes ol p { color: gray; font-size: 0.9em;}
+#footnotes {margin: 0; padding: 0 0 0 1.25em;}
+
+hr { background-color: #ddd; height: 1px; border: 0; }
+
+#footnotes > hr { background-color: #ddd; height: 1px; border: 0; padding: 0; margin: 3em 0 0 0;}
+
+
+div#bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  font-color: red;
+  padding: 5pt 1em 0 1em;
+  border-top: 1px solid #98817B;
+  border-radius: 20pt;
+  text-align: center;
+  max-height: 3em;
+  /* And if you want the div to be full-width: */
+  left: 0;
+  right: 0;
+}
+
+div#top {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  font-color: red;
+  padding: 5pt 1em 0 1em;
+  border-bottom: 1px solid #98817B;
+  border-radius: 20pt;
+  text-align: center;
+  max-height: 3em;
+  /* And if you want the div to be full-width: */
+  left: 0;
+  right: 0;
+}
+
+
+/*broader text*/
+/*body {
+	margin:0 auto; padding: 0em; width: 90vw; max-width: 42em;
+	border: 0; color: var(--colfonta); background-color: transparent; }*/
+
+html {
+	color: black; /*background-color: #F8F8FF;*/
+}
+	
+body {
+	  font-family: 'Palatino', serif;
+	  line-height: 1.6;
+	  font-size: 20px;
+	/*  background: white;*/
+	}
+
+body { padding-bottom: 2.5em; margin-bottom: 2.5em;}
+
+a {	
+	padding: 0;
+    color: var(--colalink) !important;
+	border-bottom: 1px solid transparent;
+	background: none;
+    text-decoration:none;}
+
+a:hover { font-size: 0.9999em;
+   color: var(--colalinkb) !important;
+   border-bottom: 1px solid var(--collinkunderline);
+}
+
+p { padding: 0em 0em 0em 0em;
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+.footnote {
+	font-size: 50%;
+	vertical-align: super;
+}
+	
+div.footnotes {
+	font-size: 80%;}
+
+/*hr{display:block; height: 1px; border:0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }*/
+	
+
+#fn1 {font-color: red;}
+
+/*.references  {border: 1px solid gray; padding: 1em; border-radius: 5pt; background: navy; font-color: red !important;}*/
+
+#refs {margin-top: 3rem;} /*creates a space between the text and the refs*/

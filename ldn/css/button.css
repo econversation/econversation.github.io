@@ -1,0 +1,103 @@
+
+:root{
+	--buttoncolor: rgba(99, 99, 99, 0.8);
+	--buttoncolorback: #C0C0C022;
+	--buttoncolorunderline: rgba(99, 99, 99, 0.1);
+	--buttoncolora:  #65352999;
+	--buttoncolorb:  #65352999;
+	}
+
+.expand > * {
+   	 border-radius: 0 ; 
+   	 border-right: 1pt solid  lightgray; 
+   	 padding: 0.5em 0.5em 0.5em 0;
+	 margin: 0; 
+   	 background: transparent;
+	}
+	
+.expand > p:last-child {
+	border-radius: 0 0 5pt 0 ; 
+	border-bottom: 1pt solid lightgray;}
+ 
+/*button {
+	filter: grayscale(1);
+	display: inline-block;
+	padding: 6px 8px 4px 6px;
+	margin: 0 0 10px 0;
+	font-size: 0.75em;
+	font-weight: 400;
+	border: none;
+	border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	border-bottom: 1px solid var(--buttoncolorunderline);
+	color: 	#B8860B;
+	background-color: var(--buttoncolorback);
+	}*/
+
+/*---------------------------------*/
+
+button {
+	filter: grayscale(1);
+	display: inline-block;
+	font-weight: 200;
+
+    font-size: 0.6rem;
+    padding: 0.15rem .25rem;
+    background-color: transparent;
+
+    border: ridge 1px #A9A9A9;
+    border-radius: 5px;
+    text-shadow: #c4c4c4 0 0 2px;
+	}
+
+:root{
+	--copyfactorbutton: 0.5; /* Should range only between 0 and 1 */
+}
+
+button {
+		filter: invert(calc(var(--copyfactorbutton) / 2)) brightness(calc(1 + var(--copyfactorbutton))) grayscale(1);}
+
+button:hover {
+	  cursor: pointer;
+	  background-color: #bcbabb;
+	  filter: invert(0.9) sepia(0.5);
+	}
+
+
+/*--------------------------------*/
+/*pre button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  font-size: 0.5rem;
+  padding: 0.15rem;
+  background-color: transparent;
+
+  border: ridge 1px #A9A9A9;
+  border-radius: 5px;
+  text-shadow: #c4c4c4 0 0 2px;
+}*/
+/*--------------------------------*/
+
+button::after, .expand::after {content: "\A";}
+
+
+.expand > .note {padding:0.05rem 1rem;}
+.expand + .note	{margin-top: 1rem;}
+.note + button	{margin-top: 1rem;}
+	 
+.expand + button {
+	padding: 2px 0.25rem 2.5px 0.25rem;
+	margin: 0 0 10px 0;
+	color: var(--buttoncolora);
+}
+
+p > .expand  + button {
+	padding: 2px 0.25em 2.5px 0.25em;
+	margin: 0 0 10px 8px;
+	color: var(--buttoncolorb);
+}
+
+.note > .expand + button, {padding-bottom: 1em;}
+
+		 

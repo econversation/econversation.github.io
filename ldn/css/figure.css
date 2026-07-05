@@ -1,0 +1,116 @@
+
+
+figure {margin: 1em 1em 1em 1em;}
+
+figure {margin: 1em 0em 0.75em 0em;}
+figure > img {
+	border-radius: 6px;
+	border: 1em solid transparent;
+	padding: 0pt;
+	text-align: centre; width: 70vw;
+	background: transparent;
+	box-shadow: rgba(50, 50, 93, 0.125) 0px 1px 2.5px -0.5px, rgba(0, 0, 0, 0.15) 0px 0.5px 1.5px -0.5px;
+}
+figcaption {color: #808080; font-size: 0.8em; text-align: justify; text-justify: inter-word;}
+figcaption { margin: 0.25em 0 0 0;}
+
+/*figure > figcaption {width: 50%;}*/
+
+
+/*commented on 26 February 2025, 09:49*/
+/*figure > img {
+	border-radius: 3px;
+	border: 1pt solid #DBD7D2;
+	padding: 0pt;
+	text-align: centre; width: 80vw;
+	background: transparent;
+}
+figure > img {box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;}
+figcaption {color: #808080; font-size: 0.8em; text-align: justify; text-justify: inter-word;}
+figcaption { margin: 0.25em 0 0 0;}*/
+
+
+
+.picrsmall {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 100px;
+	max-width: 100px;
+	width: 100px;
+	background: transparent;
+	padding-left: 8px;
+}
+
+.picr {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 46% ;
+	max-width: 46% ;
+	width: 46%;
+	background: transparent;
+	padding-left: 4%;
+}
+
+.picr33 {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 33% ;
+	max-width: 33% ;
+	width: 33%;
+	background: transparent;
+	padding-left: 4%;
+}
+
+.picr66 {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 66% ;
+	max-width: 66% ;
+	width: 66%;
+	background: transparent;
+	padding-left: 4%;
+}
+
+.picl {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	min-width: 46% ;
+	max-width: 46% ;
+	width: 46%;
+	background: transparent;
+	padding-right: 4%;
+}
+
+.picl33 {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	min-width: 33% ;
+	max-width: 33% ;
+	width: 33%;
+	background: transparent;
+	padding-left: 4%;
+}
+
+.picl66 {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	min-width: 66% ;
+	max-width: 66% ;
+	width: 66%;
+	background: transparent;
+	padding-left: 4%;
+}
+
+
+.figtab > figure { display: table; }
+
+
+.figtab > figcaption { display: table-caption; caption-side: bottom ; }
+

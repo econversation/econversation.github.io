@@ -1,0 +1,85 @@
+:root {
+	--treelinecol: #BEBEBE;
+	}
+
+
+
+.tree {
+	background: transparent;
+	/*padding: 0.5em 1em;*/
+	/*border-radius: 1em;*/
+	/*border: 1px solid gray;*/
+}
+
+.tree {
+  --spacing: 1.1em;
+  --radius: 10px;
+}
+
+.tree ul {
+	margin-left: 1em;
+	padding-left: 0;
+	/*background: blue;*/
+}
+
+.tree ul > li {
+	display: block;
+	position: relative;
+	padding-left: 1.175em;
+	color: inherit;
+}
+
+.tree ul > li:first-child {
+	color: inherit;
+}
+
+
+/*vertical lines*/
+
+
+.tree ul > li {
+	border-left: 2px solid var(--treelinecol);
+	margin-top: 4px; /*last change*/
+}
+
+
+.tree ul > li:last-child {
+	border-left: 2px solid transparent;
+}
+
+.tree ul > li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(var(--spacing) / -4);
+  left: 18px;
+  width: calc(var(--spacing) - 3px);
+  height: calc(var(--spacing) - 1px);
+  border: solid var(--treelinecol);
+  border-width: 0 0 2px 2px;
+}
+
+/*to solve the problem of tree stems running into previous li text*/
+
+.tree ul > li:first-child::before {
+	padding-top: 0px;
+}
+
+.tree ul > li:first-child {
+	padding-top: 0px;
+}
+
+ul li:first-child {margin-top: 0.25em !important;}
+
+
+
+/*Experiments: 15 December 2024, 12:17*/
+
+/*.tree li  {
+	color: inherit;
+	border-right: 4px solid linen;
+}*/
+
+
+
+/*.tree > ol {list-style-type: lower-alpha;}*/

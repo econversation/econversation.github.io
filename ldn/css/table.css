@@ -1,0 +1,42 @@
+
+/*start*/
+:root { --tabletextcolor: inherit; --tablebordercolor: #EEE; }
+
+table > * {border: none;}
+th {border-top: 1px solid transparent !important;}
+th, td {border-bottom: 3px solid var(--tablebordercolor) !important;}
+td, th {color: var(--tabletextcolor); font-size: 0.825em; font-weight: 400;}
+/*padding*/
+
+/*th,td {padding: 0px 16px 0px 0px;}*/
+/*th:nth-last-child(1) {padding: 0;}*/
+/*td:nth-last-child(1) {padding: 0;}*/
+
+th,td {padding-right: 1em; background: inherit;}
+th:nth-last-child(1) {padding-right: 0;}
+td:nth-last-child(1) {padding-right: 0;}
+th:first-child {padding-left: 0;}
+td:first-child {padding-left: 0;}
+
+td,th {min-width: 50px;}
+
+/*background*/
+th > pre, th > code, td > pre, td > code {background: transparent;}
+
+/*vertical-align*/
+th {vertical-align: bottom;}
+td {vertical-align: top;}
+
+
+/*old code*/
+
+/*table > *, td {border-bottom: 3px solid #FAEBD7 !important; padding: 10px 10px;}
+td, th {color: #6C541E; font-size: 0.825em;}
+th {font-weight: 400; color: #555555;}
+th {border-bottom: 1px solid #FAEBD7 !important;}
+th {border-top: 1px solid transparent !important;}*/
+
+/*th:nth-child(odd),td:nth-child(odd) {padding: 0px 10px 0px 0px;}*/
+/*th:nth-child(even),td:nth-child(even) {padding: 0px 0px 0px 10px;}*/
+
+/*:root { --tabletextcolor: #6C541E; --tablebordercolor: #FAEBD7; }*/

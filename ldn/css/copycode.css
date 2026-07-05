@@ -1,0 +1,41 @@
+
+
+/*copy to the clipboard button styling*/
+/*20 December 2024, 12:27*/
+
+
+:root{
+	--copyfactor: 0.7; /* Should range only between 0 and 1 */
+}
+
+pre {
+  position: relative;
+  overflow: auto;
+  margin: 5px 0;
+  min-height: 60px;
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+pre button {
+  position: absolute;
+  bottom: 0.25rem;
+  right: 5px;
+
+  font-size: 0.5rem;
+  padding: 0.15rem .25rem;
+  background-color: transparent;
+
+  border: ridge 1px #A9A9A9;
+  border-radius: 5px;
+  text-shadow: #c4c4c4 0 0 2px;
+}
+
+pre button {
+	filter: invert(calc(var(--copyfactor) / 2)) brightness(calc(1 + var(--copyfactor))) grayscale(1);}
+
+pre button:hover {
+  cursor: pointer;
+  background-color: #bcbabb;
+  filter: invert(0.9) sepia(0.5);
+}
+

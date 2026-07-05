@@ -1,0 +1,31 @@
+
+@media (min-width: 800.00001px) {
+	.column {
+	  float: left;
+	  width: calc(50% - 1em);
+	  padding-right: 1em;
+	  min-height: 400px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+}
+
+@media (max-width: 800px) {
+	.column {
+		width: 100%;
+	}
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	  padding-bottom: 10px;
+	}
+
+}
