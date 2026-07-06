@@ -15,7 +15,7 @@ date: "10:00 - 12:00, Monday 6 July at London City Hall"
 <link rel="stylesheet" href="css/details.css">
 <link rel="stylesheet" href="css/figure.css">
 
-## Workshop details
+## Workshop details {.c}
 
 Date | Monday, 6 July 2026
 :-|:---
@@ -39,10 +39,18 @@ Event page | [https://luma.com/3cq829o7](https://luma.com/3cq829o7)
 
 ### Air pollution
 
-- is one of the [leading environmental risks to human health]{.h}, contributing to respiratory disease, cardiovascular disease and other chronic health conditions.
-	- Air pollution is not [distributed evenly across London]{.h}. Exposure varies between boroughs, neighbourhoods, individual streets and different times of day.
-		- Understanding where pollution occurs is essential for [designing healthier and more liveable cities]{.h}. 
-		- [Open environmental data]{.h} now allow anyone, not just researchers or government agencies, to investigate air quality in their own communities.
+- is one of the [leading **environmental risks** to **human health**]{.h}, contributing to respiratory disease, cardiovascular disease and other chronic health conditions.<br><br>
+- Air pollution is [**not distributed evenly** across London]{.h}. 
+	- Exposure varies between boroughs, neighbourhoods, individual streets and different times of day.<br><br>
+
+:::
+
+::: outline	
+
+### Designing Liveable Cities
+
+ - Understanding where pollution occurs is essential for [**designing** healthier and more **liveable citie**s]{.h}.
+	- [**Open environmental data**]{.h} now allow anyone, not just researchers or government agencies, to [**investigate** air quality]{.h} in their own communities.
 
 :::
 
@@ -50,15 +58,25 @@ Event page | [https://luma.com/3cq829o7](https://luma.com/3cq829o7)
 
 ### Maps and Data Visualisations
 
--  transform complex datasets into evidence that can [inform public discussion, policy and local decision making.]{.h}
-	- [Data do not provide answers on their own.]{.h} They help us formulate hypotheses, identify patterns and ask better questions about how cities function.
+-  Maps and Data Visualisations **transform** complex datasets into evidence that can [inform public discussion, policy and local decision making.]{.h} <br><br>
+- [**Data do not provide answers** on their own.]{.h} 
+	- They help us formulate hypotheses, identify patterns and ask better questions about how cities function.
 
 ::: 
 
 ::: pline
 
-- [Air quality is an **emergent property** of London's urban system. ]{.u}
-	- It arises from the interaction of transport, land use, economic activity, green infrastructure and weather rather than from any single factor.
+### Air Pollution is an Emergent Property
+
+- [Air quality is an **emergent property** of London's urban system. ]{.h}
+	- It arises from the **interaction** of 
+		- transport, 
+		- land use, 
+		- economic activity, 
+		- green blue and grey infrastructure and 
+		- weather 
+		- [**fluid dynamics**]{.h} 
+		- rather than from any single factor.
 
 :::
 
@@ -67,18 +85,37 @@ Event page | [https://luma.com/3cq829o7](https://luma.com/3cq829o7)
 
 
 
-### Multiple Source, Multiple Effects
+### Multiple Source, Multiple Effects, Multiple Pathways
 
 ::: outline
 
 - [There is **no single source** of **urban air pollution.**]{.h} 
-	- Road transport, domestic heating, airports, construction, industry and shipping all contribute to the air that Londoners breathe.
-- [Each **urban activity** emits **several pollutants simultaneously.** ]{.h}
-	- For example, road transport emits nitrogen oxides, particulate matter, black carbon, carbon monoxide and volatile organic compounds.
+	- Road transport, 
+	- domestic heating, 
+	- airports, construction, 
+	- industry and 
+	- shipping <br>all contribute to the air that Londoners breathe.<br><br>
+- [Each **urban activity** emits **several pollutants simultaneously.** ]{.h} For example, 
+	- road transport emits *nitrogen oxides*, 
+	- *particulate matter*, 
+	- *black carbon*, 
+	- c*arbon monoxide* and
+	-  *volatile organic compounds*.<br><br>
 - [Each pollutant can originate from **multiple sources.**]{.h}
-	- [Fine particulate matter (PM₂.₅)]{.h}, for example, is produced by traffic, domestic heating, aviation, industry and regional transport.
+	- [Fine particulate matter (PM₂.₅)]{.h}, for example, is produced by
+		- traffic, 
+		- domestic heating, 
+		- aviation, 
+		- industry and 
+		- regional transport.<br><br>
 	- Some **pollutants are formed after they are emitted.** 
-		- Ground-level ozone and secondary particulate matter are created through chemical reactions in the atmosphere, making pollution dependent on both emissions and weather conditions.
+		- Ground-level ozone and secondary particulate matter are created through chemical reactions in the atmosphere, making pollution dependent on both emissions and weather conditions.<br><br>
+
+::: 
+::: outline		
+
+### Health Effects
+
 - [**Different pollutants affect** the **human body** in **different ways.**]{.h} 
 	- Some primarily damage the respiratory system, others increase the risk of **cardiovascular disease**, while many contribute to several health conditions simultaneously.
 	
@@ -88,9 +125,10 @@ Event page | [https://luma.com/3cq829o7](https://luma.com/3cq829o7)
 
 ::: outline
 
-- The [relationship]{.u} between **sources**, **pollutants** and **health effects** is therefore a [**many-to-many relationship** system.]{.u} 
-	- Each source contributes to multiple pollutants, and each pollutant contributes to multiple health outcomes. 
-	- This [**complexity**]{.h} is why air pollution cannot be understood through intuition alone and why mapping, **data analysis** and **systems thinking** are essential.
+- The [relationship]{.u} between **sources**, **pollutants** and **health effects** is therefore a [**many-to-many relationship** system.]{.h} <br><br>
+- Each source contributes to multiple pollutants, and
+	- each pollutant contributes to multiple health outcomes.<br><br>
+- This [**complexity** is why air pollution cannot be understood through intuition]{.h} alone and why mapping, **data analysis** and **systems thinking** are essential.
 
 :::
 
@@ -119,9 +157,13 @@ https://colab.research.google.com/drive/1On4wfqxvFduKTYHHoyCWIPxo7JZ1Iiku?usp=sh
 - [PM10m csv file for Camden](https://econversation.github.io/ldn/data/camden/pollution/PM10m_Camden.csv){target="_blank"} 
 - [PM25 csv file for Camden](https://econversation.github.io/ldn/data/camden/pollution/PM25_Camden.csv){target="_blank"} 
 
-## Group Study
+## Explore the pollution maps of various boroughs | Group Study
 
 [Explore the pollution maps of various boroughs of London](boroughs.html) 
+
+## Urban Greening | Group Study
+
+[Urban greening](docs/urban_greening.pdf)
 
 ## Wider discussion about London
 
