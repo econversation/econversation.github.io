@@ -29,6 +29,11 @@ Here is the list of presentations that I have made in the last couple of years.
 ### Presentations
 
 
+[6th July 2026]{.dtdef}
+
+[London Data Week](https://econversation.github.io/ldn/) | Presentation, Data and Google Colab notebook
+ 
+
 [17 June 2025]{.dtdef}
 
 [Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/umass.html){target='_blank'} | ISAC, Amherst.
