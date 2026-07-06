@@ -31,7 +31,7 @@ Here is the list of presentations that I have made in the last couple of years.
 
 [6th July 2026]{.dtdef}
 
-[London Data Week](https://econversation.github.io/ldn/) | Presentation, Data and Google Colab notebook
+[London Data Week](https://econversation.github.io/ldn/) | Presentation, Data | Google Colab notebook
  
 
 [17 June 2025]{.dtdef}
