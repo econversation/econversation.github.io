@@ -15,6 +15,12 @@ date: "10:00 - 12:00, Monday 6 July at London City Hall"
 <link rel="stylesheet" href="css/details.css">
 <link rel="stylesheet" href="css/figure.css">
 
+## Announcement at the beginning
+
+This event is part of London Data Week 2026, a public citywide data festival. To learn more or please visit londondataweek.org. 
+
+We are very grateful to the London City Hall for hosting this evening and their hospitality.
+
 ## Workshop details {.c}
 
 Date | Monday, 6 July 2026
@@ -168,4 +174,8 @@ https://colab.research.google.com/drive/1On4wfqxvFduKTYHHoyCWIPxo7JZ1Iiku?usp=sh
 ## Wider discussion about London
 
 [Explore the pollution maps of Greater London](london.html) 
+
+## Post session stuff 
+
+[LDW26 Survey Link](https://bit.ly/ldw26 ){target="_blank"} 
 
