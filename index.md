@@ -1,7 +1,7 @@
 ---
-title: econversation
+title: econversation | aniket
 author: Dr. Kumar Aniket
-date: 6th July 2026, 04:13
+date: 20 July 2026, 12:48
 ---
 
 <!-- date: 17 October 2023, 01:56 -->
@@ -32,24 +32,33 @@ Here is the list of presentations that I have made in the last couple of years.
 [6th July 2026]{.dtdef}
 
 [London Data Week](https://econversation.github.io/ldn/) | Presentation, Data | Google Colab notebook
- 
+
+<hr />
+
+[22nd September 2025]{.dtdef}
+
+[The State, the Individual, and the Commons](https://aniket.co.uk/pres/chitt/){target="_blank"} | Conference on Nations, Narratives, and Networks: Rethinking South and Southeast Asia^[Centre for South Asian Studies University of Cambridge 22-24th September 2025]
+
+<hr />
 
 [17 June 2025]{.dtdef}
 
 [Beyond Substitutes | UMass Amherst](https://econversation.github.io/pres/market_pres/umass.html){target='_blank'} | ISAC, Amherst.
 
+<hr />
 
 [29 February 2024, 02:25]{.dtdef}
 
 [Market, Space and Infrastructure | Dubai](https://econversation.github.io/pres/dubai/1/1.html) 
 
 
+<hr />
 
 [18 October 2023, 06:03]{.dtdef}
 
 [Market, Space and Infrastructure | FLAME University](https://econversation.github.io/pres/flame/seminar/1.html) 
 
-
+<hr />
 
 [17 October 2023, 01:47]{.dtdef}
 
@@ -64,20 +73,27 @@ Here is the list of presentations that I have made in the last couple of years.
 
 <!-- [Market, space and Infrastructure | Presentation](https://econversation.github.io/pres/amity/1.html)  -->
 
+<hr />
+
 [08 February 2023]{.dtdef}
 
 [AMD Presentation](https://econversation.github.io/pres/amd/1.html) 
 
 <!-- | [Link 2](http://aniket.co.uk/research/pres/amd/1.html#1)  -->
 
+<hr />
+
 [28 June 2023]{.dtdef}
 
 [NIESR Infrastructure Lecture](https://econversation.github.io/pres/niesr/1.html) | [Alternative Link](http://aniket.co.uk/research/pres/niesr/1.html#1) 
+
+<hr />
 
 [17 June 2022]{.dtdef}
 
 [LBS Infrastructure Lecture](https://econversation.github.io/pres/infra/1.html) |  [Alternative Link](http://aniket.co.uk/research/pres/infra/1.html#1) 
 
+<hr />
 
 ### Aniket's CV 
 
