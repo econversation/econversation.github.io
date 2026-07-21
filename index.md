@@ -29,6 +29,10 @@ Here is the list of presentations that I have made in the last couple of years.
 ### Presentations
 
 
+[21 July 2026, 10:06]{.dtdef}
+
+[Humans in the Age of Artificial Intelligence](https://econversation.github.io/pres/logistics/index.html) |  16th International Conference on Logistics, Informatics and Service Sciences, Wolfson College, University of Cambridge, 21 July 2026
+
 [6th July 2026]{.dtdef}
 
 [London Data Week](https://econversation.github.io/ldn/) | Presentation, Data | Google Colab notebook
