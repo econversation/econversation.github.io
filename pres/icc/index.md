@@ -95,7 +95,7 @@ produce research</li>
 <ul>
 <li><p><em>How do you cross the road as a pedestrian?</em></p>
 <ul>
-<li>What is your <span class="h">research methodology</span>?</li>
+<li>What is your <h>research methodology</h>?</li>
 </ul></li>
 </ul>
 </div>
@@ -136,7 +136,7 @@ domain expertise is a big risk factor with AI</li>
 <ul>
 <li><p><em>How do you cross the road as a pedestrian?</em></p>
 <ul>
-<li>What is your <span class="h">research methodology</span>?</li>
+<li>What is your <h>research methodology</h>?</li>
 </ul></li>
 </ul>
 </div>
@@ -170,7 +170,7 @@ the research</p>
 <div class="fl">
 <p>Mokyr</p>
 <ul>
-<li><p>“<strong><span class="h">Useful knowledge</span></strong>”</p>
+<li><p>“<strong><h>Useful knowledge</h></strong>”</p>
 <ul>
 <li>knowledge that helps people <strong>understand</strong> or
 <strong>manipulate</strong> the world around them.</li>
@@ -186,8 +186,7 @@ the research</p>
 <p><strong>Prescriptive Knowledge</strong>
 (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math>-knowledge):</p>
 <ul>
-<li>Knowledge of <span class="h"><strong>how</strong> to do
-something</span>.</li>
+<li>Knowledge of <h><strong>how</strong> to do something</h>.</li>
 </ul>
 <p>It is the <strong>recipe</strong>, <strong>technique</strong>, or
 <strong>invention</strong> itself.</p>
@@ -210,8 +209,7 @@ Prescriptive versus Propositional Knowledge</h2>
 <p><strong>Prescriptive Knowledge</strong>
 (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math>-knowledge):</p>
 <ul>
-<li>Knowledge of <span class="h"><strong>how</strong> to do
-something</span>.</li>
+<li>Knowledge of <h><strong>how</strong> to do something</h>.</li>
 </ul>
 <p>It is the <strong>recipe</strong>, <strong>technique</strong>, or
 <strong>invention</strong> itself.</p>
@@ -236,8 +234,7 @@ to follow the steps.</li>
 <p><strong>Propositional Knowledge</strong>
 (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ω</mi><annotation encoding="application/x-tex">\omega</annotation></semantics></math>-knowledge):</p>
 <ul>
-<li><p>Knowledge of <span class="h"><strong>why</strong> something
-works.</span></p>
+<li><p>Knowledge of <h><strong>why</strong> something works.</h></p>
 <ul>
 <li><p>It consists of scientific principles, natural laws, and
 systematic explanations.</p>
@@ -450,8 +447,8 @@ Using AI Responsibly</h2>
 <ul>
 <li>Treat AI as a research assistant, not the principal investigator.
 <ul>
-<li>You are fully <span class="h">responsible</span> for the
-methodology, ethics, and validity of the findings.</li>
+<li>You are fully <h>responsible</h> for the methodology, ethics, and
+validity of the findings.</li>
 </ul></li>
 </ul>
 <h4 id="inspect-and-run-code-independently">Inspect and Run Code
@@ -476,9 +473,9 @@ models you want tested.</li>
 </ul>
 <h4 id="protect-data-privacy">Protect Data Privacy</h4>
 <ul>
-<li>Use local, <span class="h">open-source models</span> on private
-infrastructure or institutional enterprise tools compliant with data
-protection policies when working with sensitive datasets.</li>
+<li>Use local, <h>open-source models</h> on private infrastructure or
+institutional enterprise tools compliant with data protection policies
+when working with sensitive datasets.</li>
 </ul>
 </div>
 <!-- -->
