@@ -1,0 +1,248 @@
+/* @theme marp0 */
+
+/*@import 'default';*/
+
+/*@import 'gaia';*/
+
+/*:root { --cola: #09c;}*/
+:root { --cola: #483C32;}
+
+
+:root {
+/*	presentation*/
+/*	width:  1920px; height: 1080px;*/
+	width:  1728px; height: 972px;
+/*	width:  1536px; height: 864px;*/
+/*  width: 1512px; height: 982px;*/
+/*  width: 982px; height: 1120px;*/
+/*  width: 1280px; height: 960px;*/
+/*	mbp2025*/
+/* width: 1230px; height: 1400px;*/
+/*	extra screen*/
+/* width: 3440px; height: 1440px;*/
+ /*	extra screen half*/
+/*  width: 1720px; height: 1440px;*/
+  /*	extra screen half magnified*/
+/*   width: 2064px; height: 1728px;*/
+  font-size: 28px;
+  padding: 1rem 1.5rem;
+  font-family: sans-serif;
+}
+
+section {width: 100%;}
+
+/*dims: mpb2025full mbp2025half default/org*/
+
+/*p {line-height: 1.5rem;}*/
+
+
+p, section>p {
+line-height: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h1 {font-size: 1.50rem; color: var(--cola) ;}
+h2 {font-size: 1.40rem; color: var(--cola) ;}
+h3 {font-size: 1.30rem; color: var(--cola) ;}
+
+h1 .ww, h2 .ww, h3 .ww {color: white;}
+
+/* Styling page number */
+
+section::after {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+a {text-decoration: none; color: var(--cola);}
+
+u,.u {border-bottom: 1px solid #FFBF00; text-decoration:none;}
+h,.h {background: #FAE7B550; padding: 3px 3px; border-radius: 10px 10px 0px 0px;}
+
+
+#refs:before {content: ""; line-height: 2; font-size: 1em; font-family: Monaco; font-weight: 300; letter-spacing: 0.5pt;}
+
+#refs {padding: 10em 0 0 0; 
+	border-bottom: 1px solid inherit;
+	color: gray; font-size: 1em;}
+
+section#footnotes::before {padding: 20px; margin: 20px; background: red;}
+#footnotes:before {content: ""; line-height: 1; font-size: 1em; font-family: Monaco; font-weight: 300; letter-spacing: 0.5pt;}
+#footnotes, #footnotes ol p {color: gray; font-size: 0.9em;}
+#footnotes ol {padding: 0; margin: 0;}
+
+/*ul li {list-style: none; color: #333333;}*/
+/*ul li::before { content: "\203A"; color: #c0aba5; display: inline-block; width: 1em; margin-left: -1em;}*/
+/*ul li p {display: inline;}*/
+/*ul li {margin: 0 0 0.66rem 0;}*/
+
+/*tree*/
+
+
+:root {
+ /* --treelinecol: #BEBEBE;*/
+  --treelinecol: #797979;
+  --spacing: 1.4rem;
+  --radius: 10px;
+}
+
+/*padding*/
+
+li {
+  display: block;
+  position: relative;
+  padding-left: calc(2 * var(--spacing) - var(--radius) - 22px);
+  margin-top: 1px;
+}
+
+ul { margin-left: 16px; margin-top: 22px;
+  	 padding-left: 0; line-height: 1.5rem;
+}
+
+/*vertical line*/
+ul li{border-left:2px solid var(--treelinecol);}
+
+ul li:last-child{border-color:transparent;padding-bottom:5px;}
+
+/*horizontal lines*/
+
+ul li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(var(--spacing) / -2);
+  left: -2px;
+  width: calc(var(--spacing) - 2px);
+  height: calc(var(--spacing) + 1px);
+  border: solid var(--treelinecol);
+  border-width: 0 0 2px 2px;
+}
+
+div#refs {
+  position: fixed;
+  bottom: 5em;
+  /* And if you want the div to be full-width: */
+  left: 2em;
+  right: 0;
+}
+
+
+.note {padding: 0.05rem 1rem; margin:0 0 1rem 0; border-radius:0.25rem; 
+	background: transparent;
+	box-shadow: 0 0 1px #E3A85752; /*new*/
+}
+
+
+.light, .note.light { background: #A9A9A910; }
+.dark, .note.dark { background: #A9A9A922; }
+.red      ,.note.red    { background: #ea999999; }
+.yellow   ,.note.yellow { background: #ffe59999; }
+.green    ,.note.green  { background: #b6d7a899; }
+
+
+.vspace {margin-top: 10rem;}
+
+.picr {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 46% ;
+	max-width: 46% ;
+	width: 46%;
+	background: transparent;
+	padding-left: 4%;
+}
+
+.picl {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	min-width: 46% ;
+	max-width: 46% ;
+	width: 46%;
+	background: transparent;
+	padding-right: 4%;
+}
+
+.picc {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 66% ;
+	max-width: 66% ;
+	width: 66%;
+	background: transparent;
+	padding-right: 2%;
+}
+
+.picll {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	min-width: 49% ;
+	max-width: 49% ;
+	width: 49%;
+	background: transparent;
+	padding-right: 0%;
+}
+
+.picrr {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 49% ;
+	max-width: 49% ;
+	width: 49%;
+	background: transparent;
+	padding-left: 0%;
+}
+
+.pich50 {
+	display: block;
+	margin: auto;
+	height: 50%;
+}
+ .pic10{display: block; margin: auto; max-height: 66%; max-width: 66%; width: 10%;}
+ .pic20{display: block; margin: auto; max-height: 66%; max-width: 66%; width: 20%;}
+ .pic30{display: block; margin: auto; max-height: 66%; max-width: 66%; width: 30%;}
+ .pic40{display: block; margin: auto; max-height: 66%; max-width: 66%; width: 40%;}
+ .pic50{display: block; margin: auto; max-height: 66%; max-width: 66%; width: 50%;}
+ .pic60{display: block; margin: auto; max-height: 66%; max-width: 66%; width: 60%;}
+ .pic70{display: block; margin: auto; max-height: 70%; max-width: 70%; width: 70%;}
+ .pic80{display: block; margin: auto; max-height: 80%; max-width: 80%; width: 80%;}
+ .pic90{display: block; margin: auto; max-height: 96%; max-width: 90%; width: 90%;}
+.pic100{display: block; margin: auto; max-height: 100%; max-width: 66%; width: 00%;}
+
+.pic1 {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	min-width: 63% ;
+	max-width: 63% ;
+	width: 63%;
+	background: transparent;
+	padding: 0 0 0 2%;
+}
+
+.fl1 {
+	float: left;
+	width: 33%;
+	padding: 0 2% 0 0;
+}
+
+
+
+.fl {
+	float: left;
+	width: 48%;
+	padding: 0 2% 0 0;
+	/*background: yellow;*/
+}
+
+.fr {
+	float: right;
+	width: 48%;
+	padding: 0 0 0 2%;
+	/*background: gray;*/
+}

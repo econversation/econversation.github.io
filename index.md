@@ -28,6 +28,13 @@ Here is the list of presentations that I have made in the last couple of years.
 
 ### Presentations
 
+[11 November 2026, 13:00]{.dtdef}
+
+[Strategic Use of AI](https://econversation.github.io/pres/icc/index.html){target='_blank'} | ICC, UEL
+
+
+<hr />
+
 
 [21 July 2026, 10:06]{.dtdef}
 

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Dr Kumar Aniket and Karina Corada-Perez" />
   <title>Breathing Space: Mapping London’s Air Quality Together</title>
@@ -42,7 +42,6 @@
       body {
         background-color: transparent;
         color: black;
-        font-size: 12pt;
       }
       p, h2, h3 {
         orphans: 3;
@@ -56,10 +55,10 @@
       margin: 1em 0;
     }
     a {
-      color: #8B8589;
+      color: #B31B1B;
     }
     a:visited {
-      color: #8B8589;
+      color: #B31B1B;
     }
     img {
       max-width: 100%;
@@ -92,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -155,10 +155,13 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
@@ -169,7 +172,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 </head>
 <body>
@@ -179,8 +181,6 @@ Together</h1>
 <p class="author">Dr Kumar Aniket and Karina Corada-Perez</p>
 <p class="date">10:00 - 12:00, Monday 6 July at London City Hall</p>
 </header>
-<link rel="stylesheet" href="/Users/aniket/_files/1/style3.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/copycode.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/button.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/headerfooter.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/table.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/tree.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/rowcol.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/details.css"><link rel="stylesheet" href="/Users/aniket/_files/1/figure.css">
-<div class="tree">
 <p><link rel="stylesheet" href="css/style3.css">
 <link rel="stylesheet" href="css/copycode.css">
 <link rel="stylesheet" href="css/button.css">
@@ -191,7 +191,7 @@ Together</h1>
 <link rel="stylesheet" href="css/details.css">
 <link rel="stylesheet" href="css/figure.css"></p>
 <p> </p>
-<details><summary>Greater London</summary><div class="tree">
+<h2 class="c" id="greater-london">Greater London</h2>
 <figure>
 <img src="figs/london/london_NO2.png" style="width:100.0%" />
 </figure>
@@ -211,9 +211,5 @@ Together</h1>
 <img src="figs/london/london_NO2.png" alt="London NO2" />
 <figcaption aria-hidden="true">London NO2</figcaption>
 </figure>
-</div>
-</div></details>
-<script src="/Users/aniket/_files/1/copycode.js"></script>
-<script src="/Users/aniket/_files/1/button.js"></script>
 </body>
 </html>

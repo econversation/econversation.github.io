@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="364" width="504" viewBox="0 0 504 364" class="aasvg">
+<style>
+* { fill: none; stroke: black; stroke-linecap: round; }
+.dashed { stroke-dasharray: 3,6; }
+text { font: 11.375px monospace; text-anchor: middle; fill: black; stroke: none; }
+text.b { font-weight: 700; }
+text.i { font-style: italic; }
+</style>
+<path d="M 7,42L 7,112"/>
+<path d="M 7,140L 7,224"/>
+<path d="M 7,252L 7,336"/>
+<path d="M 49,70L 49,84"/>
+<path d="M 49,182L 49,196"/>
+<path d="M 49,294L 49,308"/>
+<path d="M 483,70L 483,84"/>
+<path d="M 483,182L 483,196"/>
+<path d="M 483,294L 483,308"/>
+<path d="M 21,28L 42,28"/>
+<path d="M 63,56L 469,56"/>
+<path d="M 63,98L 469,98"/>
+<path d="M 21,126L 42,126"/>
+<path d="M 63,168L 469,168"/>
+<path d="M 63,210L 469,210"/>
+<path d="M 21,238L 42,238"/>
+<path d="M 63,280L 469,280"/>
+<path d="M 63,322L 469,322"/>
+<path d="M 21,350L 42,350"/>
+<path d="M 21,28C 13.27319,28 7,34.27319 7,42"/>
+<path d="M 63,56C 55.27319,56 49,62.27319 49,70"/>
+<path d="M 469,56C 476.72681,56 483,62.27319 483,70"/>
+<path d="M 63,98C 55.27319,98 49,91.72681 49,84"/>
+<path d="M 469,98C 476.72681,98 483,91.72681 483,84"/>
+<path d="M 21,126C 13.27319,126 7,132.27319 7,140"/>
+<path d="M 21,126C 13.27319,126 7,119.72681 7,112"/>
+<path d="M 63,168C 55.27319,168 49,174.27319 49,182"/>
+<path d="M 469,168C 476.72681,168 483,174.27319 483,182"/>
+<path d="M 63,210C 55.27319,210 49,203.72681 49,196"/>
+<path d="M 469,210C 476.72681,210 483,203.72681 483,196"/>
+<path d="M 21,238C 13.27319,238 7,244.27319 7,252"/>
+<path d="M 21,238C 13.27319,238 7,231.72681 7,224"/>
+<path d="M 63,280C 55.27319,280 49,286.27319 49,294"/>
+<path d="M 469,280C 476.72681,280 483,286.27319 483,294"/>
+<path d="M 63,322C 55.27319,322 49,315.72681 49,308"/>
+<path d="M 469,322C 476.72681,322 483,315.72681 483,308"/>
+<path d="M 21,350C 13.27319,350 7,343.72681 7,336"/>
+<g class="text">
+<text x="91" y="32">1960s–1980s</text>
+<text x="255.5" y="74">1. Computational Foundation Wave (Data Creation/Storage)</text>
+<text x="248.5" y="88">- Silicon, Microprocessors, Relational Databases</text>
+<text x="91" y="130">1990s–2000s</text>
+<text x="224" y="186">2. Connectivity &amp; Transmission Wave (Data Flow)</text>
+<text x="220.5" y="200">- Internet, TCP/IP, Cloud, Optical Fiber</text>
+<text x="98" y="242">2010s–Present</text>
+<text x="248.5" y="298">3. Cognitive / Intelligence Wave (Data Interpretation)</text>
+<text x="175" y="312">- Neural networks, ML, LLMs</text>
+</g>
+</svg>

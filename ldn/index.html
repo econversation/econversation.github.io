@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Dr Kumar Aniket and Karina Corada-Perez" />
   <title>Breathing Space: Mapping London’s Air Quality Together</title>
@@ -42,7 +42,6 @@
       body {
         background-color: transparent;
         color: black;
-        font-size: 12pt;
       }
       p, h2, h3 {
         orphans: 3;
@@ -56,10 +55,10 @@
       margin: 1em 0;
     }
     a {
-      color: #8B8589;
+      color: #B31B1B;
     }
     a:visited {
-      color: #8B8589;
+      color: #B31B1B;
     }
     img {
       max-width: 100%;
@@ -92,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -155,10 +155,13 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
@@ -169,7 +172,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 </head>
 <body>
@@ -180,8 +182,6 @@ Together</h1>
 <p class="author">Dr Kumar Aniket and Karina Corada-Perez</p>
 <p class="date">10:00 - 12:00, Monday 6 July at London City Hall</p>
 </header>
-<link rel="stylesheet" href="/Users/aniket/_files/1/style3.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/copycode.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/button.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/headerfooter.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/table.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/tree.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/rowcol.css"> <link rel="stylesheet" href="/Users/aniket/_files/1/details.css"><link rel="stylesheet" href="/Users/aniket/_files/1/figure.css">
-<div class="tree">
 <p><link rel="stylesheet" href="css/style3.css">
 <link rel="stylesheet" href="css/copycode.css">
 <link rel="stylesheet" href="css/button.css">
@@ -191,13 +191,13 @@ Together</h1>
 <link rel="stylesheet" href="css/rowcol.css">
 <link rel="stylesheet" href="css/details.css">
 <link rel="stylesheet" href="css/figure.css"></p>
-<details><summary>Announcement at the beginning</summary><div class="tree">
+<h2 id="announcement-at-the-beginning">Announcement at the
+beginning</h2>
 <p>This event is part of London Data Week 2026, a public citywide data
 festival. To learn more or please visit londondataweek.org.</p>
 <p>We are very grateful to the London City Hall for hosting this evening
 and their hospitality.</p>
-</div></details>
-<details><summary>Workshop details</summary><div class="tree">
+<h2 class="c" id="workshop-details">Workshop details</h2>
 <table>
 <thead>
 <tr>
@@ -222,8 +222,8 @@ href="https://luma.com/3cq829o7">https://luma.com/3cq829o7</a></td>
 </tr>
 </tbody>
 </table>
-<div class="pline">
-<h3 id="summary">Summary</h3>
+<section id="summary" class="pline">
+<h3>Summary</h3>
 <p>​This hands-on, collaborative workshop invites Londoners to step into
 the role of urban data analysts to examine the city’s air quality.
 Utilising open-access datasets from the London Air Quality Network
@@ -241,11 +241,10 @@ quality is an emergent property of London’s wider urban system.
 Participants will be encouraged to consider how infrastructure
 investment, transport planning, and urban design can contribute to
 healthier and more liveable communities.</p>
-</div>
-</div></details>
-<details><summary>Why study air quality?</summary><div class="tree">
-<div class="outline">
-<h3 id="air-pollution">Air pollution</h3>
+</section>
+<h2 class="c" id="why-study-air-quality">Why study air quality?</h2>
+<section id="air-pollution" class="outline">
+<h3>Air pollution</h3>
 <ul>
 <li>is one of the <span class="h">leading <strong>environmental
 risks</strong> to <strong>human health</strong></span>, contributing to
@@ -258,9 +257,9 @@ evenly</strong> across London</span>.
 and different times of day.<br><br></li>
 </ul></li>
 </ul>
-</div>
-<div class="outline">
-<h3 id="designing-liveable-cities">Designing Liveable Cities</h3>
+</section>
+<section id="designing-liveable-cities" class="outline">
+<h3>Designing Liveable Cities</h3>
 <ul>
 <li>Understanding where pollution occurs is essential for <span
 class="h"><strong>designing</strong> healthier and more <strong>liveable
@@ -272,9 +271,9 @@ class="h"><strong>investigate</strong> air quality</span> in their own
 communities.</li>
 </ul></li>
 </ul>
-</div>
-<div class="outline">
-<h3 id="maps-and-data-visualisations">Maps and Data Visualisations</h3>
+</section>
+<section id="maps-and-data-visualisations" class="outline">
+<h3>Maps and Data Visualisations</h3>
 <ul>
 <li>Maps and Data Visualisations <strong>transform</strong> complex
 datasets into evidence that can <span class="h">inform public
@@ -286,10 +285,9 @@ their own.</span>
 questions about how cities function.</li>
 </ul></li>
 </ul>
-</div>
-<div class="pline">
-<h3 id="air-pollution-is-an-emergent-property">Air Pollution is an
-Emergent Property</h3>
+</section>
+<section id="air-pollution-is-an-emergent-property" class="pline">
+<h3>Air Pollution is an Emergent Property</h3>
 <ul>
 <li><span class="h">Air quality is an <strong>emergent property</strong>
 of London’s urban system.</span>
@@ -306,9 +304,9 @@ of London’s urban system.</span>
 </ul></li>
 </ul></li>
 </ul>
-</div>
-</div></details>
-<details><summary>Why is air pollution so difficult to understand?</summary><div class="tree">
+</section>
+<h2 class="c" id="why-is-air-pollution-so-difficult-to-understand">Why
+is air pollution so difficult to understand?</h2>
 <h3 id="multiple-source-multiple-effects-multiple-pathways">Multiple
 Source, Multiple Effects, Multiple Pathways</h3>
 <div class="outline">
@@ -353,8 +351,8 @@ on both emissions and weather conditions.<br><br></li>
 </ul></li>
 </ul>
 </div>
-<div class="outline">
-<h3 id="health-effects">Health Effects</h3>
+<section id="health-effects" class="outline">
+<h3>Health Effects</h3>
 <ul>
 <li><span class="h"><strong>Different pollutants affect</strong> the
 <strong>human body</strong> in <strong>different ways.</strong></span>
@@ -364,7 +362,7 @@ risk of <strong>cardiovascular disease</strong>, while many contribute
 to several health conditions simultaneously.</li>
 </ul></li>
 </ul>
-</div>
+</section>
 <h3 id="many-to-many-relationship">Many-to-many Relationship</h3>
 <div class="outline">
 <ul>
@@ -382,18 +380,18 @@ mapping, <strong>data analysis</strong> and <strong>systems
 thinking</strong> are essential.</li>
 </ul>
 </div>
-</div></details>
-<details><summary>Sources, Pollutants and Health Impacts Pathways</summary><div class="tree">
+<h2 class="c"
+id="sources-pollutants-and-health-impacts-pathways">Sources, Pollutants
+and Health Impacts Pathways</h2>
 <p><img src="figs/sources.png" /></p>
-</div></details>
-<details><summary>London Data Week | Camden Colab Github Notebook</summary><div class="tree">
+<h2 id="london-data-week-camden-colab-github-notebook">London Data Week
+| Camden Colab Github Notebook</h2>
 <h3 id="google-colab-notebook-link">Google Colab Notebook link</h3>
 <p><a
 href="https://colab.research.google.com/drive/1On4wfqxvFduKTYHHoyCWIPxo7JZ1Iiku?usp=sharing"
 target="_blank">colab.research.google.com/drive/1On4wfqxvFduKTYHHoyCWIPxo7JZ1Iiku?usp=sharing</a></p>
 <pre><code>https://colab.research.google.com/drive/1On4wfqxvFduKTYHHoyCWIPxo7JZ1Iiku?usp=sharing</code></pre>
-</div></details>
-<details><summary>Air Pollution Data</summary><div class="tree">
+<h2 id="air-pollution-data">Air Pollution Data</h2>
 <ul>
 <li><a
 href="https://econversation.github.io/ldn/data/camden/pollution/NO2_Camden.csv"
@@ -411,24 +409,19 @@ target="_blank">PM10m csv file for Camden</a></li>
 href="https://econversation.github.io/ldn/data/camden/pollution/PM25_Camden.csv"
 target="_blank">PM25 csv file for Camden</a></li>
 </ul>
-</div></details>
-<details><summary>Explore the pollution maps of various boroughs | Group Study</summary><div class="tree">
+<h2
+id="explore-the-pollution-maps-of-various-boroughs-group-study">Explore
+the pollution maps of various boroughs | Group Study</h2>
 <p><a href="boroughs.html">Explore the pollution maps of various
 boroughs of London</a></p>
-</div></details>
-<details><summary>Urban Greening | Group Study</summary><div class="tree">
+<h2 id="urban-greening-group-study">Urban Greening | Group Study</h2>
 <p><a href="docs/urban_greening.pdf">Urban greening</a></p>
-</div></details>
-<details><summary>Wider discussion about London</summary><div class="tree">
+<h2 id="wider-discussion-about-london">Wider discussion about
+London</h2>
 <p><a href="london.html">Explore the pollution maps of Greater
 London</a></p>
-</div></details>
-<details><summary>Post session stuff</summary><div class="tree">
+<h2 id="post-session-stuff">Post session stuff</h2>
 <p><a href="https://bit.ly/ldw26" target="_blank">LDW26 Survey
 Link</a></p>
-</div>
-</div></details>
-<script src="/Users/aniket/_files/1/copycode.js"></script>
-<script src="/Users/aniket/_files/1/button.js"></script>
 </body>
 </html>
