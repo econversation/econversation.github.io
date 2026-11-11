@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="350" width="581" viewBox="0 0 581 350" class="aasvg">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="392" width="630" viewBox="0 0 630 392" class="aasvg">
 <style>
 * { fill: none; stroke: black; stroke-linecap: round; }
 .dashed { stroke-dasharray: 3,6; }
@@ -7,76 +7,51 @@ text.b { font-weight: 700; }
 text.i { font-style: italic; }
 polygon.arrowhead, .triangle { fill: black; stroke: none; }
 </style>
-<path d="M 119,28L 119,56"/>
-<path d="M 133,168L 133,196"/>
-<path d="M 161,98L 161,126"/>
-<path d="M 175,238L 175,266"/>
-<path d="M 203,308L 203,336"/>
-<path d="M 329,28L 329,56"/>
-<path d="M 329,98L 329,126"/>
-<path d="M 329,168L 329,196"/>
-<path d="M 329,238L 329,266"/>
-<path d="M 329,308L 329,336"/>
-<path d="M 21,28L 119,28"/>
-<path d="M 329,28L 560,28"/>
-<path d="M 154,42L 306.81765,42"/>
-<path d="M 21,56L 119,56"/>
-<path d="M 329,56L 560,56"/>
-<path d="M 21,98L 161,98"/>
-<path d="M 329,98L 546,98"/>
-<path d="M 175,112L 306.81765,112"/>
-<path d="M 21,126L 161,126"/>
-<path d="M 329,126L 546,126"/>
-<path d="M 21,168L 133,168"/>
-<path d="M 329,168L 560,168"/>
-<path d="M 154,182L 313.81765,182"/>
-<path d="M 21,196L 133,196"/>
-<path d="M 329,196L 560,196"/>
-<path d="M 21,238L 175,238"/>
-<path d="M 329,238L 427,238"/>
-<path d="M 189,252L 306.81765,252"/>
-<path d="M 21,266L 175,266"/>
-<path d="M 329,266L 427,266"/>
-<path d="M 21,308L 203,308"/>
-<path d="M 329,308L 497,308"/>
-<path d="M 224,322L 306.81765,322"/>
-<path d="M 21,336L 203,336"/>
-<path d="M 329,336L 497,336"/>
-<path d="M 21,28C 13.27319,28 7,34.27319 7,42"/>
-<path d="M 560,28C 567.72681,28 574,34.27319 574,42"/>
-<path d="M 21,56C 13.27319,56 7,49.72681 7,42"/>
-<path d="M 560,56C 567.72681,56 574,49.72681 574,42"/>
-<path d="M 21,98C 13.27319,98 7,104.27319 7,112"/>
-<path d="M 546,98C 553.72681,98 560,104.27319 560,112"/>
-<path d="M 21,126C 13.27319,126 7,119.72681 7,112"/>
-<path d="M 546,126C 553.72681,126 560,119.72681 560,112"/>
-<path d="M 21,168C 13.27319,168 7,174.27319 7,182"/>
-<path d="M 560,168C 567.72681,168 574,174.27319 574,182"/>
-<path d="M 21,196C 13.27319,196 7,189.72681 7,182"/>
-<path d="M 560,196C 567.72681,196 574,189.72681 574,182"/>
-<path d="M 21,238C 13.27319,238 7,244.27319 7,252"/>
-<path d="M 427,238C 434.72681,238 441,244.27319 441,252"/>
-<path d="M 21,266C 13.27319,266 7,259.72681 7,252"/>
-<path d="M 427,266C 434.72681,266 441,259.72681 441,252"/>
-<path d="M 21,308C 13.27319,308 7,314.27319 7,322"/>
-<path d="M 497,308C 504.72681,308 511,314.27319 511,322"/>
-<path d="M 21,336C 13.27319,336 7,329.72681 7,322"/>
-<path d="M 497,336C 504.72681,336 511,329.72681 511,322"/>
-<polygon class="arrowhead" points="315,182 308,178.733 308,185.267"/>
-<polygon class="arrowhead" points="308,322 301,318.733 301,325.267"/>
-<polygon class="arrowhead" points="308,252 301,248.733 301,255.267"/>
-<polygon class="arrowhead" points="308,112 301,108.733 301,115.267"/>
-<polygon class="arrowhead" points="308,42 301,38.7333 301,45.2667"/>
+<path d="M 203,42L 203,70"/>
+<path d="M 203,112L 203,140"/>
+<path d="M 203,182L 203,210"/>
+<path d="M 203,252L 203,280"/>
+<path d="M 203,322L 203,350"/>
+<path d="M 105,42L 203,42"/>
+<path d="M 217,56L 383.81765,56"/>
+<path d="M 105,70L 203,70"/>
+<path d="M 63,112L 203,112"/>
+<path d="M 224,126L 376.81765,126"/>
+<path d="M 63,140L 203,140"/>
+<path d="M 91,182L 203,182"/>
+<path d="M 224,196L 383.81765,196"/>
+<path d="M 91,210L 203,210"/>
+<path d="M 49,252L 203,252"/>
+<path d="M 224,266L 376.81765,266"/>
+<path d="M 49,280L 203,280"/>
+<path d="M 21,322L 203,322"/>
+<path d="M 224,336L 376.81765,336"/>
+<path d="M 21,350L 203,350"/>
+<path d="M 105,42C 97.27319,42 91,48.27319 91,56"/>
+<path d="M 105,70C 97.27319,70 91,63.72681 91,56"/>
+<path d="M 63,112C 55.27319,112 49,118.27319 49,126"/>
+<path d="M 63,140C 55.27319,140 49,133.72681 49,126"/>
+<path d="M 91,182C 83.27319,182 77,188.27319 77,196"/>
+<path d="M 91,210C 83.27319,210 77,203.72681 77,196"/>
+<path d="M 49,252C 41.27319,252 35,258.27319 35,266"/>
+<path d="M 49,280C 41.27319,280 35,273.72681 35,266"/>
+<path d="M 21,322C 13.27319,322 7,328.27319 7,336"/>
+<path d="M 21,350C 13.27319,350 7,343.72681 7,336"/>
+<polygon class="arrowhead" points="385,196 378,192.733 378,199.267"/>
+<polygon class="arrowhead" points="385,56 378,52.7333 378,59.2667"/>
+<polygon class="arrowhead" points="378,336 371,332.733 371,339.267"/>
+<polygon class="arrowhead" points="378,266 371,262.733 371,269.267"/>
+<polygon class="arrowhead" points="378,126 371,122.733 371,129.267"/>
 <g class="text">
-<text x="63" y="46">Application</text>
-<text x="451.5" y="46">User interface and experience.</text>
-<text x="84" y="116">Cognitive / Model</text>
-<text x="444.5" y="116">inference / decision-making.</text>
-<text x="70" y="186">Data Pipeline</text>
-<text x="451.5" y="186">sorting, information retrieval</text>
-<text x="91" y="256">Network / Transport</text>
-<text x="385" y="256">Moving data</text>
-<text x="101.5" y="326">Infrastructure/Compute</text>
-<text x="420" y="326">Raw physical hardware</text>
+<text x="147" y="60">Application</text>
+<text x="497" y="60">User interface and experience</text>
+<text x="126" y="130">Cognitive / Model</text>
+<text x="486.5" y="130">inference / decision-making.</text>
+<text x="140" y="200">Data Pipeline</text>
+<text x="504" y="200">sorting, information retrieval.</text>
+<text x="119" y="270">Network / Transport</text>
+<text x="430.5" y="270">Moving data.</text>
+<text x="101.5" y="340">Infrastructure/Compute</text>
+<text x="465.5" y="340">Raw physical hardware.</text>
 </g>
 </svg>

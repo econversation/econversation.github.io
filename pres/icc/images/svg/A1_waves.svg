@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="364" width="504" viewBox="0 0 504 364" class="aasvg">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="420" width="658" viewBox="0 0 658 420" class="aasvg">
 <style>
 * { fill: none; stroke: black; stroke-linecap: round; }
 .dashed { stroke-dasharray: 3,6; }
@@ -6,52 +6,78 @@ text { font: 11.375px monospace; text-anchor: middle; fill: black; stroke: none;
 text.b { font-weight: 700; }
 text.i { font-style: italic; }
 </style>
-<path d="M 7,42L 7,112"/>
-<path d="M 7,140L 7,224"/>
-<path d="M 7,252L 7,336"/>
-<path d="M 49,70L 49,84"/>
-<path d="M 49,182L 49,196"/>
-<path d="M 49,294L 49,308"/>
-<path d="M 483,70L 483,84"/>
-<path d="M 483,182L 483,196"/>
-<path d="M 483,294L 483,308"/>
-<path d="M 21,28L 42,28"/>
-<path d="M 63,56L 469,56"/>
-<path d="M 63,98L 469,98"/>
-<path d="M 21,126L 42,126"/>
-<path d="M 63,168L 469,168"/>
-<path d="M 63,210L 469,210"/>
-<path d="M 21,238L 42,238"/>
-<path d="M 63,280L 469,280"/>
-<path d="M 63,322L 469,322"/>
-<path d="M 21,350L 42,350"/>
-<path d="M 21,28C 13.27319,28 7,34.27319 7,42"/>
-<path d="M 63,56C 55.27319,56 49,62.27319 49,70"/>
-<path d="M 469,56C 476.72681,56 483,62.27319 483,70"/>
-<path d="M 63,98C 55.27319,98 49,91.72681 49,84"/>
-<path d="M 469,98C 476.72681,98 483,91.72681 483,84"/>
-<path d="M 21,126C 13.27319,126 7,132.27319 7,140"/>
-<path d="M 21,126C 13.27319,126 7,119.72681 7,112"/>
-<path d="M 63,168C 55.27319,168 49,174.27319 49,182"/>
-<path d="M 469,168C 476.72681,168 483,174.27319 483,182"/>
-<path d="M 63,210C 55.27319,210 49,203.72681 49,196"/>
-<path d="M 469,210C 476.72681,210 483,203.72681 483,196"/>
-<path d="M 21,238C 13.27319,238 7,244.27319 7,252"/>
-<path d="M 21,238C 13.27319,238 7,231.72681 7,224"/>
-<path d="M 63,280C 55.27319,280 49,286.27319 49,294"/>
-<path d="M 469,280C 476.72681,280 483,286.27319 483,294"/>
-<path d="M 63,322C 55.27319,322 49,315.72681 49,308"/>
-<path d="M 469,322C 476.72681,322 483,315.72681 483,308"/>
-<path d="M 21,350C 13.27319,350 7,343.72681 7,336"/>
+<path d="M 56,14L 56,406"/>
+<path d="M 98,84L 98,112"/>
+<path d="M 98,196L 98,224"/>
+<path d="M 98,308L 98,336"/>
+<path d="M 371,84L 371,112"/>
+<path d="M 371,196L 371,224"/>
+<path d="M 371,308L 371,336"/>
+<path d="M 441,84L 441,112"/>
+<path d="M 441,196L 441,224"/>
+<path d="M 441,308L 441,336"/>
+<path d="M 595,308L 595,336"/>
+<path d="M 623,196L 623,224"/>
+<path d="M 651,84L 651,112"/>
+<path d="M 42,42L 56,42"/>
+<path d="M 112,70L 357,70"/>
+<path d="M 455,70L 637,70"/>
+<path d="M 392,98L 427,98"/>
+<path d="M 112,126L 357,126"/>
+<path d="M 455,126L 637,126"/>
+<path d="M 42,154L 56,154"/>
+<path d="M 112,182L 357,182"/>
+<path d="M 455,182L 609,182"/>
+<path d="M 392,210L 427,210"/>
+<path d="M 112,238L 357,238"/>
+<path d="M 455,238L 609,238"/>
+<path d="M 42,266L 56,266"/>
+<path d="M 112,294L 357,294"/>
+<path d="M 455,294L 581,294"/>
+<path d="M 392,322L 427,322"/>
+<path d="M 112,350L 357,350"/>
+<path d="M 455,350L 581,350"/>
+<path d="M 42,378L 56,378"/>
+<path d="M 112,70C 104.27319,70 98,76.27319 98,84"/>
+<path d="M 357,70C 364.72681,70 371,76.27319 371,84"/>
+<path d="M 455,70C 447.27319,70 441,76.27319 441,84"/>
+<path d="M 637,70C 644.72681,70 651,76.27319 651,84"/>
+<path d="M 112,126C 104.27319,126 98,119.72681 98,112"/>
+<path d="M 357,126C 364.72681,126 371,119.72681 371,112"/>
+<path d="M 455,126C 447.27319,126 441,119.72681 441,112"/>
+<path d="M 637,126C 644.72681,126 651,119.72681 651,112"/>
+<path d="M 112,182C 104.27319,182 98,188.27319 98,196"/>
+<path d="M 357,182C 364.72681,182 371,188.27319 371,196"/>
+<path d="M 455,182C 447.27319,182 441,188.27319 441,196"/>
+<path d="M 609,182C 616.72681,182 623,188.27319 623,196"/>
+<path d="M 112,238C 104.27319,238 98,231.72681 98,224"/>
+<path d="M 357,238C 364.72681,238 371,231.72681 371,224"/>
+<path d="M 455,238C 447.27319,238 441,231.72681 441,224"/>
+<path d="M 609,238C 616.72681,238 623,231.72681 623,224"/>
+<path d="M 112,294C 104.27319,294 98,300.27319 98,308"/>
+<path d="M 357,294C 364.72681,294 371,300.27319 371,308"/>
+<path d="M 455,294C 447.27319,294 441,300.27319 441,308"/>
+<path d="M 581,294C 588.72681,294 595,300.27319 595,308"/>
+<path d="M 112,350C 104.27319,350 98,343.72681 98,336"/>
+<path d="M 357,350C 364.72681,350 371,343.72681 371,336"/>
+<path d="M 455,350C 447.27319,350 441,343.72681 441,336"/>
+<path d="M 581,350C 588.72681,350 595,343.72681 595,336"/>
 <g class="text">
-<text x="91" y="32">1960s–1980s</text>
-<text x="255.5" y="74">1. Computational Foundation Wave (Data Creation/Storage)</text>
-<text x="248.5" y="88">- Silicon, Microprocessors, Relational Databases</text>
-<text x="91" y="130">1990s–2000s</text>
-<text x="224" y="186">2. Connectivity &amp; Transmission Wave (Data Flow)</text>
-<text x="220.5" y="200">- Internet, TCP/IP, Cloud, Optical Fiber</text>
-<text x="98" y="242">2010s–Present</text>
-<text x="248.5" y="298">3. Cognitive / Intelligence Wave (Data Interpretation)</text>
-<text x="175" y="312">- Neural networks, ML, LLMs</text>
+<text x="17.5" y="46">1960</text>
+<text x="220.5" y="88">1. Computational Foundation Wave</text>
+<text x="546" y="88">Silicon, Microprocessors,</text>
+<text x="210" y="116">(Data Creation/Storage)</text>
+<text x="528.5" y="116">Relational Databases</text>
+<text x="17.5" y="158">1980</text>
+<text x="231" y="200">2. Connectivity &amp; Transmission Wave</text>
+<text x="518" y="200">Internet, TCP/IP,</text>
+<text x="168" y="228">(Data Flow)</text>
+<text x="528.5" y="228">Cloud, Optical Fiber</text>
+<text x="17.5" y="270">2000</text>
+<text x="220.5" y="312">3. Cognitive / Intelligence Wave</text>
+<text x="514.5" y="312">Neural networks,</text>
+<text x="203" y="340">(Data Interpretation)</text>
+<text x="486.5" y="340">ML, LLMs</text>
+<text x="17.5" y="382">2026</text>
 </g>
 </svg>
